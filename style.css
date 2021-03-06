@@ -1,4 +1,4 @@
-body{background-color: #010101;}
+body{background-color: #010101; margin: 0;;}
 a{  color: #fff;  text-decoration: none;}
 h2 {  font-family:sans-serif;}
 .list {
@@ -6,7 +6,7 @@ h2 {  font-family:sans-serif;}
   flex-wrap: wrap;
   font-family:sans-serif;
   margin:0;
-  padding:20px 0 0;
+  padding: 16px 0 0;
 }
 li{
 width:180px;
@@ -28,7 +28,6 @@ input {
   border:solid 1px #ccc;
   border-radius: 5px;
   padding:7px 14px;
-  margin-bottom:10px
 }
 input:focus {
   outline:none;
@@ -84,6 +83,10 @@ input:focus {
   top:-10px;
   right:-5px;
 }
+#navigation {
+  background-color: #130f0f;
+  padding: 16px;
+}
 
 .pi {
   background-image: url('./pi.png');
@@ -92,9 +95,13 @@ input:focus {
   width: 180px;
 }
 
+
 .felicita{   background-position: 0px 0px;}
 .yakari{  background-position: -180px 0px;}
 .msim{  background-position: -360px 0px;}
 .lesacteurs{  background-position: -540px 0px;}
 .terrawilly{  background-position: -720px 0px;}
-
+.lego{  background-position: -900px 0px;}
+.pmorris{  background-position: -1080px 0px;}
+.bfink{  background-position: -1260px 0px;}
+.hellboy{  background-position: -1440px 0px;}

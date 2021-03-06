@@ -6,25 +6,28 @@
         <title></title>
     </head>
     <body>
-      <div id="users">
-        <input class="search" placeholder="Search" />
-        <button class="sort" data-sort="name">
-          <button class="sort" data-sort="year">
-          Sort by name
-        </button>
+      <div id="collection">
+        <div id="navigation">
+          <input class="search" placeholder="Search" />
+          <button class="sort" data-sort="name"> Sort</button>
+        </div>
         <ul class="list">
           <li><a href="https://vod.canalplus.com/cinema/felicita/h/14283213_40099" ><div class="pi felicita"></div><h3 class="name">Felicità</h3><p class="year">2020</p></a></li>
           <li><a href="https://vod.canalplus.com/cinema/yakari-la-grande-aventure/h/14460003_40099"><div class="pi yakari"></div><h3 class="name">Yakari, la grande aventure</h3><p class="year">2020</p></a></li>
           <li><a href="https://vod.canalplus.com/cinema/la-vie-tres-privee-de-monsieur-sim/h/6031610_40099"><div class="pi msim"></div><h3 class="name">La vie très privée de monsieur Sim</h3><p class="year">2015</p></a></li>
           <li><a href="https://vod.canalplus.com/cinema/les-acteurs/h/310360_40099"><div class="pi lesacteurs"></div><h3 class="name">Les acteurs</h3><p class="year">2000</p></a></li>
           <li><a href="https://vod.canalplus.com/cinema/terra-willy-planete-inconnue/h/11364255_40099"><div class="pi terrawilly"></div><h3 class="name">Terra Willy, planète inconnue</h3><p class="year">2019</p></a></li>
+          <li><a href="https://vod.canalplus.com/cinema/la-grande-aventure-lego/h/3753674_40099"><div class="pi lego"></div><h3 class="name">La grande aventure Lego</h3><p class="year">2014</p></a></li>
+          <li><a href="https://vod.canalplus.com/cinema/i-love-you-phillip-morris/h/276693_40099"><div class="pi pmorris"></div><h3 class="name">I Love You Phillip Morris</h3><p class="year">2009</p></a></li>
+          <li><a href="https://vod.canalplus.com/cinema/barton-fink/h/1727329_40099"><div class="pi bfink"></div><h3 class="name">Barton Fink</h3><p class="year">1991</p></a></li>
+          <li><a href="https://vod.canalplus.com/cinema/hellboy/h/460023_40099"><div class="pi hellboy"></div><h3 class="name">Hellboy</h3><p class="year">2004</p></a></li>
 
-
+          
         </ul>
       </div>
       <script>
           var options = {valueNames: [ 'name', 'year' ]  };
-          var userList = new List('users', options);
+          var userList = new List('collection', options);
       </script>
     
 </body></html>
