@@ -121,3 +121,6 @@ input:focus {
 .monsterhouse{  background-position: calc(var(--step) * 19) 0px;}
 
 .diehard{  background-position: 0px calc(var(--stepvert) * 1);}
+.piratesanim{  background-position: calc(var(--step) * 1) calc(var(--stepvert) * 1)}
+.tartarin{  background-position: calc(var(--step) * 2) calc(var(--stepvert) * 1)}
+.ahriche{  background-position: calc(var(--step) * 3) calc(var(--stepvert) * 1)}
