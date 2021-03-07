@@ -1,3 +1,8 @@
+:root {
+    --step: -140px;
+    --stepvert: -187px;
+  }
+
 body{background-color: #010101; margin: 0;;}
 a{  color: #fff;  text-decoration: none;}
 h2 {  font-family:sans-serif;}
@@ -9,7 +14,7 @@ h2 {  font-family:sans-serif;}
   padding: 16px 0 0;
 }
 li{
-width:140px;
+width: 140px;
 margin: 16px;
 }
 img {
@@ -88,45 +93,31 @@ input:focus {
   padding: 16px;
 }
 
-/*.pi {
-  background-image: url('./pi.png');
-  background-repeat: no-repeat;
-  height: 240px; 
-  width: 180px;
-}*/
-
 .pi {
   background-image: url('./pi-mini.png');
   background-repeat: no-repeat;
   height: 187px; 
 }
-/*
-.felicita{   background-position: 0px 0px;}
-.yakari{  background-position: -140px 0px;}
-.msim{  background-position: -360px 0px;}
-.lesacteurs{  background-position: -540px 0px;}
-.terrawilly{  background-position: -720px 0px;}
-.lego{  background-position: -900px 0px;}
-.pmorris{  background-position: -1080px 0px;}
-.bfink{  background-position: -1260px 0px;}
-.hellboy{  background-position: -1440px 0px;}
-.asterix-menhir{  background-position: -1620px 0px;}
-.folie-grandeurs{  background-position: -1800px 0px;}
-.killbill{  background-position: -1980px 0px;}
-.cinqelement{  background-position: -2160px 0px;}
-.pulpfiction{  background-position: -2340px 0px;}
-*/
-.felicita{   background-position: 0px 0px;}
-.yakari{  background-position: -140px 0px;}
-.msim{  background-position: -280px 0px;}
-.lesacteurs{  background-position: -420px 0px;}
-.terrawilly{  background-position: -720px 0px;}
-.lego{  background-position: -900px 0px;}
-.pmorris{  background-position: -1080px 0px;}
-.bfink{  background-position: -1260px 0px;}
-.hellboy{  background-position: -1440px 0px;}
-.asterix-menhir{  background-position: -1620px 0px;}
-.folie-grandeurs{  background-position: -1800px 0px;}
-.killbill{  background-position: -1980px 0px;}
-.cinqelement{  background-position: -2160px 0px;}
-.pulpfiction{  background-position: -2340px 0px;}
+
+.felicita{  background-position: 0px 0px;}
+.yakari{  background-position: calc(var(--step) * 1) 0px;}
+.msim{  background-position: calc(var(--step) * 2) 0px;}
+.lesacteurs{  background-position: calc(var(--step) * 3) 0px;}
+.terrawilly{  background-position: calc(var(--step) * 4) 0px;}
+.lego{  background-position: calc(var(--step) * 5) 0px;}
+.pmorris{  background-position: calc(var(--step) * 6) 0px;}
+.bfink{  background-position: calc(var(--step) * 7) 0px;}
+.hellboy{  background-position: calc(var(--step) * 8) 0px;}
+.asterix-menhir{  background-position: calc(var(--step) * 9) 0px;}
+.folie-grandeurs{  background-position: calc(var(--step) * 10) 0px;}
+.killbill{  background-position: calc(var(--step) * 11) 0px;}
+.cinqelement{  background-position: calc(var(--step) * 12) 0px;}
+.pulpfiction{  background-position: calc(var(--step) * 13) 0px;}
+.diehard3{  background-position: calc(var(--step) * 14) 0px;}
+.diehard2{  background-position: calc(var(--step) * 15) 0px;}
+.toutnoir{  background-position: calc(var(--step) * 16) 0px;}
+.smurf2{  background-position: calc(var(--step) * 17) 0px;}
+.rebellesforet{  background-position: calc(var(--step) * 18) 0px;}
+.monsterhouse{  background-position: calc(var(--step) * 19) 0px;}
+
+.diehard{  background-position: 0px calc(var(--stepvert) * 1);}
