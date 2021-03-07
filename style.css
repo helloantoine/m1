@@ -9,8 +9,8 @@ h2 {  font-family:sans-serif;}
   padding: 16px 0 0;
 }
 li{
-width:180px;
-margin: 20px;
+width:140px;
+margin: 16px;
 }
 img {
   max-width: 100%;
@@ -88,18 +88,38 @@ input:focus {
   padding: 16px;
 }
 
-.pi {
+/*.pi {
   background-image: url('./pi.png');
   background-repeat: no-repeat;
   height: 240px; 
   width: 180px;
+}*/
+
+.pi {
+  background-image: url('./pi-mini.png');
+  background-repeat: no-repeat;
+  height: 187px; 
 }
-
-
+/*
 .felicita{   background-position: 0px 0px;}
-.yakari{  background-position: -180px 0px;}
+.yakari{  background-position: -140px 0px;}
 .msim{  background-position: -360px 0px;}
 .lesacteurs{  background-position: -540px 0px;}
+.terrawilly{  background-position: -720px 0px;}
+.lego{  background-position: -900px 0px;}
+.pmorris{  background-position: -1080px 0px;}
+.bfink{  background-position: -1260px 0px;}
+.hellboy{  background-position: -1440px 0px;}
+.asterix-menhir{  background-position: -1620px 0px;}
+.folie-grandeurs{  background-position: -1800px 0px;}
+.killbill{  background-position: -1980px 0px;}
+.cinqelement{  background-position: -2160px 0px;}
+.pulpfiction{  background-position: -2340px 0px;}
+*/
+.felicita{   background-position: 0px 0px;}
+.yakari{  background-position: -140px 0px;}
+.msim{  background-position: -280px 0px;}
+.lesacteurs{  background-position: -420px 0px;}
 .terrawilly{  background-position: -720px 0px;}
 .lego{  background-position: -900px 0px;}
 .pmorris{  background-position: -1080px 0px;}
