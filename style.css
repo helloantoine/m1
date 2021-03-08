@@ -23,9 +23,17 @@ img {
 }
 h3 {
   font-size: 16px;
-  margin:0 0 0.3rem;
+  margin:16px 0 0.3rem;
   font-weight: normal;
 }
+
+h4 {
+  font-size: 14px;
+  margin:0 0 0.3rem;
+  font-weight: normal;
+  color: #80868b;
+}
+
 p {
   margin:0;
 }

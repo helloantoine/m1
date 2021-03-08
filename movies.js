@@ -54,7 +54,7 @@ const movies = [
                     <a href="https://vod.canalplus.com/cinema/${url}" >
                     <div class="pi ${id}"></div>
                     <h3 class="name">${name}</h3>
-                    <p class="year">${year}</p>
+                    <h4 class="year">${year}</h4>
                     </a>
                 </li>
          
