@@ -47,12 +47,15 @@ input:focus {
   display:inline-block;
   color:#fff;
   text-decoration: none;
-  background-color: #28a8e0;
-  height:30px;
+  background-color: #3c3c3c;
+  height:34px;
+  font-size: 16px;
+  margin-left:32px;
 }
 .sort:hover {
   text-decoration: none;
-  background-color:#1b8aba;
+  background-color:#3c3c3c;
+  cursor: pointer;
 }
 .sort:focus {
   outline:none;
