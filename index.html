@@ -14,24 +14,16 @@
         <link rel="apple-touch-icon" href="ic/icon-384x384.png">
         <link rel="apple-touch-icon" href="ic/icon-512x512.png">
         <script src="./list.min.js"></script>
+        <script src="./movies.js"></script>
         <title>M</title>
     </head>
     <body>
       <div id="collection">
+        <div id="navigation">
+          <input class="search" placeholder="Rechercher" />
+          <button class="sort" data-sort="name"> Trier</button>
+          <input type="button" onClick="history.go(0)" value="R">
+        </div>
         <ul class="list"></ul>
-<div id="navigation">
-  <input class="search" placeholder="Rechercher" />
-  <button class="sort" data-sort="name"> Trier</button>
-  <INPUT TYPE="button" onClick="history.go(0)" VALUE="R">
-</div>
       </div>
-      <script src="./movies.js"></script>
-      <script>
-          var options = {valueNames: [ 'name', 'year' ]  };
-          var userList = new List('collection', options);
-      </script>
-      
-    
 </body></html>
-
-

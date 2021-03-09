@@ -8,7 +8,6 @@ const movies = [
   {name: "La grande aventure Lego",    id: "lego",    url: "la-grande-aventure-lego/h/3753674_40099",    year: "2014", genre:""  },
   {name: "I Love You Phillip Morris",    id: "pmorris",    url: "i-love-you-phillip-morris/h/276693_40099",    year: "2009", genre:""  },
   {name: "Barton Fink",    id: "bfink",    url: "barton-fink/h/1727329_40099",    year: "1991", genre:""  },
-  {name: "I Love You Phillip Morris",    id: "pmorris",    url: "i-love-you-phillip-morris/h/276693_40099",    year: "2009", genre:""  },
   {name: "Hellboy",    id: "hellboy",    url: "hellboy/h/460023_40099",    year: "2004", genre:""  },
   {name: "Astérix et le coup du menhir",    id: "asterix-menhir",    url: "asterix-et-le-coup-du-menhir/h/267699_40099",    year: "1989", genre:""  },
   {name: "La folie des grandeurs",    id: "folie-grandeurs",    url: "la-folie-des-grandeurs/h/437616_40099",    year: "1971", genre:""  },
@@ -46,25 +45,23 @@ const movies = [
 ];
 
   const showMovies = () => {
-    let output = "";
-    movies.forEach(
-      ({ name, id, url, year }) =>
-        (output += `
-                <li>
-                    <a href="https://vod.canalplus.com/cinema/${url}" >
-                    <div class="pi ${id}"></div>
-                    <h3 class="name">${name}</h3>
-                    <h4 class="year">${year}</h4>
-                    </a>
-                </li>
-         
-                `)
-    );
-    container.innerHTML = output;
+    const options = {
+      valueNames: [ 'name', 'year' ],
+      item: ({ name, id, url, year }) =>
+        `<li>
+          <a href="https://vod.canalplus.com/cinema/${url}" >
+            <div class="pi ${id}"></div>
+            <h3 class="name">${name}</h3>
+            <h4 class="year">${year}</h4>
+            </a>
+        </li>`
+    };
+    const userList = new List('collection', options);
+    movies.forEach((m) => userList.add(m));
   };
-  
+
   document.addEventListener("DOMContentLoaded", showMovies);
-  
+
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
       navigator.serviceWorker
@@ -73,6 +70,3 @@ const movies = [
         .catch(err => console.log("service worker not registered", err));
     });
   }
-  
-  var options = {valueNames: [ 'name', 'year' ]  };
-  var userList = new List('collection', options);
