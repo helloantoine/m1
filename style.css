@@ -60,3 +60,16 @@ input:focus {  outline:none;  border-color:#aaa;}
 .hop{  background-position: calc(var(--step) * 17) calc(var(--stepvert) * 1)}
 .metiermonde{  background-position: calc(var(--step) * 18) calc(var(--stepvert) * 1)}
 .batman{  background-position: calc(var(--step) * 19) calc(var(--stepvert) * 1)}
+
+.pierrelapin{  background-position: 0px calc(var(--stepvert) * 2);}
+.traverseeparis{  background-position: calc(var(--step) * 1) calc(var(--stepvert) * 2)}
+.coupparapluie{  background-position: calc(var(--step) * 2) calc(var(--stepvert) * 2)}
+.choristes {  background-position: calc(var(--step) * 3) calc(var(--stepvert) * 2)}
+.bronzesski {  background-position: calc(var(--step) * 4) calc(var(--stepvert) * 2)}
+.smurfperdu {  background-position: calc(var(--step) * 5) calc(var(--stepvert) * 2)}
+.paddington2 {  background-position: calc(var(--step) * 6) calc(var(--stepvert) * 2)}
+.yslave {  background-position: calc(var(--step) * 7) calc(var(--stepvert) * 2)}
+.gattaca {  background-position: calc(var(--step) * 8) calc(var(--stepvert) * 2)}
+.mastercomm  {  background-position: calc(var(--step) * 9) calc(var(--stepvert) * 2)}
+.hulk  {  background-position: calc(var(--step) * 10) calc(var(--stepvert) * 2)}
+.chinatown  {  background-position: calc(var(--step) * 11) calc(var(--stepvert) * 2)}

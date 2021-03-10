@@ -41,7 +41,20 @@ const movies = [
   {name: "Le plus beau métier du monde",    id: "metiermonde",    url: "le-plus-beau-metier-du-monde/h/387689_40099",    year: "1996", genre:""  },
   {name: "Batman",    id: "batman",    url: "batman/h/12590458_40099",    year: "1989", genre:""  },
 
+  {name: "Pierre Lapin",    id: "pierrelapin",    url: "pierre-lapin/h/9742193_40099",    year: "2018", genre:""  },
+  {name: "La traversée de Paris",    id: "traverseeparis",    url: "la-traversee-de-paris/h/106904_40099",    year: "1956", genre:""  },
+  {name: "Le coup du parapluie",    id: "coupparapluie",    url: "le-coup-du-parapluie/h/177993_40099",    year: "1989", genre:""  },
+  {name: "Les choristes",    id: "choristes",    url: "les-choristes/h/3080957_40099",    year: "2004", genre:""  },
+  {name: "Les bronzés font du ski",    id: "bronzesski",    url: "les-bronzes-font-du-ski/h/4661500_40099",    year: "1979", genre:""  },
+  {name: "Les Schtroumpfs et le village perdu",    id: "smurfperdu",    url: "les-schtroumpfs-et-le-village-perdu/h/8420498_40099",    year: "2017", genre:""  },
+  {name: "Paddington 2",    id: "paddington2",    url: "paddington-2/h/9319792_40099",    year: "2017", genre:""  },
+  {name: "12 Years a Slave2",    id: "yslave",    url: "12-years-a-slave/h/3615890_40099",    year: "2013", genre:""  },
+  {name: "Bienvenue à Gattaca",    id: "gattaca",    url: "bienvenue-a-gattaca/h/437345_40099",    year: "1997", genre:""  },
+  {name: "Master and Commander : de l'autre côté du monde",    id: "mastercomm",    url: "master-and-commander-de-l-autre-cote-du-monde/h/1893709_40099",    year: "2003", genre:""  },
+  {name: "Hulk",    id: "hulk",    url: "hulk/h/1101970_40099",    year: "2003", genre:""  },
+  {name: "Chinatown",    id: "chinatown",    url: "chinatown/h/200345_40099",    year: "1974", genre:""  },
 
+  
 ];
 
   const showMovies = () => {
