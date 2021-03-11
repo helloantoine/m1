@@ -57,20 +57,24 @@ const movies = [
   
 ];
 
-  const showMovies = () => {
+  const showMovies = function (){
+    let a = 1;
     const options = {
       valueNames: [ 'name', 'year' ],
       item: ({ name, id, url, year }) =>
         `<li>
           <a href="https://vod.canalplus.com/cinema/${url}" >
-            <div class="pi ${id}"></div>
+            <div class="pi ${id}"  style="background-position: calc(var(--step) * a) 0px;"></div>
             <h3 class="name">${name}</h3>
             <h4 class="year">${year}</h4>
             </a>
         </li>`
     };
     const userList = new List('collection', options);
-    movies.forEach((m) => userList.add(m));
+    movies.forEach((m) => 
+       userList.add(m));
+       a++;
+       console.log(a);
   };
 
   document.addEventListener("DOMContentLoaded", showMovies);
