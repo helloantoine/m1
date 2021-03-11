@@ -57,6 +57,12 @@ const movies = [
   
 ];
 
+let counter = 1;
+while (counter <= 10) {
+  console.log(counter);
+  counter += 1;
+}
+
   const showMovies = function (){
     let a = 1;
     const options = {
@@ -64,7 +70,7 @@ const movies = [
       item: ({ name, id, url, year }) =>
         `<li>
           <a href="https://vod.canalplus.com/cinema/${url}" >
-            <div class="pi ${id}"  style="background-position: calc(var(--step) * a) 0px;"></div>
+            <div class="pi ${id}"  style="background-position: calc(-140px  * a) 0px;"></div>
             <h3 class="name">${name}</h3>
             <h4 class="year">${year}</h4>
             </a>

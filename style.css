@@ -18,7 +18,7 @@ input:focus {  outline:none;  border-color:#aaa;}
 #navigation {  background-color: #130f0f;  padding: 16px;  position:fixed;  display:block;  top:0px;  z-index:99;  width:100%;}
 .list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 48px;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 187px; }
-
+/*
 .felicita{  background-position: 0px 0px;}
 .yakari{  background-position: calc(var(--step) * 1) 0px;}
 .msim{  background-position: calc(var(--step) * 2) 0px;}
@@ -73,3 +73,5 @@ input:focus {  outline:none;  border-color:#aaa;}
 .mastercomm  {  background-position: calc(var(--step) * 9) calc(var(--stepvert) * 2)}
 .hulk  {  background-position: calc(var(--step) * 10) calc(var(--stepvert) * 2)}
 .chinatown  {  background-position: calc(var(--step) * 11) calc(var(--stepvert) * 2)}
+
+*/
