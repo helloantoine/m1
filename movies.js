@@ -60,13 +60,15 @@ const showMovies = () => {
   const options = {
     valueNames: [ 'name', 'year' ],
     item: ({ name, url, year, index }) => {
+      const xMax = -2660;
       const xPos = -140 * index
-      const yPos = Math.floor((index + 1) / 20) * 187
+      if (xPos > xMax) {
+            const xPos = 0
+      }
+      const yPos = -210 * Math.floor((index + 1) / 21) 
       return `<li>
         <a href="https://vod.canalplus.com/cinema/${url}" >
           <div class="pi"  style="background-position: ${xPos}px ${yPos}px;"></div>
-          <h3 class="name">${name}</h3>
-          <h4 class="year">${year}</h4>
           </a>
       </li>`
     }
@@ -82,6 +84,9 @@ const movieCallback = (movie, index) => {
   movie.index = index
   return userList.add(movie)
 }
+
+          <h3 class="name">${name}</h3>
+          <h4 class="year">${year}</h4>
 */
 
 
