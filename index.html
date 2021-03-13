@@ -24,6 +24,25 @@
           <button class="sort" data-sort="name"> Trier</button>
           <input type="button" onClick="history.go(0)" value="R">
         </div>
+        <div id="secondnavigation">
+          <button class="" > All</button>
+          <button class="jeunesse" > Jeunesse</button>
+        </div>
         <ul class="list"></ul>
       </div>
+    <script>
+      $('.jeunesse').on('click',function(){
+        var $text = $(this).text();
+        if($(this).hasClass( 'selected' )){
+          userList.filter();
+          $(this).removeClass('selected');
+        } else {
+          userList.filter(function(item) {
+            return (item.values().genre == $text);
+          });
+          $(this).addClass('selected');
+        }
+      });
+      </script>
+    </div>
 </body></html>

@@ -273,6 +273,7 @@ const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
 };
 
+
 // const movieCallback = (movie, index) => userList.add({ name: movie.name, year: movie.year, genre: genre, index: index })
 /*
 const movieCallback = (movie, index) => {
@@ -282,10 +283,6 @@ const movieCallback = (movie, index) => {
 
 
 */
-
-
-
-
 
   document.addEventListener("DOMContentLoaded", showMovies);
 

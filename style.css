@@ -16,6 +16,7 @@ input:focus {  outline:none;  border-color:#aaa;}
 .sort.asc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-top: 5px solid #fff;  content:"";  position: relative;  top:13px;  right:-5px;}
 .sort.desc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-bottom: 5px solid #fff;  content:"";  position: relative;  top:-10px;  right:-5px;}
 #navigation {  background-color: #130f0f;  padding: 16px;  position:fixed;  display:block;  top:0px;  z-index:99;  width:100%;}
+#secondnavigation {  background-color: #130f0f;  padding: 16px;  position:fixed;  display:block;  top:48px;  z-index:99;  width:100%;}
 .list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 48px;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; }
 /*
