@@ -193,9 +193,17 @@ const movies = [
   {name: "Gremlins", url: "",    year: "", genre:""  },
   {name: "Le nouveau stagiaire", url: "",    year: "", genre:""  },
   {name: "Strictly Criminal", url: "",    year: "", genre:""  },
-
-
-
+  {name: "Les affranchis", url: "",    year: "", genre:""  },
+  {name: "U.S. Marshals", url: "",    year: "", genre:""  },
+  {name: "Happy Feet", url: "",    year: "", genre:""  },
+  {name: "L'associé du Diable", url: "",    year: "", genre:""  },
+  {name: "Sherlock Holmes : jeu d'ombres", url: "",    year: "", genre:""  },
+  {name: "Sherlock Holmes", url: "",    year: "", genre:""  },
+  {name: "Blood Diamond", url: "",    year: "", genre:""  },
+  {name: "Les sous-doués", url: "",    year: "", genre:""  },
+  {name: "Le château de ma mère", url: "",    year: "", genre:""  },
+  {name: "Les triplettes de Belleville", url: "",    year: "", genre:""  },
+  {name: "La gloire de mon père", url: "",    year: "", genre:""  },
 ];
 
 
