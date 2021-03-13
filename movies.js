@@ -53,22 +53,99 @@ const movies = [
   {name: "Master and Commander : de l'autre côté du monde",  url: "master-and-commander-de-l-autre-cote-du-monde/h/1893709_40099",    year: "2003", genre:""  },
   {name: "Hulk",  url: "hulk/h/1101970_40099",    year: "2003", genre:""  },
   {name: "Chinatown",  url: "chinatown/h/200345_40099",    year: "1974", genre:""  },
+  {name: "Moi, moche et méchant",  url: "moi-moche-et-mechant/h/733525_40099",    year: "2010", genre:""  },
+  {name: "Jumanji",  url: "",    year: "1995", genre:""  },
+  {name: "Retour vers le futur 3",  url: "",    year: "1990", genre:""  },
+  {name: "Retour vers le futur 2",  url: "",    year: "1989", genre:""  },
+  {name: "Retour vers le futur",  url: "",    year: "1985", genre:""  },
+  {name: "Les minions",  url: "",    year: "2015", genre:""  },
+  {name: "L'armée des ombres",  url: "",    year: "", genre:""  },
+  {name: "Playtime",  url: "",    year: "", genre:""  },
+  {name: "Les vacances de Mr Hulot",  url: "",    year: "", genre:""  },
+  {name: "Mon oncle",  url: "",    year: "", genre:""  },
+  {name: "Taxi",  url: "",    year: "", genre:""  },
+  {name: "Les barbouzes",  url: "",    year: "", genre:""  },
+  {name: "Les tontons flingueurs",  url: "",    year: "", genre:""  },
+  {name: "Un chien dans un jeu de quilles",  url: "",    year: "", genre:""  },
+  {name: "A gauche en sortant de l'ascenceur", url: "",    year: "", genre:""  },
+  {name: "Premier contact", url: "",    year: "", genre:""  },
+  {name: "Les animaux fantastiques", url: "",    year: "", genre:""  },
+  {name: "Deadpool", url: "",    year: "", genre:""  },
+  {name: "Astérix: Le domaine des dieux", url: "",    year: "", genre:""  },
+  {name: "Les fils de l'homme", url: "",    year: "", genre:""  },
+  {name: "Kong: Skull island", url: "",    year: "", genre:""  },
+  {name: "Les aventures de Rabbit Jacob", url: "",    year: "", genre:""  },
+  {name: "Océans", url: "",    year: "", genre:""  },
+  {name: "Le peuple migrateur", url: "",    year: "", genre:""  },
+  {name: "Chimpanzés : Les artisans du Bossou", url: "",    year: "", genre:""  },
+  {name: "Nikita", url: "",    year: "", genre:""  },
+  {name: "Le grand bleu", url: "",    year: "", genre:""  },
+  {name: "Léon", url: "",    year: "", genre:""  },
+  {name: "Hook ou la revanche du capitaine Crochet", url: "",    year: "1991", genre:""  },
+  {name: "Etre et avoir", url: "",    year: "", genre:""  },
+  {name: "Kirikou et la sorcière", url: "",    year: "", genre:""  },
+  {name: "Joker", url: "",    year: "", genre:""  },
+  {name: "La mule", url: "",    year: "", genre:""  },
+  {name: "Le grand bain", url: "",    year: "", genre:""  },
+  {name: "Ready Player One", url: "",    year: "", genre:""  },
+  {name: "Une affaire de famille", url: "",    year: "", genre:""  },
+  {name: "Pentagon Papers", url: "",    year: "", genre:""  },
+  {name: "La ch'tite famille", url: "",    year: "", genre:""  },
+  {name: "Blade Runner 2049", url: "",    year: "", genre:""  },
+  {name: "007 Spectre", url: "",    year: "", genre:""  },
+  {name: "Dallas Buyers Club", url: "",    year: "", genre:""  },
+  {name: "Paddington", url: "",    year: "", genre:""  },
+  {name: "Les gardiens de la galaxie", url: "",    year: "", genre:""  },
+  {name: "Gone Girl", url: "",    year: "", genre:""  },
+  {name: "Django Unchained", url: "",    year: "", genre:""  },
+  {name: "Prisoners", url: "",    year: "", genre:""  },
+  {name: "Le Hobbit : la désolation de Smaug", url: "",    year: "", genre:""  },
+  {name: "Le Hobbit : un voyage inattendu", url: "",    year: "", genre:""  },
+  {name: "Skyfall", url: "",    year: "", genre:""  },
+  {name: "Moonrise Kingdom", url: "",    year: "", genre:""  },
+  {name: "True Grit", url: "",    year: "", genre:""  },
+  {name: "Intouchables", url: "",    year: "", genre:""  },
+  {name: "Les petits mouchoirs", url: "",    year: "", genre:""  },
+  {name: "Shutter island", url: "",    year: "", genre:""  },
+  {name: "Papy fait de la résistance", url: "",    year: "", genre:""  },
+  {name: "Les saisons", url: "",    year: "", genre:""  },
+  {name: "Terre des Ours", url: "",    year: "", genre:""  },
+  {name: "Microcosmos", url: "",    year: "", genre:""  },
+  {name: "Brendan et le secret de Kells", url: "",    year: "", genre:""  },
+  {name: "Le chant de la mer", url: "",    year: "", genre:""  },
+  {name: "Cars", url: "",    year: "", genre:""  },
+  {name: "Mickey, la magie de Noël", url: "",    year: "", genre:""  },
+  {name: "Les indestructibles", url: "",    year: "", genre:""  },
+  {name: "Baby Boss", url: "",    year: "", genre:""  },
+  {name: "Bee Movie", url: "",    year: "", genre:""  },
+  {name: "Madagascar", url: "",    year: "", genre:""  },
+  {name: "Poltergeist", url: "",    year: "", genre:""  },
+  {name: "Pride", url: "",    year: "", genre:""  },
+  {name: "Hours", url: "",    year: "", genre:""  },
+  {name: "Monument Men", url: "",    year: "", genre:""  },
+  {name: "The Grand Budapest Hotel", url: "",  year: "", genre:""  },
+  {name: "Philomena", url: "",    year: "", genre:""  },
+  {name: "Les rois mages", url: "",    year: "", genre:""  },
+  {name: "Zulu", url: "",    year: "", genre:""  },
+  {name: "Quai d'Orsay", url: "",    year: "", genre:""  },
+  {name: "La vallée des loups", url: "",    year: "", genre:""  },
+
 ];
 
 
+const rowWidth = 50 // how many images per row?
 const showMovies = () => {
   const options = {
     valueNames: [ 'name', 'year' ],
     item: ({ name, url, year, index }) => {
-      const xMax = -2660;
-      const xPos = -140 * index
-      if (xPos > xMax) {
-            const xPos = 0
-      }
-      const yPos = -210 * Math.floor((index + 1) / 21) 
+      const row = index === 0 ? 0 : Math.floor(index / rowWidth)
+      const xPos = -185 * (index - row * rowWidth)
+      const yPos = -278 * row
       return `<li>
         <a href="https://vod.canalplus.com/cinema/${url}" >
           <div class="pi"  style="background-position: ${xPos}px ${yPos}px;"></div>
+          <h3 class="name">${name}</h3>
+          <h4 class="year">${year}</h4>
           </a>
       </li>`
     }
@@ -85,8 +162,7 @@ const movieCallback = (movie, index) => {
   return userList.add(movie)
 }
 
-          <h3 class="name">${name}</h3>
-          <h4 class="year">${year}</h4>
+
 */
 
 

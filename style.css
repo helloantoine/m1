@@ -5,7 +5,7 @@ h2 {  font-family:sans-serif;}
 h3 {  font-size: 16px;  margin:16px 0 0.3rem;  font-weight: normal;}
 h4 {  font-size: 14px;  margin:0 0 0.3rem;  font-weight: normal;  color: #80868b;}
 p {  margin:0;}
-li{width: 140px;margin: 16px;}
+li{width: 185px;margin: 16px;}
 img {  max-width: 100%;}
 input {  border:solid 1px #ccc;  border-radius: 5px;  padding:7px 14px;  font-size: 16px;}
 input:focus {  outline:none;  border-color:#aaa;}
@@ -17,7 +17,7 @@ input:focus {  outline:none;  border-color:#aaa;}
 .sort.desc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-bottom: 5px solid #fff;  content:"";  position: relative;  top:-10px;  right:-5px;}
 #navigation {  background-color: #130f0f;  padding: 16px;  position:fixed;  display:block;  top:0px;  z-index:99;  width:100%;}
 .list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 48px;}
-.pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 210px; }
+.pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; }
 /*
 .felicita{  background-position: 0px 0px;}
 .yakari{  background-position: calc(var(--step) * 1) 0px;}
