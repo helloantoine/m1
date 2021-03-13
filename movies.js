@@ -129,6 +129,27 @@ const movies = [
   {name: "Zulu", url: "",    year: "", genre:""  },
   {name: "Quai d'Orsay", url: "",    year: "", genre:""  },
   {name: "La vallée des loups", url: "",    year: "", genre:""  },
+  {name: "La vie rêvée de Walter Mitty", url: "",    year: "", genre:""  },
+  {name: "Alceste à bicyclette", url: "",    year: "", genre:""  },
+  {name: "L'odyssée de Pi", url: "",    year: "", genre:""  },
+  {name: "Voisins du troisième type", url: "",    year: "", genre:""  },
+  {name: "The Descendants", url: "",    year: "", genre:""  },
+  {name: "La piel que habito", url: "",    year: "", genre:""  },
+  {name: "Wall Street : l'argent ne dort jamais", url: "",    year: "", genre:""  },
+  {name: "Slumdog Millionaire", url: "",    year: "", genre:""  },
+  {name: "Le jour d'après", url: "",    year: "", genre:""  },
+  {name: "Titeuf, le film", url: "",    year: "", genre:""  },
+  {name: "127 heures", url: "",    year: "", genre:""  },
+  {name: "Zulu", url: "",    year: "", genre:""  },
+  {name: "Zulu", url: "",    year: "", genre:""  },
+  {name: "Zulu", url: "",    year: "", genre:""  },
+  {name: "Zulu", url: "",    year: "", genre:""  },
+
+
+
+
+
+
 
 ];
 
