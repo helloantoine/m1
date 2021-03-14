@@ -23,7 +23,7 @@ input:focus {  outline:none;  border-color:#aaa;}
 #search-sort { padding: 16px;  display:block;  z-index:9;  width:100%; position:absolute; top:64px;}
 
 .list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 108px;}
-.pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; }
+.pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; background-color: #130f0f;}
 .container input {    position: absolute;    opacity: 0;   cursor: pointer;  }
 .container {
     display: inline-block;

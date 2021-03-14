@@ -241,7 +241,7 @@ const movies = [
   {name: "#Chef", url: "",    year: "", genre:""  },  
   {name: "La tortue rouge", url: "",    year: "", genre:""  },
   {name: "Paris pieds nus", url: "",    year: "", genre:""  },
-  {name: "Vice-Versa (Inside out))", url: "",    year: "", genre:"Jeunesse"  },
+  {name: "Vice-Versa", url: "",    year: "", genre:"Jeunesse"  },
   {name: "Un idiot à Paris", url: "",    year: "", genre:""  },
   {name: "Bodyguard", url: "",    year: "", genre:""  },
   {name: "Eyes Wide Shut", url: "",    year: "", genre:""  },
