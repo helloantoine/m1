@@ -175,7 +175,7 @@ const movies = [
   {name: "Ocean's Eleven", url: "",    year: "", genre:""  },
   {name: "Godzilla", url: "",    year: "", genre:""  },
   {name: "Inherent Vice", url: "",    year: "", genre:""  },
-  {name: "Les douze travaux d'Astérix", url: "",    year: "", genre:"Jeunesse"  },
+  {name: "Astérix: Les douze travaux d'Astérix", url: "",    year: "", genre:"Jeunesse"  },
   {name: "Astérix le Gaulois", url: "",    year: "", genre:"Jeunesse"  },
   {name: "Astérix chez les Bretons", url: "",    year: "", genre:"Jeunesse"  },
   {name: "La cité de la peur", url: "",    year: "", genre:""  },
