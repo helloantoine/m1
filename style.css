@@ -1,14 +1,17 @@
 :root {--step: -140px;    --stepvert: -210px;  }
 body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif;}
-a{  color: #fff;  text-decoration: none;}
+
 h2 {  font-family:sans-serif;}
 h3 {  font-size: 16px;  margin:16px 0 0.3rem;  font-weight: normal;}
 h4 {  font-size: 14px;  margin:0 0 0.3rem;  font-weight: normal;  color: #80868b;}
+
+a{  color: #fff;  text-decoration: none;}
 p {  margin:0;}
 li{width: 185px;margin: 1px;}
 img {  max-width: 100%;}
-form {color: White;  text-decoration: none !important; }
-input {  border:solid 1px #ccc;  border-radius: 5px;  padding:7px 14px;  font-size: 16px;}
+form {color: White;  text-decoration: none !important; width:fit-content; }
+
+input {  font-size: 16px; color: #ccc; background-color: #130f0; height: 42px; width:100%;} 
 input:focus {  outline:none;  border-color:#aaa;}
 
 .sort {  padding:8px 30px;  border-radius: 6px;  border:none;  display:inline-block;  color:#fff;  text-decoration: none;  background-color: #3c3c3c;  height:34px;  font-size: 16px;  margin-left:8px;}
@@ -18,11 +21,10 @@ input:focus {  outline:none;  border-color:#aaa;}
 .sort.asc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-top: 5px solid #fff;  content:"";  position: relative;  top:13px;  right:-5px;}
 .sort.desc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-bottom: 5px solid #fff;  content:"";  position: relative;  top:-10px;  right:-5px;}
 
+#navbar {  background-color: #130f0f; position: fixed;    padding: 16px;   display:block; z-index:99;  width:100%; top:0px; height:48px;} 
+#search {  background-color: #130f0f; position: fixed;    display:block; z-index:99;  width:100%; top:0px; left:0px;height:48px;} 
 
-#categories {  background-color: #130f0f; position: fixed;    padding: 16px;   display:block; z-index:99;  width:100%; top:0px;}
-#search-sort { padding: 16px;  display:block;  z-index:9;  width:100%; position:absolute; top:64px;}
-
-.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 108px;}
+.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 0px;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; background-color: #130f0f;}
 .container input {    position: absolute;    opacity: 0;   cursor: pointer;  }
 .container {
@@ -48,3 +50,8 @@ input:focus {  outline:none;  border-color:#aaa;}
   .container input:checked{
     background-color: #fff;
   }
+
+.hideme{
+  display:none !important;
+}
+
