@@ -1,12 +1,12 @@
 const container = document.querySelector(".list");
 const movies = [
-  {name: "Felicità",    url: "felicita/h/14283213_40099",    year: "2020", genre:""  },
+  {name: "Felicità",    url: "felicita/h/14283213_40099",    year: "2020", genre:"Comédie"  },
   {name: "Yakari, la grande aventure",   url: "yakari-la-grande-aventure/h/14460003_40099",    year: "2020", genre:"Jeunesse"  },
   {name: "La vie très privée de monsieur Sim",   url: "la-vie-tres-privee-de-monsieur-sim/h/6031610_40099",    year: "2015", genre:""  },
   {name: "Les acteurs",   url: "les-acteurs/h/310360_40099",    year: "2000", genre:""  },
-  {name: "Terra Willy, planète inconnue",   url: "terra-willy-planete-inconnue/h/11364255_40099",    year: "2019", genre:""  },
+  {name: "Terra Willy, planète inconnue",   url: "terra-willy-planete-inconnue/h/11364255_40099",    year: "2019", genre:"Jeunesse"  },
   {name: "La grande aventure Lego",  url: "la-grande-aventure-lego/h/3753674_40099",    year: "2014", genre:"Jeunesse"  },
-  {name: "I Love You Phillip Morris",  url: "i-love-you-phillip-morris/h/276693_40099",    year: "2009", genre:""  },
+  {name: "I Love You Phillip Morris",  url: "i-love-you-phillip-morris/h/276693_40099",    year: "2009", genre:"Comédie"  },
   {name: "Barton Fink",  url: "barton-fink/h/1727329_40099",    year: "1991", genre:""  },
   {name: "Hellboy",  url: "hellboy/h/460023_40099",    year: "2004", genre:""  },
   {name: "Astérix et le coup du menhir",  url: "asterix-et-le-coup-du-menhir/h/267699_40099",    year: "1989", genre:"Jeunesse"  },
@@ -14,9 +14,9 @@ const movies = [
   {name: "Kill Bill Volume 1",  url: "kill-bill-volume-1/h/447165_40099",    year: "2003", genre:""  },
   {name: "Le cinquième élément",  url: "le-cinquieme-element/h/2799080_40099",    year: "1997", genre:""  },
   {name: "Pulp Fiction",   url: "pulp-fiction/h/113934_40099",    year: "1994", genre:""  },
-  {name: "DieHard: Une journée en enfer",    url: "une-journee-en-enfer/h/1784027_40099",    year: "1995", genre:""  },
-  {name: "DieHard: 58 minutes pour vivre",   url: "58-minutes-pour-vivre/h/771194_40099",    year: "1990", genre:""  },
-  {name: "DieHard: Piège de cristal",   url: "piege-de-cristal/h/771207_40099",    year: "1988", genre:""  },
+  {name: "DieHard: Une journée en enfer",    url: "une-journee-en-enfer/h/1784027_40099",    year: "1995", genre:"Action"  },
+  {name: "DieHard: 58 minutes pour vivre",   url: "58-minutes-pour-vivre/h/771194_40099",    year: "1990", genre:"Action"  },
+  {name: "DieHard: Piège de cristal",   url: "piege-de-cristal/h/771207_40099",    year: "1988", genre:"Action"  },
   {name: "Tout simplement noir",  url: "tout-simplement-noir/h/14250527_40099",    year: "2020", genre:""  },
   {name: "Les Schtroumpfs 2", url: "les-schtroumpfs-2/h/4884171_40099",    year: "2013", genre:"Jeunesse"  },
   {name: "Les rebelles de la forêt",  url: "les-rebelles-de-la-foret/h/442100_40099",    year: "2006", genre:"Jeunesse"  },
@@ -57,14 +57,14 @@ const movies = [
   {name: "Retour vers le futur 3",  url: "",    year: "1990", genre:""  },
   {name: "Retour vers le futur 2",  url: "",    year: "1989", genre:""  },
   {name: "Retour vers le futur",  url: "",    year: "1985", genre:""  },
-  {name: "Les minions",  url: "",    year: "2015", genre:""  },
+  {name: "Les minions",  url: "",    year: "2015", genre:"Jeunesse"  },
   {name: "L'armée des ombres",  url: "",    year: "1969", genre:""  },
   {name: "Playtime",  url: "",    year: "1967", genre:""  },
   {name: "Les vacances de Mr Hulot",  url: "",    year: "", genre:""  },
   {name: "Mon oncle",  url: "",    year: "", genre:""  },
   {name: "Taxi",  url: "",    year: "", genre:""  },
   {name: "Les barbouzes",  url: "",    year: "", genre:""  },
-  {name: "Les tontons flingueurs",  url: "",    year: "", genre:""  },
+  {name: "Les tontons flingueurs",  url: "",    year: "", genre:"Comédie"  },
   {name: "Un chien dans un jeu de quilles",  url: "",    year: "", genre:""  },
   {name: "A gauche en sortant de l'ascenceur", url: "",    year: "", genre:""  },
   {name: "Premier contact", url: "",    year: "", genre:""  },
@@ -271,18 +271,21 @@ const showMovies = () => {
 const userList = new List('collection', options);
 const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
+
+var filterJeunesse = document.getElementById("filter-jeunesse");
+var filterComedie = document.getElementById("filter-comedie");
+var filterAction = document.getElementById("filter-action");
+var removeFiltersButton = document.getElementById("removeFilters");
+
+filterJeunesse.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Jeunesse") {return true;} else {return false;}});});
+filterComedie.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Comédie") {return true;} else {return false;}});});
+filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
+
+removeFiltersButton.addEventListener("click", function() {userList.filter();});
+
 };
 
 
-// const movieCallback = (movie, index) => userList.add({ name: movie.name, year: movie.year, genre: genre, index: index })
-/*
-const movieCallback = (movie, index) => {
-  movie.index = index
-  return userList.add(movie)
-}
-
-
-*/
 
   document.addEventListener("DOMContentLoaded", showMovies);
 
