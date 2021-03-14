@@ -19,18 +19,43 @@
     </head>
     <body>
       <div id="collection">
-        <div id="navigation">
+        <div id="categories">
+          <form> 
+             <label for="removeFilters" class="container">All
+                <input type="radio" class="btfilter" id="removeFilters" checked="checked" name="Genre" value="All">
+                <span class="checkmark"></span>
+            </label>
+            
+            <label for="filter-jeunesse" class="container">Jeunesse
+              <input type="radio" class="btfilter" id="filter-jeunesse" name="Genre" value="Jeunesse">
+              <span class="checkmark"></span>
+            </label>
+
+            <label for="filter-comedie" class="container">Comédie
+              <input type="radio" class="btfilter" id="filter-comedie" name="Genre" value="Comedie">
+              <span class="checkmark"></span>
+            </label>
+           
+            <label for="filter-action" class="container">Action
+              <input type="radio" class="btfilter" id="filter-action" name="Genre" value="Action">
+              <span class="checkmark"></span>
+            </label>
+            
+            <label for="filter-sf" class="container">S&F
+              <input type="radio" class="btfilter" id="filter-sf" name="Genre" value="SF">
+              <span class="checkmark"></span>
+            </label>
+                    </form> 
+        </div>
+        <div id="search-sort">
           <input class="search" placeholder="Rechercher" />
           <button class="sort" data-sort="name"> Trier</button>
-          <input type="button" onClick="history.go(0)" value="R">
+          <button onClick="history.go(0)"> Refresh</button>
         </div>
-        <div id="secondnavigation">
-          <button id="removeFilters" > All</button>
-          <button id="filter-jeunesse" > Jeunesse</button>
-          <button id="filter-comedie" > Comédie</button>
-          <button id="filter-action" > Action</button>
-        </div>
-        <ul class="list"></ul>
+
+        <ul class="list">          
+
+        </ul>
       </div>
     <script>
       $('.jeunesse').on('click',function(){

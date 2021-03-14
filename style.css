@@ -1,5 +1,5 @@
 :root {--step: -140px;    --stepvert: -210px;  }
-body{background-color: #010101; margin: 0;touch-action: pan-y;}
+body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif;}
 a{  color: #fff;  text-decoration: none;}
 h2 {  font-family:sans-serif;}
 h3 {  font-size: 16px;  margin:16px 0 0.3rem;  font-weight: normal;}
@@ -7,72 +7,44 @@ h4 {  font-size: 14px;  margin:0 0 0.3rem;  font-weight: normal;  color: #80868b
 p {  margin:0;}
 li{width: 185px;margin: 16px;}
 img {  max-width: 100%;}
+form {color: White;  text-decoration: none !important; }
 input {  border:solid 1px #ccc;  border-radius: 5px;  padding:7px 14px;  font-size: 16px;}
 input:focus {  outline:none;  border-color:#aaa;}
+
 .sort {  padding:8px 30px;  border-radius: 6px;  border:none;  display:inline-block;  color:#fff;  text-decoration: none;  background-color: #3c3c3c;  height:34px;  font-size: 16px;  margin-left:8px;}
 .sort:hover {  text-decoration: none;  background-color:#3c3c3c;  cursor: pointer;}
 .sort:focus {  outline:none;}
 .sort:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-bottom: 5px solid transparent;  content:"";  position: relative;  top:-10px;  right:-5px;}
 .sort.asc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-top: 5px solid #fff;  content:"";  position: relative;  top:13px;  right:-5px;}
 .sort.desc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-bottom: 5px solid #fff;  content:"";  position: relative;  top:-10px;  right:-5px;}
-#navigation {  background-color: #130f0f;  padding: 16px;  position:fixed;  display:block;  top:0px;  z-index:99;  width:100%;}
-#secondnavigation {  background-color: #130f0f;  padding: 16px;  position:fixed;  display:block;  top:48px;  z-index:99;  width:100%;}
-.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 48px;}
+
+
+#categories {  background-color: #130f0f; position: fixed;    padding: 16px;   display:block; z-index:99;  width:100%;}
+#search-sort { padding: 16px;  display:block;  z-index:9;  width:100%;}
+
+.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 8px;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; }
-/*
-.felicita{  background-position: 0px 0px;}
-.yakari{  background-position: calc(var(--step) * 1) 0px;}
-.msim{  background-position: calc(var(--step) * 2) 0px;}
-.lesacteurs{  background-position: calc(var(--step) * 3) 0px;}
-.terrawilly{  background-position: calc(var(--step) * 4) 0px;}
-.lego{  background-position: calc(var(--step) * 5) 0px;}
-.pmorris{  background-position: calc(var(--step) * 6) 0px;}
-.bfink{  background-position: calc(var(--step) * 7) 0px;}
-.hellboy{  background-position: calc(var(--step) * 8) 0px;}
-.asterix-menhir{  background-position: calc(var(--step) * 9) 0px;}
-.folie-grandeurs{  background-position: calc(var(--step) * 10) 0px;}
-.killbill{  background-position: calc(var(--step) * 11) 0px;}
-.cinqelement{  background-position: calc(var(--step) * 12) 0px;}
-.pulpfiction{  background-position: calc(var(--step) * 13) 0px;}
-.diehard3{  background-position: calc(var(--step) * 14) 0px;}
-.diehard2{  background-position: calc(var(--step) * 15) 0px;}
-.toutnoir{  background-position: calc(var(--step) * 16) 0px;}
-.smurf2{  background-position: calc(var(--step) * 17) 0px;}
-.rebellesforet{  background-position: calc(var(--step) * 18) 0px;}
-.monsterhouse{  background-position: calc(var(--step) * 19) 0px;}
-
-.diehard{  background-position: 0px calc(var(--stepvert) * 1);}
-.piratesanim{  background-position: calc(var(--step) * 1) calc(var(--stepvert) * 1)}
-.tartarin{  background-position: calc(var(--step) * 2) calc(var(--stepvert) * 1)}
-.ahriche{  background-position: calc(var(--step) * 3) calc(var(--stepvert) * 1)}
-.dinercons{  background-position: calc(var(--step) * 4) calc(var(--stepvert) * 1)}
-.sepcompagnie{  background-position: calc(var(--step) * 5) calc(var(--stepvert) * 1)}
-.qlqmessieurs{  background-position: calc(var(--step) * 6) calc(var(--stepvert) * 1)}
-.jourfete{  background-position: calc(var(--step) * 7) calc(var(--stepvert) * 1)}
-.beaugentil{  background-position: calc(var(--step) * 8) calc(var(--stepvert) * 1)}
-.quaior{  background-position: calc(var(--step) * 9) calc(var(--stepvert) * 1)}
-.hotelnord{  background-position: calc(var(--step) * 10) calc(var(--stepvert) * 1)}
-.distrait{  background-position: calc(var(--step) * 11) calc(var(--stepvert) * 1)}
-.marieantoinette{  background-position: calc(var(--step) * 12) calc(var(--stepvert) * 1)}
-.limpasse{  background-position: calc(var(--step) * 13) calc(var(--stepvert) * 1)}
-.chappie{  background-position: calc(var(--step) * 14) calc(var(--stepvert) * 1)}
-.lejouet{  background-position: calc(var(--step) * 15) calc(var(--stepvert) * 1)}
-.passengers{  background-position: calc(var(--step) * 16) calc(var(--stepvert) * 1)}
-.hop{  background-position: calc(var(--step) * 17) calc(var(--stepvert) * 1)}
-.metiermonde{  background-position: calc(var(--step) * 18) calc(var(--stepvert) * 1)}
-.batman{  background-position: calc(var(--step) * 19) calc(var(--stepvert) * 1)}
-
-.pierrelapin{  background-position: 0px calc(var(--stepvert) * 2);}
-.traverseeparis{  background-position: calc(var(--step) * 1) calc(var(--stepvert) * 2)}
-.coupparapluie{  background-position: calc(var(--step) * 2) calc(var(--stepvert) * 2)}
-.choristes {  background-position: calc(var(--step) * 3) calc(var(--stepvert) * 2)}
-.bronzesski {  background-position: calc(var(--step) * 4) calc(var(--stepvert) * 2)}
-.smurfperdu {  background-position: calc(var(--step) * 5) calc(var(--stepvert) * 2)}
-.paddington2 {  background-position: calc(var(--step) * 6) calc(var(--stepvert) * 2)}
-.yslave {  background-position: calc(var(--step) * 7) calc(var(--stepvert) * 2)}
-.gattaca {  background-position: calc(var(--step) * 8) calc(var(--stepvert) * 2)}
-.mastercomm  {  background-position: calc(var(--step) * 9) calc(var(--stepvert) * 2)}
-.hulk  {  background-position: calc(var(--step) * 10) calc(var(--stepvert) * 2)}
-.chinatown  {  background-position: calc(var(--step) * 11) calc(var(--stepvert) * 2)}
-
-*/
+.container input {    position: absolute;    opacity: 0;   cursor: pointer;  }
+.container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    height: auto;
+    width: fit-content;
+    margin: 1px;
+    padding: 8px 16px 8px 16px;
+    background-color: #303437;
+    border-radius: 4px;
+;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container:hover{
+    background-color: #000;
+  }
+  .container input:checked{
+    background-color: #fff;
+  }
