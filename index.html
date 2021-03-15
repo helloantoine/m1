@@ -55,19 +55,5 @@
         <button class="sort" data-sort="name"> Trier</button>
         <button onClick="history.go(0)"> R</button>
       </div>
-    <script>
-      $('.jeunesse').on('click',function(){
-        var $text = $(this).text();
-        if($(this).hasClass( 'selected' )){
-          userList.filter();
-          $(this).removeClass('selected');
-        } else {
-          userList.filter(function(item) {
-            return (item.values().genre == $text);
-          });
-          $(this).addClass('selected');
-        }
-      });
-      </script>
     </div>
 </body></html>

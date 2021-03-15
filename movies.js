@@ -281,7 +281,6 @@ var removeFiltersButton = document.getElementById("removeFilters");
 filterJeunesse.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Jeunesse") {return true;} else {return false;}});});
 filterComedie.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Comédie") {return true;} else {return false;}});});
 filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
-filterSF.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Science Fiction") {return true;} else {return false;}});});
 
 removeFiltersButton.addEventListener("click", function() {userList.filter();});
 
