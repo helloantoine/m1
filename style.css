@@ -24,7 +24,7 @@ input:focus {  outline:none;  border-color:#aaa;}
 #navbar {  background-color: #130f0f; position: fixed;    padding: 16px;   display:block; z-index:99;  width:100%; top:0px; height:48px;} 
 #search {  background-color: #130f0f; position: fixed;    display:block; z-index:99;  width:100%; top:0px; left:0px;height:48px;} 
 
-.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 0px;}
+.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 72px;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; background-color: #130f0f;}
 .container input {    position: absolute;    opacity: 0;   cursor: pointer;  }
 .container {
