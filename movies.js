@@ -256,8 +256,8 @@ const movies = [
 const rowWidth = 50 // how many images per row?
 const showMovies = () => {
   const options = {
-    valueNames: [ 'name', 'year' ],
-    item: ({ name, url, year, index }) => {
+    valueNames: [ 'name', 'year', 'genre' ],
+    item: ({ name, url, year, genre, index }) => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -185 * (index - row * rowWidth)
       const yPos = -278 * row
@@ -265,6 +265,7 @@ const showMovies = () => {
         <a href="https://vod.canalplus.com/cinema/${url}" >
           <div class="pi"  style="background-position: ${xPos}px ${yPos}px;"></div>
           <h3 class="name">${name}</h3>
+          <h4 class="genre">${genre}</h4>
           <h4 class="year">${year}</h4>
           </a>
       </li>`
