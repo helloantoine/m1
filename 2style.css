@@ -7,7 +7,7 @@ h4 {  font-size: 0.8em;  margin:0 0 0.3rem;  font-weight: normal;  color: #80868
 
 a{  color: #fff;  text-decoration: none;}
 p {  margin:0;}
-li{width: var(--step);margin: 8px;}
+li{width: var(--step);margin: 6px;}
 img {  max-width: 100%;}
 form {color: White;  text-decoration: none !important; width:fit-content; }
 
