@@ -1,4 +1,4 @@
-:root {--step: 111px;   --stepvert: 167px; --marge: 7px; }
+:root {--step: 111px;   --stepvert: 166px; --marge: 7px; }
 body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif; font-size:1em;}
 
 h2 {  font-family:sans-serif;}
