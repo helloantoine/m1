@@ -1,4 +1,4 @@
-:root {--step: 111px;   --stepvert: 166px;  }
+:root {--step: 111px;   --stepvert: 166px; --marge: 7px; }
 body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif; font-size:1em;}
 
 h2 {  font-family:sans-serif;}
@@ -7,7 +7,7 @@ h4 {  font-size: 0.8em;  margin:0 0 0.3rem;  font-weight: normal;  color: #80868
 
 a{  color: #fff;  text-decoration: none;}
 p {  margin:0;}
-li{width: var(--step);margin: 6px;}
+li{width: var(--step);margin: var(--marge);}
 img {  max-width: 100%;}
 form {color: White;  text-decoration: none !important; width:fit-content; }
 
