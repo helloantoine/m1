@@ -1,13 +1,13 @@
 :root {--step: 111px;   --stepvert: 166px;  }
-body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif;}
+body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif; font-size:1em;}
 
 h2 {  font-family:sans-serif;}
-h3 {  font-size: 16px;  margin:16px 0 0.3rem;  font-weight: normal;}
-h4 {  font-size: 14px;  margin:0 0 0.3rem;  font-weight: normal;  color: #80868b;}
+h3 {  font-size: 0.9em;  margin:16px 0 0.3rem;  font-weight: normal;}
+h4 {  font-size: 0.8em;  margin:0 0 0.3rem;  font-weight: normal;  color: #80868b;}
 
 a{  color: #fff;  text-decoration: none;}
 p {  margin:0;}
-li{width: var(--step);margin: 1px;}
+li{width: var(--step);margin: 8px;}
 img {  max-width: 100%;}
 form {color: White;  text-decoration: none !important; width:fit-content; }
 
