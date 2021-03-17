@@ -249,7 +249,20 @@ const movies = [
   {name: "The Shining", url: "shining/h/435556_40099",    year: "", genre:"Horreur"  },
   {name: "Full Metal Jacket", url: "full-metal-jacket/h/435558_40099",    year: "", genre:"Guerre"  },  
   {name: "L'illusionniste", url: "l-illusionniste/h/242145_40099",    year: "", genre:"Animation"  },
+  {name: "Ouvert la nuit", url: "ouvert-la-nuit/h/7981356_40099",    year: "", genre:"Comédie dramatique"  },  
   {name: "Ernest et Célestine", url: "ernest-et-celestine/h/1617071_40099",    year: "", genre:"Animation"  },  
+  {name: "Somewhere", url: "somewhere/h/1144244_40099",    year: "", genre:"Comédie dramatique"  },  
+  {name: "Moi, Tonya", url: "moi-tonya/h/9595706_40099",    year: "", genre:"Drame"  },  
+  {name: "Lawrence d'Arabie", url: "lawrence-d-arabie/h/850551_40099",    year: "", genre:"Histoire"  },  
+  {name: "Le stratège", url: "le-stratege/h/776360_40099",    year: "", genre:"Drame"  },  
+  {name: "Godzilla", url: "godzilla/h/437531_40099",    year: "", genre:"Science-fiction"  },  
+  {name: "L'ours", url: "l-ours/h/433064_40099",    year: "", genre:"Aventure"  },  
+  {name: "Les ripoux", url: "les-ripoux/h/236010_40099",    year: "", genre:"Comédie"  },  
+  {name: "Drôle de drame", url: "drole-de-drame/h/375220_40099",    year: "", genre:"Comédie"  },  
+  {name: "Tchao pantin", url: "tchao-pantin/h/5525434_40099",    year: "", genre:"Drame"  },  
+  {name: "Se souvenir des belles choses", url: "se-souvenir-des-belles-choses/h/2235125_40099",    year: "", genre:"Drame"  },  
+  {name: "Un cœur en hiver", url: "un-coeur-en-hiver/h/438706_40099",    year: "", genre:"Drame"  },  
+  {name: "Nelly et monsieur Arnaud", url: "nelly-et-monsieur-arnaud/h/286005_40099",    year: "", genre:"Drame"  },  
   ];
 
 

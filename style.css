@@ -21,7 +21,7 @@ input:focus {  outline:none;  border-color:#aaa;}
 .sort.asc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-top: 5px solid #fff;  content:"";  position: relative;  top:13px;  right:-5px;}
 .sort.desc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-bottom: 5px solid #fff;  content:"";  position: relative;  top:-10px;  right:-5px;}
 
-#navbar {  background-color: #130f0f; position: fixed;    padding: 16px;   display:block; z-index:99;  width:100%; bottom:0px; height:48px;} 
+#navbar {  background-color: #130f0f; position: fixed;    padding: 16px;   display:block; z-index:99;  width:99.5%; bottom:0px; height:48px;} 
 .list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top: 72px;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: 278px; background-color: #130f0f;}
 .container input {    position: absolute;    opacity: 0;   cursor: pointer;  }
