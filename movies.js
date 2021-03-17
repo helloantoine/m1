@@ -272,8 +272,8 @@ const showMovies = () => {
     valueNames: [ 'name', 'year', 'genre' ],
     item: ({ name, url, year, genre, index }) => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
-      const xPos = -185 * (index - row * rowWidth)
-      const yPos = -278 * row
+      const xPos = -111 * (index - row * rowWidth)
+      const yPos = -166 * row
       return `<li>
         <a href="https://vod.canalplus.com/cinema/${url}" >
           <div class="pi"  style="background-position: ${xPos}px ${yPos}px;"></div>
