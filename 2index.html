@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-status-bar" content="#010101">
+        <meta name="theme-color" content="#010101">
+        <link href="./2style.css" rel="stylesheet">
+        <link rel="manifest" href="./manifest.json">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="./ic/icon-72x72.png">
+        <link rel="apple-touch-icon" href="./ic/icon-96x96.png">
+        <link rel="apple-touch-icon" href="./ic/icon-128x128.png">
+        <link rel="apple-touch-icon" href="./ic/icon-144x144.png">
+        <link rel="apple-touch-icon" href="./ic/icon-152x152.png">
+        <link rel="apple-touch-icon" href="./ic/icon-192x192.png">
+        <link rel="apple-touch-icon" href="./ic/icon-384x384.png">
+        <link rel="apple-touch-icon" href="./ic/icon-512x512.png">
+        <script src="./list.min.js"></script>
+        <script src="./2movies.js"></script>
+        <title>M</title>
+    </head>
+    <body>
+      <div id="collection">
+        <div id="navbar">
+          <form> 
+             <label for="removeFilters" class="container">All
+                <input type="radio" class="btfilter" id="removeFilters" checked="checked" name="Genre" value="All">
+                <span class="checkmark"></span>
+            </label>
+            
+            <label for="filter-jeunesse" class="container">Jeunesse
+              <input type="radio" class="btfilter" id="filter-jeunesse" name="Genre" value="Jeunesse">
+              <span class="checkmark"></span>
+            </label>
+
+            <label for="filter-comedie" class="container">Comédie
+              <input type="radio" class="btfilter" id="filter-comedie" name="Genre" value="Comedie">
+              <span class="checkmark"></span>
+            </label>
+           
+            <label for="filter-action" class="container">Action
+              <input type="radio" class="btfilter" id="filter-action" name="Genre" value="Action">
+              <span class="checkmark"></span>
+            </label>
+          
+                    </form> 
+
+        </div>
+          <input class="search" placeholder="Rechercher" />
+
+        <ul class="list">          
+
+        </ul>
+        <button class="sort" data-sort="name"> Trier</button>
+        <button onClick="history.go(0)"> R</button>
+      </div>
+    </div>
+</body></html>
