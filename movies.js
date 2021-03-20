@@ -303,18 +303,17 @@ const movies = [
   {name: "Eternal Sunshine of the Spotless Mind", url: "https://www.youtube.com/watch?v=-98VknWkSWo",    year: "2004", genre:"Science-fiction", keyword:"", stars:"4" },  
   {name: "Be Kind Rewind", url: "https://www.youtube.com/watch?v=MaDKdvArDkE",    year: "2008", genre:"Comédie", keyword:"", stars:"3" },  
    {name: "Fantastic Mr. Fox", url: "https://www.youtube.com/watch?v=7_tVZQIM37s",    year: "2009", genre:"Animation", keyword:"", stars:"4" },  
-
-
-
-
-
-
+   {name: "Honey, I Shrunk the Kids", url: "https://www.youtube.com/watch?v=Zoivkxpf-Jc",    year: "1989", genre:"Jeunesse", keyword:"", stars:"3" },  
+   {name: "Two Lovers", url: "https://www.youtube.com/watch?v=6pzXDL8UAWc",    year: "2008", genre:"Drame", keyword:"", stars:"3" },  
+   {name: "Babel", url: "https://www.youtube.com/watch?v=8JQS_KkpJ4g",    year: "2006", genre:"Drame", keyword:"", stars:"3.5" },  
+   {name: "The Goonies", url: "https://www.youtube.com/watch?v=WTcsNtu8Nh0",    year: "1985", genre:"Jeunesse", keyword:"", stars:"4" },  
+   {name: "Dumb & Dumber", url: "https://www.youtube.com/watch?v=RiEYvpZef_s",    year: "1994", genre:"Comédie", keyword:"", stars:"3" },  
 
 
 
   ];
-
-
+  
+  
 const rowWidth = 50 // how many images per row?
 const showMovies = () => {
   const options = {
@@ -336,7 +335,7 @@ const showMovies = () => {
 const userList = new List('collection', options);
 const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
-userList.sort('name', { order: "asc" });
+userList.sort('genre', { order: "asc" });
 
 var filterJeunesse = document.getElementById("filter-jeunesse");
 var filterComedie = document.getElementById("filter-comedie");
