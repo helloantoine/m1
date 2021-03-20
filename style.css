@@ -11,7 +11,7 @@ li{width: var(--step);margin: var(--marge);}
 img {  max-width: 100%;}
 form {color: White;  text-decoration: none !important; width:fit-content; }
 
-input {  font-size: 16px; color: #ccc; background-color: #130f0f; height: 42px ; border:none; height:4em;width:99%; padding-right:1px; margin-right:0px;     padding-left: 1em;;} 
+input {  font-size: 16px; color: #ccc; background-color: #130f0f; height: 42px ; border:none; width:99%;   padding-left: 1em;} 
 input:focus {  outline:none;  border-color:#aaa;}
 
 .sort {  padding:8px 30px;  border-radius: 6px;  border:none;  display:inline-block;  color:#fff;  text-decoration: none;  background-color: #3c3c3c;  height:34px;  font-size: 16px;  margin-bottom: 98px;}
@@ -21,8 +21,8 @@ input:focus {  outline:none;  border-color:#aaa;}
 .sort.asc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-top: 5px solid #fff;  content:"";  position: relative;  top:13px;  right:-5px;}
 .sort.desc:after {  width: 0;  height: 0;  border-left: 5px solid transparent;  border-right: 5px solid transparent;  border-bottom: 5px solid #fff;  content:"";  position: relative;  top:-10px;  right:-5px;}
 
-#navigation {  background-color: #130f0f; position: fixed;    padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:99.5%; bottom:0px; height:48px; opacity: 0.9; backdrop-filter: blur(10px);} 
-.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;}
+#navigation {  background-color: #130f0f; position: fixed;    padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:99.5%; bottom:0px; opacity: 0.9; backdrop-filter: blur(10px);} 
+.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px     margin-bottom: 100px;;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: var(--stepvert); background-color: #130f0f;}
 /* Radio input */
 .container input {    position: absolute;    opacity: 0;   cursor: pointer;  }

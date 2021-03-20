@@ -47,7 +47,7 @@ const movies = [
   {name: "Les bronzés font du ski",  url: "les-bronzes-font-du-ski/h/4661500_40099",    year: "1979", genre:"Comédie", keyword:"", stars:"" },
   {name: "Les Schtroumpfs et le village perdu",   url: "les-schtroumpfs-et-le-village-perdu/h/8420498_40099",    year: "2017", genre:"Animation", keyword:"", stars:"" },
   {name: "Paddington 2",   url: "paddington-2/h/9319792_40099",    year: "2017", genre:"Jeunesse", keyword:"", stars:"" },
-  {name: "12 Years a Slave2",   url: "12-years-a-slave/h/3615890_40099",    year: "2013", genre:"Drame", keyword:"", stars:"" },
+  {name: "12 Years a Slave",   url: "12-years-a-slave/h/3615890_40099",    year: "2013", genre:"Drame", keyword:"", stars:"" },
   {name: "Bienvenue à Gattaca",  url: "bienvenue-a-gattaca/h/437345_40099",    year: "1997", genre:"Science-fiction", keyword:"", stars:"" },
   {name: "Master and Commander : de l'autre côté du monde",  url: "master-and-commander-de-l-autre-cote-du-monde/h/1893709_40099",    year: "2003", genre:"Aventure", keyword:"", stars:"" },
   {name: "Hulk",  url: "hulk/h/1101970_40099",    year: "2003", genre:"Action", keyword:"", stars:"" },
@@ -342,7 +342,7 @@ var filterJeunesse = document.getElementById("filter-jeunesse");
 var filterComedie = document.getElementById("filter-comedie");
 var filterAction = document.getElementById("filter-action");
 var filterDisney = document.getElementById("filter-disney");
-
+var filterDocumentaire = document.getElementById("filter-documentaire");
 var removeFiltersButton = document.getElementById("removeFilters");
 
 
@@ -351,6 +351,7 @@ filterJeunesse.addEventListener("click", function() {userList.filter(function(it
 filterComedie.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Comédie") {return true;} else {return false;}});});
 filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
 filterDisney.addEventListener("click", function() {userList.filter(function(item) {if (item.values().keyword == "Disney") {return true;} else {return false;}});});
+filterDocumentaire.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Documentaire") {return true;} else {return false;}});});
 
 
 removeFiltersButton.addEventListener("click", function() {userList.filter();});
