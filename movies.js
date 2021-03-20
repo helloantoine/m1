@@ -294,8 +294,15 @@ const movies = [
   {name: "Ghostbusters (2016)", url: "https://www.youtube.com/watch?v=RRxzVZWaGNA",    year: "2016", genre:"Comédie", keyword:"", stars:"3" },  
   {name: "Big Hero 6", url: "https://www.youtube.com/watch?v=-AWpph_Rvoo",    year: "2014", genre:"Animation", keyword:"Disney", stars:"4" },  
   {name: "Fun with Dick and Jane", url: "https://www.youtube.com/watch?v=V0OEC9rG6Jg",    year: "2005", genre:"Comédie", keyword:"", stars:"3" },  
-  
-
+  {name: "Bruce Almight", url: "https://www.youtube.com/watch?v=mbS0OK5Q8r4",    year: "2003", genre:"Comédie", keyword:"", stars:"3" },  
+  {name: "Office Space", url: "https://www.youtube.com/watch?v=1hnKwTCcVSs",    year: "1999", genre:"Comédie", keyword:"", stars:"4" },  
+  {name: "The thin red line", url: "https://www.youtube.com/watch?v=g1v9PwFrPYo",    year: "1998", genre:"Guerre", keyword:"", stars:"4" },  
+  {name: "Idiocracy", url: "https://www.youtube.com/watch?v=Bb6j0SukuOE",    year: "2006", genre:"Comédie", keyword:"", stars:"3" },  
+  {name: "Deux jours, une nuit", url: "https://www.youtube.com/watch?v=hiuAIzA9i98",    year: "2014", genre:"Drame", keyword:"", stars:"3.5" },  
+  {name: "Groundhog Day", url: "https://www.youtube.com/watch?v=1VWbrFqTyCA",    year: "1993", genre:"Comédie", keyword:"", stars:"4" },  
+  {name: "Eternal Sunshine of the Spotless Mind", url: "https://www.youtube.com/watch?v=-98VknWkSWo",    year: "2004", genre:"Science-fiction", keyword:"", stars:"4" },  
+  {name: "Be Kind Rewind", url: "https://www.youtube.com/watch?v=MaDKdvArDkE",    year: "2008", genre:"Comédie", keyword:"", stars:"3" },  
+   {name: "Fantastic Mr. Fox", url: "https://www.youtube.com/watch?v=7_tVZQIM37s",    year: "2009", genre:"Animation", keyword:"", stars:"4" },  
 
 
 
