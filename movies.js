@@ -108,7 +108,7 @@ const movies = [
   {name: "Shutter island", url: "shutter-island/h/276747_40099",    year: "2010", genre:"Suspense", keyword:"", stars:"" },
   {name: "Papy fait de la résistance", url: "papy-fait-de-la-resistance/h/3311841_40099",    year: "1983", genre:"Comédie", keyword:"", stars:"" },
   {name: "Les saisons", url: "les-saisons/h/6231028_40099",    year: "2015", genre:"Documentaire", keyword:"", stars:"" },
-  {name: "Terre des Ours", url: "terre-des-ours/h/6045042_40099",    year: "2014", genre:"Documentaire", keyword:"", stars:"" },
+  {name: "Terre des Ours", url: "terre-des-ours/h/6045042_40099",    year: "2014", genre:"Documentaire", keyword:"Disney", stars:"" },
   {name: "Microcosmos", url: "microcosmos-le-peuple-de-l-herbe/h/433830_40099",    year: "1996", genre:"Documentaire", keyword:"", stars:"" },
   {name: "Brendan et le secret de Kells", url: "brendan-et-le-secret-de-kells/h/446992_40099",    year: "2009", genre:"Animation", keyword:"", stars:"" },
   {name: "Le chant de la mer", url: "le-chant-de-la-mer/h/5108908_40099",    year: "2014", genre:"Animation", keyword:"", stars:"" },
@@ -230,8 +230,8 @@ const movies = [
   {name: "Batman: The Dark Knight", url: "the-dark-knight-le-chevalier-noir/h/433162_40099",    year: "2008", genre:"Action", keyword:"", stars:"" },  
   {name: "Batman: The Dark Knight Rises", url: "the-dark-knight-rises/h/1033296_40099",    year: "2012", genre:"Action", keyword:"", stars:"" },
   {name: "Le prestige", url: "le-prestige/h/2863354_40099",    year: "2006", genre:"Suspense", keyword:"", stars:"" },
-  {name: "Le monde de Nemo", url: "le-monde-de-nemo/h/116353_40099",    year: "2003", genre:"Animation", keyword:"Pixar", stars:"" },  
-  {name: "Zootopie", url: "zootopie/h/6344462_40099",    year: "2016", genre:"Animation", keyword:"Pixar", stars:"" },
+  {name: "Le monde de Nemo", url: "le-monde-de-nemo/h/116353_40099",    year: "2003", genre:"Animation", keyword:"Disney", stars:"" },  
+  {name: "Zootopie", url: "zootopie/h/6344462_40099",    year: "2016", genre:"Animation", keyword:"Disney", stars:"" },
   {name: "Very Bad Trip", url: "very-bad-trip/h/611911_40099",    year: "2009", genre:"Comédie", keyword:"", stars:"" },
   {name: "Edge of Tomorrow", url: "vivre-mourir-recommencer-edge-of-tomorrow/h/4217208_40099",    year: "2014", genre:"Science-fiction", keyword:"", stars:"" },  
   {name: "Zodiac", url: "zodiac/h/942876_40099",    year: "2007", genre:"Suspense", keyword:"", stars:"" },
@@ -241,7 +241,7 @@ const movies = [
   {name: "#Chef", url: "chef/h/4833418_40099",    year: "2014", genre:"Comédie", keyword:"", stars:"" },  
   {name: "La tortue rouge", url: "la-tortue-rouge/h/7009426_40099",    year: "2016", genre:"Animation", keyword:"", stars:"" },
   {name: "Paris pieds nus", url: "ouvert-la-nuit/h/7981356_40099",    year: "2016", genre:"Comédie", keyword:"", stars:"" },
-  {name: "Vice-Versa", url: "vice-versa/h/5196978_40099",    year: "2015", genre:"Animation", keyword:"Pixar", stars:"" },
+  {name: "Vice-Versa", url: "vice-versa/h/5196978_40099",    year: "2015", genre:"Animation", keyword:"Disney", stars:"" },
   {name: "Un idiot à Paris", url: "un-idiot-a-paris/h/432921_40099",    year: "1967", genre:"Comédie", keyword:"", stars:"" },
   {name: "Bodyguard", url: "bodyguard/h/107112_40099",    year: "1992", genre:"Policier", keyword:"", stars:"" },
   {name: "Eyes Wide Shut", url: "eyes-wide-shut/h/199812_40099",    year: "1999", genre:"Drame", keyword:"", stars:"" },
@@ -263,6 +263,48 @@ const movies = [
   {name: "Se souvenir des belles choses", url: "se-souvenir-des-belles-choses/h/2235125_40099",    year: "2002", genre:"Drame", keyword:"", stars:"" },  
   {name: "Un cœur en hiver", url: "un-coeur-en-hiver/h/438706_40099",    year: "1992", genre:"Drame", keyword:"", stars:"" },  
   {name: "Nelly et monsieur Arnaud", url: "nelly-et-monsieur-arnaud/h/286005_40099",    year: "1995", genre:"Drame", keyword:"", stars:"" },  
+  {name: "Toy Story", url: "https://www.youtube.com/watch?v=CI5eQm-0CUw",    year: "1995", genre:"Animation", keyword:"Disney", stars:"4" },  
+  {name: "Toy Story 2", url: "https://www.youtube.com/watch?v=fBcb_eq9qOY",    year: "1999", genre:"Animation", keyword:"Disney", stars:"4" },  
+  {name: "Toy Story 3", url: "https://www.youtube.com/watch?v=1-8pawNzmXg",    year: "2010", genre:"Animation", keyword:"Disney", stars:"4" },  
+  {name: "Toy Story 4", url: "https://www.youtube.com/watch?v=Q-eU3fQmBaY",    year: "2010", genre:"Animation", keyword:"Disney", stars:"4" },  
+  {name: "The Green Mile", url: "https://www.youtube.com/watch?v=xZDY2pZneu0",    year: "1999", genre:"Drame", keyword:"", stars:"4" },  
+  {name: "Kung Fu Panda", url: "https://www.youtube.com/watch?v=9oECG2PzobM",    year: "2008", genre:"Animation", keyword:"DreamWorks", stars:"4" },  
+  {name: "Kung Fu Panda 2", url: "https://www.youtube.com/watch?v=6Pr-2XX7MUk",    year: "2011", genre:"Animation", keyword:"DreamWorks", stars:"3.5" },  
+  {name: "Kung Fu Panda 3", url: "https://www.youtube.com/watch?v=H0f6RXtxGy4",    year: "2016", genre:"Animation", keyword:"DreamWorks", stars:"3.5" },  
+  {name: "Happy Feet", url: "https://www.youtube.com/watch?v=i73C9dJUp3k",    year: "2006", genre:"Animation", keyword:"", stars:"3" },  
+  {name: "Peanut Butter Falcon", url: "https://www.youtube.com/watch?v=BaWrDr9t65E",    year: "2019", genre:"Drame", keyword:"", stars:"4" },  
+  {name: "Captain Fantastic", url: "https://www.youtube.com/watch?v=Bz4T31kc9Sw",    year: "2016", genre:"Aventure", keyword:"", stars:"4" },  
+  {name: "Jurassic Park", url: "https://www.youtube.com/watch?v=7HnBs__n_cA",    year: "1993", genre:"Science-fiction", keyword:"", stars:"4" },  
+  {name: "Jurassic Park 2", url: "https://www.youtube.com/watch?v=pz8d7ZHAc4w",    year: "1997", genre:"Science-fiction", keyword:"", stars:"3" },  
+  {name: "Jurassic Park 3", url: "https://www.youtube.com/watch?v=GtmJuXPr4-I",    year: "2001", genre:"Science-fiction", keyword:"", stars:"3" },  
+  {name: "Le fugitif", url: "https://www.youtube.com/watch?v=-OKQyIkUsXs",    year: "1993", genre:"Action", keyword:"", stars:"4" },  
+  {name: "Le Film de Tigrou", url: "https://www.youtube.com/watch?v=xOYLc8KqVxw",    year: "2000", genre:"Animation", keyword:"Disney", stars:"3" },  
+  {name: "La reine des neiges", url: "https://www.youtube.com/watch?v=Zh6OfduCP_E",    year: "2013", genre:"Animation", keyword:"Disney", stars:"4" },  
+  {name: "Jaws: Les dents de la mer", url: "https://www.youtube.com/watch?v=QSDqB7T8ItM",    year: "1975", genre:"Horreur", keyword:"", stars:"4" },  
+  {name: "We need to talk about Kevin", url: "https://www.youtube.com/watch?v=x1RzSDSpBzo",    year: "2011", genre:"Thriller", keyword:"", stars:"4" },  
+  {name: "Still Alice", url: "https://www.youtube.com/watch?v=oNyM0R1civc",    year: "2014", genre:"Drame", keyword:"", stars:"4" },  
+  {name: "Melancholia", url: "https://www.youtube.com/watch?v=xqHAciEENaI",    year: "2011", genre:"Science-fiction", keyword:"", stars:"3.5" },  
+  {name: "An American Tail", url: "https://www.youtube.com/watch?v=NT67Oz0u7lM",    year: "1986", genre:"Animation", keyword:"", stars:"3" },  
+  {name: "Wallace & Gromit: The curse of the were-rabbit", url: "https://www.youtube.com/watch?v=gidNiWx0Ak0",    year: "2005", genre:"Animation", keyword:"Aardman", stars:"3.5" },  
+  {name: "Hot Shots!", url: "https://www.youtube.com/watch?v=vlwByK3MguY",    year: "1991", genre:"Comédie", keyword:"", stars:"3" },  
+  {name: "Up", url: "https://www.youtube.com/watch?v=wTpsA1myfPw",    year: "2009", genre:"Animation", keyword:"Disney", stars:"4" },  
+  {name: "The Lego Movie", url: "https://www.youtube.com/watch?v=lVl6UxiDQQs",    year: "2014", genre:"Animation", keyword:"", stars:"4" },  
+  {name: "Jason Bourne", url: "https://www.youtube.com/watch?v=D-Ys_wNlaE4",    year: "2016", genre:"Action", keyword:"", stars:"3" },  
+  {name: "Ice Age", url: "https://www.youtube.com/watch?v=AW9b6unX_wo",    year: "2002", genre:"Animation", keyword:"", stars:"3.5" },  
+  {name: "Ghostbusters (2016)", url: "https://www.youtube.com/watch?v=RRxzVZWaGNA",    year: "2016", genre:"Comédie", keyword:"", stars:"3" },  
+  {name: "Big Hero 6", url: "https://www.youtube.com/watch?v=-AWpph_Rvoo",    year: "2014", genre:"Animation", keyword:"Disney", stars:"4" },  
+  {name: "Fun with Dick and Jane", url: "https://www.youtube.com/watch?v=V0OEC9rG6Jg",    year: "2005", genre:"Comédie", keyword:"", stars:"3" },  
+  
+
+
+
+
+
+
+
+
+
+
   ];
 
 
@@ -292,7 +334,7 @@ userList.sort('name', { order: "asc" });
 var filterJeunesse = document.getElementById("filter-jeunesse");
 var filterComedie = document.getElementById("filter-comedie");
 var filterAction = document.getElementById("filter-action");
-var filterPixar = document.getElementById("filter-pixar");
+var filterDisney = document.getElementById("filter-disney");
 
 var removeFiltersButton = document.getElementById("removeFilters");
 
@@ -301,7 +343,7 @@ var removeFiltersButton = document.getElementById("removeFilters");
 filterJeunesse.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Animation") {return true;} else {return false;}});});
 filterComedie.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Comédie") {return true;} else {return false;}});});
 filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
-filterPixar.addEventListener("click", function() {userList.filter(function(item) {if (item.values().keyword == "Pixar") {return true;} else {return false;}});});
+filterDisney.addEventListener("click", function() {userList.filter(function(item) {if (item.values().keyword == "Disney") {return true;} else {return false;}});});
 
 
 removeFiltersButton.addEventListener("click", function() {userList.filter();});
