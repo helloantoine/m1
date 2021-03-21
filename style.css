@@ -27,6 +27,13 @@ input[type="radio"]:checked {color:#0f0; }
 #navigation {  background-color: #130f0f; position: fixed; height: 2em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 0.9; backdrop-filter: blur(10px);} 
 .list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;     margin-bottom: 100px;;}
 .pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: var(--stepvert); background-color: #130f0f;}
+.star{background-image: url('./stars.svg');  background-repeat: no-repeat; background-position: 0px -67px;  height:14px;     margin-bottom: 4px;}
+.star-one {  background-position: 0px -67px; }
+.star-two { background-position: 0px -50px;}
+.star-three { background-position: 0px -33px;}
+.star-four { background-position: 0px -17px; }
+.star-five { background-position: 0px 0px; }
+
 
 
 /* Large devices (laptops/desktops, 992px and up)
