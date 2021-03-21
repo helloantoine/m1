@@ -380,6 +380,8 @@ var filterComedie = document.getElementById("filter-comedie");
 var filterAction = document.getElementById("filter-action");
 var filterDisney = document.getElementById("filter-disney");
 var filterDocumentaire = document.getElementById("filter-documentaire");
+var filterDrame = document.getElementById("filter-drame");
+
 var removeFiltersButton = document.getElementById("removeFilters");
 
 
@@ -389,6 +391,7 @@ filterComedie.addEventListener("click", function() {userList.filter(function(ite
 filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
 filterDisney.addEventListener("click", function() {userList.filter(function(item) {if (item.values().keyword == "Disney") {return true;} else {return false;}});});
 filterDocumentaire.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Documentaire") {return true;} else {return false;}});});
+filterDrame.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Drame") {return true;} else {return false;}});});
 
 
 removeFiltersButton.addEventListener("click", function() {userList.filter();});
