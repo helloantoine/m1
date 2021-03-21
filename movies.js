@@ -355,12 +355,12 @@ const showMovies = () => {
       return `<li class="fade-in movie" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
         <a href="${url}" >
           <div class="poster"  style="background-position: ${xPos}px ${yPos}px;"></div>
-          <h3 class="name">${name}</h3>
+          <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
           <h4 class="year">${year}</h4>
           
-          </a>
+          
       </li>`
     }
   };
