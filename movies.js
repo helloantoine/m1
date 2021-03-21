@@ -324,10 +324,21 @@ const movies = [
    {name: "Once upon a time in the West", url: "https://www.youtube.com/watch?v=euia5cbhYxo",    year: "1968", genre:"Western", keyword:"", stars:"star-four" },  
    {name: "Wall E", url: "https://www.youtube.com/watch?v=TbT3P_bsgcg",    year: "2008", genre:"Animation", keyword:"Disney", stars:"star-four" },  
    {name: "Ratatouille", url: "https://www.youtube.com/watch?v=BOzQaDg01ZY",    year: "2007", genre:"Animation", keyword:"Disney", stars:"star-four" },  
+   {name: "March of the Penguins", url: "https://www.youtube.com/watch?v=dnq3NAe7G3o",    year: "2005", genre:"Documentaire", keyword:"", stars:"star-four" },  
+   {name: "Inside Job", url: "https://www.youtube.com/watch?v=T7WY8BZZiQc",    year: "2010", genre:"Documentaire", keyword:"", stars:"star-four" },  
+   {name: "The Lion King", url: "https://www.youtube.com/watch?v=1BVuxUVnP6s",    year: "1994", genre:"Animation", keyword:"Disney", stars:"star-four" },  
+   {name: "Catch me if you can", url: "https://www.youtube.com/watch?v=p1Fbf358i7I",    year: "2002", genre:"Drame", keyword:"", stars:"star-four" },  
+   {name: "Psycho", url: "https://www.youtube.com/watch?v=tUXuDjf9gPo",    year: "1960", genre:"Horreur", keyword:"", stars:"star-four" },  
+   {name: "Little Miss Sunshine", url: "https://www.youtube.com/watch?v=MOv-XZtQyGY",    year: "2006", genre:"Comédie", keyword:"", stars:"star-four" },  
+   {name: "The Tango Lession", url: "https://www.youtube.com/watch?v=Hdh2aDuq2l4",    year: "1997", genre:"Drame", keyword:"", stars:"star-three" },  
+   {name: "Amour", url: "https://www.youtube.com/watch?v=Qy9FDeR-2Y8",    year: "2012", genre:"Drame", keyword:"", stars:"star-four" },  
+   {name: "The SpongeBob SquarePants Movie", url: "https://www.youtube.com/watch?v=iguu0lAaXF8",    year: "2004", genre:"Animation", keyword:"", stars:"star-three" },  
 
 
 
+   
 
+   
   ];
   
   
