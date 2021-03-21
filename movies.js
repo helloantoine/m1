@@ -80,10 +80,10 @@ const movies = [
   {name: "Nikita", url: "nikita/h/96172_40099",    year: "1990", genre:"Suspense", keyword:"",stars:"star-four"  },
   {name: "Le grand bleu", url: "le-grand-bleu-version-longue/h/15199135_40099",    year: "1988", genre:"Aventure", keyword:"",stars:"star-four"  },
   {name: "Léon", url: "leon/h/437617_40099",    year: "1994", genre:"Suspense", keyword:"",stars:"star-four"  },
-  {name: "Hook ou la revanche du capitaine Crochet", url: "hook-ou-la-revanche-du-capitaine-crochet/h/1060663_40099",    year: "1991", genre:"Fantastique", keyword:"", stars:"3" },
-  {name: "Etre et avoir", url: "etre-et-avoir/h/437915_40099",    year: "2002", genre:"Documentaire", keyword:"", stars:"4" },
-  {name: "Kirikou et la sorcière", url: "kirikou-et-la-sorciere/h/569183_40099",    year: "1998", genre:"Animation", keyword:"", stars:"4" },
-  {name: "Joker", url: "joker/h/12513133_40099",    year: "2019", genre:"Suspense", keyword:"", stars:"4" },
+  {name: "Hook ou la revanche du capitaine Crochet", url: "hook-ou-la-revanche-du-capitaine-crochet/h/1060663_40099",    year: "1991", genre:"Fantastique", keyword:"", stars:"star-three" },
+  {name: "Etre et avoir", url: "etre-et-avoir/h/437915_40099",    year: "2002", genre:"Documentaire", keyword:"", stars:"star-four" },
+  {name: "Kirikou et la sorcière", url: "kirikou-et-la-sorciere/h/569183_40099",    year: "1998", genre:"Animation", keyword:"", stars:"star-four" },
+  {name: "Joker", url: "joker/h/12513133_40099",    year: "2019", genre:"Suspense", keyword:"", stars:"star-four" },
   {name: "La mule", url: "la-mule/h/10939764_40099",    year: "2018", genre:"Drame", keyword:"", stars:"" },
   {name: "Le grand bain", url: "le-grand-bain/h/10445994_40099",    year: "2018", genre:"Comédie dramatique", keyword:"", stars:"" },
   {name: "Ready Player One", url: "ready-player-one/h/9716666_40099",    year: "2018", genre:"Science-fiction", keyword:"", stars:"" },
@@ -322,7 +322,7 @@ const showMovies = () => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
-      return `<li>
+      return `<li class="fade-in" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
         <a href="https://vod.canalplus.com/cinema/${url}" >
           <div class="pi"  style="background-position: ${xPos}px ${yPos}px;"></div>
           <h3 class="name">${name}</h3>
@@ -337,7 +337,7 @@ const showMovies = () => {
 const userList = new List('collection', options);
 const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
-userList.sort('genre', { order: "asc" });
+
 
 var filterJeunesse = document.getElementById("filter-jeunesse");
 var filterComedie = document.getElementById("filter-comedie");
@@ -362,6 +362,7 @@ removeFiltersButton.addEventListener("click", function() {userList.filter();});
 
 
   document.addEventListener("DOMContentLoaded", showMovies);
+
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {

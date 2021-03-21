@@ -1,5 +1,5 @@
 :root {--step: 111px;   --stepvert: 166px; --marge: 7px; }
-body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif; font-size:1em;}
+body{background-color: #010101; margin: 0;touch-action: pan-y; font-family:sans-serif; font-size:1em; }
 
 h2 {  font-family:sans-serif;}
 h3 {  font-size: 0.9em;  margin:16px 0 0.3rem;  font-weight: normal;}
@@ -25,18 +25,35 @@ input[type="radio"]:checked {color:#0f0; }
 #navigation a {background-color: #483f3f;  margin: 4px; padding: 8px; border-radius: 32px; }
 
 #navigation {  background-color: #130f0f; position: fixed; height: 2em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 0.9; backdrop-filter: blur(10px);} 
-.list {  display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;     margin-bottom: 100px;;}
-.pi {  background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: var(--stepvert); background-color: #130f0f;}
-.star{background-image: url('./stars.svg');  background-repeat: no-repeat; background-position: 0px -67px;  height:14px;     margin-bottom: 4px;}
-.star-one {  background-position: 0px -67px; }
-.star-two { background-position: 0px -50px;}
-.star-three { background-position: 0px -33px;}
-.star-four { background-position: 0px -17px; }
+.list {display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;     margin-bottom: 100px;;}
+.pi {   background-image: url('./pi-mini.png');  background-repeat: no-repeat;  height: var(--stepvert); background-color: #130f0f;}
+.star{background-image: url('./stars.svg');  background-repeat: no-repeat; background-position: 0px -58px;  height:14px;     margin-bottom: 4px;}
+.star-one {  background-position: 0px -58px; }
+.star-two { background-position: 0px -44px;}
+.star-three { background-position: 0px -28px;}
+.star-four { background-position: 0px -14px; }
 .star-five { background-position: 0px 0px; }
-
 
 
 /* Large devices (laptops/desktops, 992px and up)
 @media only screen and (min-width: 992px) {
   #navigation {  width: 320px;    height: 100%;    display: block;    top: 0px;    right: 0px;}
 }  */
+
+
+@-webkit-keyframes fadeIn { from {transform-origin: bottom right; opacity:0; transform: rotate3d(1, 0, 1, 2deg);  } to {opacity:1; transform: rotate3d(1, 0, 1, 0deg); }}
+@keyframes fadeIn { from {transform-origin: bottom right; opacity:0; transform: rotate3d(1, 0, 1, 2deg);  } to {opacity:1; transform: rotate3d(1, 0, 1, 0deg);  }}
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+   animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.5s;
+   animation-duration:0.5s;
+
+}
+
