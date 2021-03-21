@@ -2,7 +2,7 @@ const container = document.querySelector(".list");
 const movies = [
   {name: "Felicità",    url: "https://vod.canalplus.com/cinema/felicita/h/14283213_40099",    year: "2020", genre:"Comédie", keyword:"",stars:"star-three"  },
   {name: "Yakari, la grande aventure",   url: "https://vod.canalplus.com/cinema/yakari-la-grande-aventure/h/14460003_40099",    year: "2020", genre:"Animation", keyword:"",stars:"star-three"  },
-  {name: "La vie très privée de monsieur Sim",   url: "https://vod.canalplus.com/cinema/la-vie-tres-privee-de-monsieur-sim/h/6031610_40099",    year: "2015", genre:"Comédie Dramatique", keyword:"",stars:"star-three"  },
+ {name: "La vie très privée de monsieur Sim",   url: "https://vod.canalplus.com/cinema/la-vie-tres-privee-de-monsieur-sim/h/6031610_40099",    year: "2015", genre:"Comédie Dramatique", keyword:"",stars:"star-three"  },
   {name: "Les acteurs",   url: "https://vod.canalplus.com/cinema/les-acteurs/h/310360_40099",    year: "2000", genre:"Comédie", keyword:"",stars:"star-three"  },
   {name: "Terra Willy, planète inconnue",   url: "https://vod.canalplus.com/cinema/terra-willy-planete-inconnue/h/11364255_40099",    year: "2019", genre:"Animation", keyword:"",stars:"star-three"  },
   {name: "La grande aventure Lego",  url: "https://vod.canalplus.com/cinema/la-grande-aventure-lego/h/3753674_40099",    year: "2014", genre:"Animation", keyword:"",stars:"star-four"  },
@@ -344,7 +344,6 @@ const movies = [
 
 
 
-   
 
    
   ];
@@ -358,9 +357,9 @@ const showMovies = () => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
-      return `<li class="fade-in" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
+      return `<li class="fade-in movie" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
         <a href="${url}" >
-          <div class="pi"  style="background-position: ${xPos}px ${yPos}px;"></div>
+          <div class="poster"  style="background-position: ${xPos}px ${yPos}px;"></div>
           <h3 class="name">${name}</h3>
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
