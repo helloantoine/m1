@@ -338,13 +338,8 @@ const movies = [
    {name: "Prometheus", url: "https://www.youtube.com/watch?v=IQNJC4gd2-Y",    year: "2012", genre:"Science-fiction", keyword:"", stars:"star-three" },  
    {name: "Monsters, Inc.", url: "https://www.youtube.com/watch?v=VXP1he4awKg",    year: "2001", genre:"Animation", keyword:"Disney", stars:"star-four" },  
    {name: "Home Alone", url: "https://movies.jason.codes/movie/771",    year: "1990", genre:"Comédie", keyword:"", stars:"star-four" },  
-
-
-
-
-
-
-
+   {name: "Anchorman: The Legend of Ron Burgundy", url: "https://www.youtube.com/watch?v=kZAaNP_xzWw",    year: "2004", genre:"Comédie", keyword:"", stars:"star-three" },  
+   {name: "Gandhi", url: "https://www.youtube.com/watch?v=a_xZaaSZez0",    year: "1982", genre:"Drame", keyword:"", stars:"star-four" },  
    
   ];
   
