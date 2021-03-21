@@ -333,6 +333,14 @@ const movies = [
    {name: "The Tango Lession", url: "https://www.youtube.com/watch?v=Hdh2aDuq2l4",    year: "1997", genre:"Drame", keyword:"", stars:"star-three" },  
    {name: "Amour", url: "https://www.youtube.com/watch?v=Qy9FDeR-2Y8",    year: "2012", genre:"Drame", keyword:"", stars:"star-four" },  
    {name: "The SpongeBob SquarePants Movie", url: "https://www.youtube.com/watch?v=iguu0lAaXF8",    year: "2004", genre:"Animation", keyword:"", stars:"star-three" },  
+   {name: "Up in the air", url: "https://www.youtube.com/watch?v=2k1LHoSHQJM",    year: "2009", genre:"Drame", keyword:"", stars:"star-three" },  
+   {name: "Indiana Jones and the Raiders of the Lost Ark", url: "https://www.youtube.com/watch?v=vR-GBt3u1_E",    year: "1981", genre:"Aventure", keyword:"", stars:"star-four" },  
+   {name: "Prometheus", url: "https://www.youtube.com/watch?v=IQNJC4gd2-Y",    year: "2012", genre:"Science-fiction", keyword:"", stars:"star-three" },  
+   {name: "Monsters, Inc.", url: "https://www.youtube.com/watch?v=VXP1he4awKg",    year: "2001", genre:"Animation", keyword:"Disney", stars:"star-four" },  
+   {name: "Home Alone", url: "https://movies.jason.codes/movie/771",    year: "1990", genre:"Comédie", keyword:"", stars:"star-four" },  
+
+
+
 
 
 
