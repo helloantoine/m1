@@ -368,14 +368,12 @@ const userList = new List('collection', options);
 const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
 
-
 var filterJeunesse = document.getElementById("filter-jeunesse");
 var filterComedie = document.getElementById("filter-comedie");
 var filterAction = document.getElementById("filter-action");
 var filterDisney = document.getElementById("filter-disney");
 var filterDocumentaire = document.getElementById("filter-documentaire");
 var filterDrame = document.getElementById("filter-drame");
-
 var removeFiltersButton = document.getElementById("removeFilters");
 
 
@@ -386,9 +384,9 @@ filterAction.addEventListener("click", function() {userList.filter(function(item
 filterDisney.addEventListener("click", function() {userList.filter(function(item) {if (item.values().keyword == "Disney") {return true;} else {return false;}});});
 filterDocumentaire.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Documentaire") {return true;} else {return false;}});});
 filterDrame.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Drame") {return true;} else {return false;}});});
-
-
 removeFiltersButton.addEventListener("click", function() {userList.filter();});
+
+
 
 };
 
@@ -405,3 +403,4 @@ removeFiltersButton.addEventListener("click", function() {userList.filter();});
         .catch(err => console.log("service worker not registered", err));
     });
   }
+

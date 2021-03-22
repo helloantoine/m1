@@ -5,6 +5,14 @@
 --bgpage: #010101;
 --txtpage: #ffffff;
 --txtpage: #ffffff;
+--white: #ffffff;
+--light: #f0eff3;
+--black: #000000;
+--dark-blue: #1f2029;
+--dark-light: #353746;
+--red: #da2c4d;
+--yellow: #f8ab37;
+--grey: #ecedf3;
 }
 
 body{color: var(--txtpage); background-color: var(--bgpage);  margin: 0 !important; touch-action: pan-y; font-family:sans-serif; font-size:1em; }
@@ -17,6 +25,8 @@ input[type="radio"] { opacity: 0;   cursor: pointer;  display: none;}
 
 label {margin: 1em; color:#ccc;  padding-left: 0.5em;padding-right: 0.5em;  }
 label:hover, label:active, input:hover+label, input:active+label {  color:#fff; cursor: pointer; padding-bottom: 0.7em !important;border-bottom: aquamarine 1px solid;}
+input:checked:parent {  color:#fff; cursor: pointer; padding-bottom: 0.7em !important;border-bottom: aquamarine 5px solid;}
+
 /*input{height: 42px ;  font-size: 1em; color: #ccc; background-color: #130f0f; } 
 input:focus {   }
 */
@@ -88,3 +98,27 @@ input:focus {   }
 
 }
 
+.navigation2 {  width:100%;  margin:0 auto;  overflow-x:auto;white-space:nowrap; display:block;}
+input[type="radio"] {
+    display:none;
+}
+label {
+  width:23%;
+  float:left;
+  text-align:center;
+  background:#ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color:#222222;
+  padding:0.5%;
+  margin:0.5%;
+  margin-bottom:30px;
+  cursor:pointer;
+}
+input[type="radio"][id="blue"]:checked + label {
+  background:#6666ff;
+}
+input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {  width:0;  height:0;  padding:0;  margin:0;  opacity:0;}
+input[type="radio"][id="red"]:checked + label {  background:#ff4466;}
+input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {  width:0;  height:0;  padding:0;  margin:0;  opacity:0;}
+input[type="radio"][id="green"]:checked + label {  background:#66dd99;}
+input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {  width:0;  height:0;  padding:0;  margin:0;  opacity:0;}
