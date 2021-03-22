@@ -35,7 +35,7 @@ input:focus {   }
 
 .navigation {  background-color:  var(--bgpage); position: fixed; height: 4em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 0.9;} 
 
-.Search{
+.search{
   width:100% ;height:49px; border:none;
   color: #00ff88;
   padding-left:3em;
@@ -48,7 +48,7 @@ input:focus {   }
   background-color:#130f0f;
   }
   
-  .Search::-webkit-search-cancel-button{
+  .search::-webkit-search-cancel-button{
       position:relative;
       right:20px;  
       -webkit-appearance: none;
