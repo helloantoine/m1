@@ -43,8 +43,8 @@ input:focus {   }
 .star-three { background-position: 0px -28px;}
 .star-four { background-position: 0px -14px; }
 .star-five { background-position: 0px 0px; }
-
 .navigation {  background-color:  var(--bgpage); position: fixed; height: 4em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 1;} 
+.actions{   background-color:  var(--bgpage);  display: block;    position: fixed;    right: 24px;    bottom: 3em; 	background-image: url("data:image/svg+xml,%3Csvg width='20' height='5' viewBox='0 0 20 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2.45455' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='9.99947' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='17.5463' cy='2.45455' r='2.45455' fill='white'/%3E%3C/svg%3E%0A"); height: 5px; width: 22px; background-repeat: no-repeat; }
 
 .search{
   width:100% ;height:49px; border:none;
@@ -204,7 +204,7 @@ input:focus {   }
 	background-color: transparent;
 }
 .checkbox-tools:not(:checked) + label:hover{
-	box-shadow: 0 2px 4px 0 #000000;
+	box-shadow: inset 0 -1px 4px 0 rgba(55, 140, 96, 0.311);
 }
 .checkbox-tools:checked + label::before,
 .checkbox-tools:not(:checked) + label::before{
@@ -215,8 +215,7 @@ input:focus {   }
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-/*	background-image: linear-gradient(0deg, #00feb1, #001d8c);*/
-background: radial-gradient(    at center left,    #00feb1 0%, #00191a 20%, rgb(0, 255, 153) 100%);
+background: radial-gradient(    at center left,    #00fecf 0%, #00121a 10%, rgb(0, 255, 213) 100%);
 background-position: 120px 100px; 
 background-size: 300px 200px; 
 	z-index: -1;
