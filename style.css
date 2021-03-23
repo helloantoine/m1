@@ -15,7 +15,7 @@
 --grey: #ecedf3;
 }
 
-body{color: var(--txtpage); background-color: var(--bgpage);  margin: 0 !important; touch-action: pan-y; font-family:sans-serif; font-size:1em; -webkit-tap-highlight-color: transparent;}
+body{color: var(--txtpage); background-color: var(--bgpage);  margin: 0 !important; touch-action: pan-y; font-family:sans-serif; font-size:16px; -webkit-tap-highlight-color: transparent;}
 h2 {  font-family:sans-serif;}
 h3 {  font-size: 0.9em;   font-weight: normal;}
 h4 {  font-size: 0.8em;  margin:0 0 0.3em;  font-weight: normal;  color: #80868b;}
