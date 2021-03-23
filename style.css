@@ -229,3 +229,8 @@ background-size: 300px 200px;
 	padding-bottom: 10px;
 }
 
+
+
+@media (max-width: 991px)
+body(-webkit-overflow-scrolling: auto;)
+*::-webkit-scrollbar { width: 0px;}
