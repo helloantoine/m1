@@ -279,7 +279,7 @@ const movies = [
   {name: "Jurassic Park 3", url: "https://www.youtube.com/watch?v=GtmJuXPr4-I",    year: "2001", genre:"Science-fiction", keyword:"", stars:"star-three" },  
   {name: "Le fugitif", url: "https://www.youtube.com/watch?v=-OKQyIkUsXs",    year: "1993", genre:"Action", keyword:"", stars:"star-four" },  
   {name: "Le Film de Tigrou", url: "https://www.youtube.com/watch?v=xOYLc8KqVxw",    year: "2000", genre:"Animation", keyword:"Disney", stars:"star-three" },  
-  {name: "La reine des neiges", url: "https://www.youtube.com/watch?v=Zh6OfduCP_E",    year: "2013", genre:"Animation", keyword:"Disney", stars:"star-four" },  
+  {name: "La reine des neiges", url: "https://vod.canalplus.com/cinema/la-reine-des-neiges/h/3370099_40099",    year: "2013", genre:"Animation", keyword:"Disney", stars:"star-four" },  
   {name: "Jaws: Les dents de la mer", url: "https://www.youtube.com/watch?v=QSDqB7T8ItM",    year: "1975", genre:"Horreur", keyword:"", stars:"star-four" },  
   {name: "We need to talk about Kevin", url: "https://www.youtube.com/watch?v=x1RzSDSpBzo",    year: "2011", genre:"Thriller", keyword:"", stars:"star-four" },  
   {name: "Still Alice", url: "https://www.youtube.com/watch?v=oNyM0R1civc",    year: "2014", genre:"Drame", keyword:"", stars:"star-four" },  
@@ -340,7 +340,15 @@ const movies = [
    {name: "Home Alone", url: "https://movies.jason.codes/movie/771",    year: "1990", genre:"Comédie", keyword:"", stars:"star-four" },  
    {name: "Anchorman: The Legend of Ron Burgundy", url: "https://www.youtube.com/watch?v=kZAaNP_xzWw",    year: "2004", genre:"Comédie", keyword:"", stars:"star-three" },  
    {name: "Gandhi", url: "https://www.youtube.com/watch?v=a_xZaaSZez0",    year: "1982", genre:"Drame", keyword:"", stars:"star-four" },  
-   
+   {name: "Mon voisin Totoro", url: "https://vod.canalplus.com/cinema/mon-voisin-totoro/h/6073547_40099",    year: "1988", genre:"Animation", keyword:"", stars:"star-four" },  
+   {name: "Madre", url: "https://vod.canalplus.com/cinema/madre/h/14327491_40099",    year: "2019", genre:"Drame", keyword:"", stars:"star-four" },  
+      {name: "Matrix Revolutions", url: "https://vod.canalplus.com/cinema/matrix-revolutions/h/113945_40099",    year: "2003", genre:"Science-fiction", keyword:"", stars:"star-four" },  
+      {name: "Matrix Reloaded", url: "https://vod.canalplus.com/cinema/matrix-reloaded/h/113987_40099",    year: "2003", genre:"Science-fiction", keyword:"", stars:"star-four" },  
+      {name: "Casablanca", url: "https://vod.canalplus.com/cinema/casablanca/h/2123457_40099",    year: "1942", genre:"Science-fiction", keyword:"", stars:"star-four" },  
+      {name: "Le Hobbit : la bataille des cinq armées", url: "https://vod.canalplus.com/cinema/le-hobbit-la-bataille-des-cinq-armees/h/5003910_40099",    year: "2014", genre:"Fantastique", keyword:"", stars:"star-four" },  
+      {name: "Beetlejuice", url: "https://vod.canalplus.com/cinema/beetlejuice/h/436396_40099",    year: "1988", genre:"Comédie", keyword:"", stars:"star-four" },  
+      {name: "2001, l'odyssée de l'espace", url: "https://vod.canalplus.com/cinema/2001-l-odyssee-de-l-espace/h/435026_40099",    year: "1968", genre:"Science-fiction", keyword:"", stars:"star-four" },  
+
   ];
   
   
