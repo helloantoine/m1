@@ -384,8 +384,6 @@ var filterDocumentaire = document.getElementById("filter-documentaire");
 var filterDrame = document.getElementById("filter-drame");
 var removeFiltersButton = document.getElementById("removeFilters");
 
-
-
 filterJeunesse.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Animation") {return true;} else {return false;}});});
 filterComedie.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Comédie") {return true;} else {return false;}});});
 filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
@@ -393,8 +391,6 @@ filterDisney.addEventListener("click", function() {userList.filter(function(item
 filterDocumentaire.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Documentaire") {return true;} else {return false;}});});
 filterDrame.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Drame") {return true;} else {return false;}});});
 removeFiltersButton.addEventListener("click", function() {userList.filter();});
-
-
 
 };
 

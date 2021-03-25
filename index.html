@@ -18,6 +18,9 @@
         <title>M</title>
     </head>
     <body>
+
+
+		
       <div id="collection">
 
 					<div class="navigation">
@@ -49,55 +52,33 @@
 						<label class="for-checkbox-tools" for="filter-drame">
 							Drame
 						</label>
-            <div class="actions"><div class="action-icon"></div><p></p> </div>
-					</div>
+
+						<div class="actions">
+							<a class="action-icon" href="#" onclick="mobileMenuOpen();"></a>
+														<ul id="gmDropdown" class="dropdown-content">
+								<li><a href="javascript:history.go(0)">Refresh</a></li>
+								<li>	<a href="https://router.asus.com/AICLOUD978923459/sample-mp4-file.mp4" >Action</a></li>
+								<li>	<a href="" >Action</a></li>
+							 </ul>
+						  </div>
+
+						</div>
   
-			<div class="overlay-menu">
-					<ul>
-				<li><a href="javascript:history.go(0)">Refresh</a></li>
-				<li>	<a href="https://router.asus.com/AICLOUD978923459/sample-mp4-file.mp4" >Action</a></li>
-				<li>	<a href="" >Action</a></li>
-			</ul>
-				</div>
-
-
-
         <div class="">
           <input id="search" class="search" name="search" type="search" placeholder="Search" />
         </div>
          
         <ul class="list" ></ul>         
-
         </ul>
-		<div class="overlay-trigger">
-			<button>Overlay #01</button>
-		  </div>
+
 		  
-		  <button class="overlay-close">Close Overlay</button>
-		  
-		  <div class="overlay overlay01"></div>
-			<div></div>
-			<div></div>
-			<div></div>
+
 		  </div>
       </div>
     </div>
 <script>	
-$(function() {
-		var $overlay = $('.overlay'),
-			$overlayTrigger = $('.overlay-trigger'),
-			$overlayClose = $('.overlay-close'),
-			openClass = 'is-open';
-		$overlayTrigger.on('click', function() {
-		  var num = ('0' + ($(this).index() + 1)).slice(-2);
-		  $('.overlay' + num).addClass(openClass);
-		  $overlayClose.addClass(openClass);
-		});
-	  
-		$overlayClose.on('click', function() {
-		  $overlayClose.removeClass(openClass);
-		  $overlay.removeClass(openClass);
-		});
-	  });
+function mobileMenuOpen() {
+    document.getElementById("gmDropdown").classList.toggle("show");
+}
 	  </script>	
 </body></html>

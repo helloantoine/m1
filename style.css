@@ -14,7 +14,7 @@
 --yellow: #f8ab37;
 --grey: #ecedf3;
 }
-
+* {box-sizing: border-box;}
 body{color: var(--txtpage); background-color: var(--bgpage);  margin: 0 !important; touch-action: pan-y; font-family:sans-serif; font-size:16px; -webkit-tap-highlight-color: transparent;}
 h2 {  font-family:sans-serif;}
 h3 {  font-size: 0.9em;   font-weight: normal;}
@@ -45,10 +45,36 @@ select:focus { font-size: 16px; }
 .star-four { background-position: 0px -14px; }
 .star-five { background-position: 0px 0px; }
 .navigation {  background-color:  var(--bgpage); position: fixed; height: 4em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 1;} 
-.actions{    display: block;    position: fixed;    right: 0px;    bottom: 0px; 	height: 3em; width: 48px;padding:16px; background: linear-gradient(-90deg, #010101 0%, #010101 72%, #01010100 100%);padding-top:32px !important;}
-.action-icon{display: block; background-position: right; background-image: url("data:image/svg+xml,%3Csvg width='20' height='5' viewBox='0 0 20 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2.45455' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='9.99947' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='17.5463' cy='2.45455' r='2.45455' fill='white'/%3E%3C/svg%3E%0A"); height: 5px; width: 22px; background-repeat: no-repeat; }
+.actions{    display: block;    position: fixed;    right: 0px;    bottom: 0px; 	height: 4em; width: 48px;padding:16px; background: linear-gradient(-90deg, #010101 0%, #010101 72%, #01010100 100%);padding-top:32px !important; padding-right: 48px;}
+.action-icon{display: block;  background-image: url("data:image/svg+xml,%3Csvg width='20' height='5' viewBox='0 0 20 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2.45455' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='9.99947' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='17.5463' cy='2.45455' r='2.45455' fill='white'/%3E%3C/svg%3E%0A"); height: 48px; width: 48px; background-repeat: no-repeat; }
 .overlay-menu{z-index:9999; width:120px; height:180px; display:block; position:fixed; right: 32px; bottom:32px; background-color: red; }
 .overlay-menu ul li {text-decoration:none; padding:16px;}
+
+  
+.dropdown-content {
+	display: none;
+		  position: fixed;
+		  right: 16px;
+		  bottom: 32px;;
+	overflow: hidden;
+	width: 120px;
+	list-style-type: none;
+	margin-top: 0;
+	padding-left: 0;
+	z-index:9999999;
+}
+.dropdown-content a {
+	color: White;
+	padding: 0.8rem 1rem;
+	text-decoration: none;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	z-index:9999999;
+	background-color: #353746;
+}
+.dropdown-content a:hover {background-color: #5c5f6f;}
+
+.show {display:block;}
 
 .search{
   width:100% ;height:49px; border:none;
@@ -75,12 +101,9 @@ select:focus { font-size: 16px; }
 
 
 
-
-.close-icon  {   background-image: url('./assets.svg');  background-repeat: no-repeat; background-position: 0px -98px;  height:32px; width:32px; }
-
 @media only screen and (min-width: 992px) {
   .navigation {  height:4em !important;}
-  li{margin-right: 2em;}
+
 } 
 
 
@@ -239,71 +262,3 @@ body(-webkit-overflow-scrolling: auto;)
 *::-webkit-scrollbar { width: 0px;}
 
 
-.overlay-trigger {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	max-width: 840px;
-	margin: 0 auto;
-	padding: 0 20px;
-  }
-  .overlay-trigger button {
-	display: block;
-	margin: 1em;
-	padding: 1em 2.5em;
-	background: #222;
-	border: 1px solid #222;
-	border-radius: 4px;
-	color: #fff;
-	font-size: 16px;
-	text-align: center;
-	cursor: pointer;
-	transition: .2s ease-in-out;
-  }
-  .overlay-trigger button:hover {
-	background: transparent;
-	color: #222;
-  }
-  .overlay-close {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	z-index: 10;
-	padding: 1em 2.5em;
-	background: #fff;
-	border: 1px solid #fff;
-	border-radius: 4px;
-	color: #222;
-	font-size: 16px;
-	text-align: center;
-	cursor: pointer;
-	opacity: 0;
-	visibility: hidden;
-	transition: .2s ease-in-out;
-	transform: translate(-50%, -50%);
-  }
-  .overlay-close.is-open {
-	opacity: 1;
-	visibility: visible;
-  }
-  .overlay-close:hover {
-	background: transparent;
-	color: #fff;
-  }
-  
-  .overlay01 {
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, .7);
-	opacity: 0;
-	visibility: hidden;
-	transition: .3s linear;
-  }
-  .overlay01.is-open {
-	opacity: 1;
-	visibility: visible;
-  }
