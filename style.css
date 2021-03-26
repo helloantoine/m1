@@ -20,7 +20,7 @@ h2 {  font-family:sans-serif;}
 h3 {  font-size: 0.9em;   font-weight: normal;}
 h4 {  font-size: 0.8em;  margin:0 0 0.3em;  font-weight: normal;  color: #80868b;}
 a{ color: var(--txtpage); text-decoration: none;}
-ul{list-style-type: none; padding:0;}
+ul{list-style-type: none; padding:0;margin:0;}
 ::marker {display: none; color:var(--bgpage);  }
 
 /*input[type="radio"] { opacity: 0;   cursor: pointer;  display: none;}
@@ -53,13 +53,14 @@ select:focus { font-size: 16px; }
 	display: none;
 		  position: fixed;
 		  right: 16px;
-		  bottom: 32px;;
+		  bottom: 5em;
 	overflow: hidden;
-	width: 120px;
+	width: fit-content;
 	list-style-type: none;
 	margin-top: 0;
 	padding-left: 0;
 	z-index:9999999;
+	box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.386);
 }
 
 .dropdown-content a {
