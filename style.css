@@ -47,8 +47,6 @@ select:focus { font-size: 16px; }
 .navigation {  background-color:  var(--bgpage); position: fixed; height: 4em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 1;} 
 .actions{    display: block;    position: fixed;    right: 0px;    bottom: 0px; 	height: 4em; width: 48px;padding:16px; background: linear-gradient(-90deg, #010101 0%, #010101 72%, #01010100 100%);padding-top:32px !important; padding-right: 48px;}
 .action-icon{display: block;  background-image: url("data:image/svg+xml,%3Csvg width='20' height='5' viewBox='0 0 20 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2.45455' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='9.99947' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='17.5463' cy='2.45455' r='2.45455' fill='white'/%3E%3C/svg%3E%0A"); height: 48px; width: 48px; background-repeat: no-repeat; }
-.overlay-menu{z-index:9999; width:120px; height:180px; display:block; position:fixed; right: 32px; bottom:32px; background-color: red; }
-.overlay-menu ul li {text-decoration:none; padding:16px;}
 
   
 .dropdown-content {
@@ -63,6 +61,7 @@ select:focus { font-size: 16px; }
 	padding-left: 0;
 	z-index:9999999;
 }
+
 .dropdown-content a {
 	color: White;
 	padding: 0.8rem 1rem;
