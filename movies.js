@@ -356,7 +356,7 @@ const rowWidth = 50 // how many images per row?
 const showMovies = () => {
   const options = {
     valueNames: [ 'name', 'year', 'genre', 'keyword', 'stars'  ],
-    item: ({ name, url, year, genre, keyword, stars, index }) => {
+    item: ({ name, url, year, genre, stars, index }) => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
