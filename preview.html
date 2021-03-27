@@ -18,36 +18,65 @@
         <title>M</title>
     </head>
     <body>
-        
+
 
 		
-<div id="preview">
-        <div class="preview-header">
-            <div class="preview-header-bg"></div>
-            <div class="preview-header-txt">
-                <h1 class="name">${name}</h1>
-                <h4 class="genre">${genre}</h4>
-                <p class="infos"><div class="star ${stars}"></div>${year}</p>
-            </div>
-            
-        </div>
-        <div class="preview-content" >
-                <h2>Storyline</h2>
-                <p>Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest....</p>
-                <button>Watch trailer</button>
-                <ul>  
-                        <li><a href="">Go to VOD platform</a></li>
-                        <li><a href="">Go to hard drive</a></li>
-                </ul>
-        </div>
-</div>
-<div class="preview-overlay" >
-</div>
+        <div id="collection">
+  
+          <div id="gmDropdown" class="dropdown-content">
+          <ul>
+              <li><a href="javascript:history.go(0)" >Refresh</a></li>
+              <li><a href="https://router.asus.com/AICLOUD978923459/sample-mp4-file.mp4" target="_blank">Sample movie</a></li>
+           </ul></div>
+  
+                      <div class="navigation">
+                          <input class="checkbox-tools" type="radio" name="tools" id="removeFilters" checked>
+                          <label class="for-checkbox-tools" for="removeFilters">
+                              All
+                          </label><!--
+                          --><input class="checkbox-tools" type="radio" name="tools" id="filter-jeunesse">
+                          <label class="for-checkbox-tools" for="filter-jeunesse">
+                              Animation
+                          </label><!--
+                          --><input class="checkbox-tools" type="radio" name="tools" id="filter-disney">
+                          <label class="for-checkbox-tools" for="filter-disney">
+                              Disney
+                          </label><!--
+                          --><input class="checkbox-tools" type="radio" name="tools" id="filter-comedie">
+                          <label class="for-checkbox-tools" for="filter-comedie">
+                              Comédie
+                          </label><!--
+                          --><input class="checkbox-tools" type="radio" name="tools" id="filter-action">
+                          <label class="for-checkbox-tools" for="filter-action">
+                              Action
+                          </label><!--
+                          --><input class="checkbox-tools" type="radio" name="tools" id="filter-documentaire">
+                          <label class="for-checkbox-tools" for="filter-documentaire">
+                              Documentaire
+                          </label><!--
+                          --><input class="checkbox-tools" type="radio" name="tools" id="filter-drame">
+                          <label class="for-checkbox-tools" for="filter-drame">
+                              Drame
+                          </label>
+                          <input class="checkbox-tools" type="radio" name="tools" id="">
+                          
+  
+                          <div class="actions">
+                              <a class="action-icon" href="#" onclick="mobileMenuOpen();"></a>
+                            </div>
+  
+                          </div>
     
-<script type="text/javascript">	
-function mobileMenuOpen() {
-    document.getElementById("gmDropdown").classList.toggle("show");
-}
-	  </script>	
-
-</body></html>
+          <div class="">
+            <input id="search" class="search" name="search" type="search" placeholder="Search" />
+          </div>
+           
+            
+  
+            </div>
+        </div>
+      </div>
+      <script type="text/javascript">			function mobileMenuOpen() {		document.getElementById("gmDropdown").classList.toggle("show");	}		</script>	
+      <script type="text/javascript">			function previewOpen() {		document.getElementById("gmPreview").classList.toggle("show");	}		</script>	
+  </body></html>
+  

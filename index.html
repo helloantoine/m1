@@ -18,29 +18,30 @@
         <title>M</title>
     </head>
     <body>
-		<div id="gmPreview" class="preview">
-			<div class="preview-header">
-				<div class="preview-header-bg"></div>
-				<div class="preview-header-txt">
+		
+		<div id="gmPreview" class="preview" style="display: none;">
+						<div class="video-wrap">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/k5KjHZ0Td-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			   </div>
+			   <div class="preview-content" >
+					<div class="preview-header-txt">
 					<h1 class="name">${name}</h1>
 					<h4 class="genre">${genre}</h4>
 					<p class="infos"><div class="star ${stars}"></div>${year}</p>
-				</div>
-				
-			</div>
-			<div class="preview-content" >
 					<h2>Storyline</h2>
 					<p>Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest....</p>
-					<button>Watch trailer</button>
+					<button onclick="previewOpen()">Watch trailer</button>
 					<ul>  
 							<li><a href="">Go to VOD platform</a></li>
 							<li><a href="">Go to hard drive</a></li>
 					</ul>
-			</div>
+			</div>	</div>
+			<div class="preview-overlay"><a href="#" onclick="previewOpen()"></a></div>
 	</div>
 
 		
       <div id="collection">
+		  
 		<div id="gmDropdown" class="dropdown-content">
 		<ul>
 			<li><a href="javascript:history.go(0)" >Refresh</a></li>
@@ -92,11 +93,19 @@
         <ul class="list" ></ul>         
         </ul>
 
-		  
 
 		  </div>
       </div>
     </div>
 	<script type="text/javascript">			function mobileMenuOpen() {		document.getElementById("gmDropdown").classList.toggle("show");	}		</script>	
-	<script type="text/javascript">			function previewOpen() {		document.getElementById("gmPreview").classList.toggle("show");	}		</script>	
+	<script type="text/javascript">		
+	function previewOpen() {
+		var x = document.getElementById("gmPreview");
+		if (x.style.display === "none") {
+		  x.style.display = "block";
+		} else {
+		  x.style.display = "none";
+		}
+	  }
+</script>	
 </body></html>

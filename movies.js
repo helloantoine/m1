@@ -361,7 +361,7 @@ const showMovies = () => {
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
       return `<li class="fade-in movie" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
-        <a href="${url}" >
+        <a href="#" onclick="previewOpen()" >
           <div class="poster"  style="background-position: ${xPos}px ${yPos}px;"></div>
           <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
