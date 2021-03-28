@@ -348,7 +348,13 @@ const movies = [
       {name: "Le Hobbit : la bataille des cinq armées", url: "https://vod.canalplus.com/cinema/le-hobbit-la-bataille-des-cinq-armees/h/5003910_40099",    year: "2014", genre:"Fantastique", keyword:"", stars:"star-four" },  
       {name: "Beetlejuice", url: "https://vod.canalplus.com/cinema/beetlejuice/h/436396_40099",    year: "1988", genre:"Comédie", keyword:"", stars:"star-four" },  
       {name: "2001, l'odyssée de l'espace", url: "https://vod.canalplus.com/cinema/2001-l-odyssee-de-l-espace/h/435026_40099",    year: "1968", genre:"Science-fiction", keyword:"", stars:"star-four" },  
+      {name: "Shaun le mouton, le film : la ferme contre-attaque", url: "https://vod.canalplus.com/cinema/shaun-le-mouton-le-film-la-ferme-contre-attaque/h/12556215_40099",    year: "2019", genre:"Animation", keyword:"", stars:"star-four" },  
+      {name: "Shaun le mouton, le film", url: "https://vod.canalplus.com/cinema/shaun-le-mouton/h/4878681_40099",    year: "2015", genre:"Animation", keyword:"", stars:"star-three" },  
 
+
+
+
+     
   ];
   
   
