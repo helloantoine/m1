@@ -14,6 +14,15 @@
 --yellow: #f8ab37;
 --grey: #ecedf3;
 }
+
+
+@-webkit-keyframes fadeInOnly { from {opacity:0; } to {opacity:1; }}
+@keyframes fadeInOnly { from {opacity:0;  } to {opacity:1;  }}
+
+@-webkit-keyframes menuIn { from {    bottom: -12em; } to {    bottom: 2em; }}
+@keyframes menuIn { from {    bottom: -12em; } to {    bottom: 2em; }}
+
+
 * {box-sizing: border-box;}
 body{color: var(--txtpage); background-color: var(--bgpage);  margin: 0 !important; touch-action: pan-y; font-family:sans-serif; font-size:16px; -webkit-tap-highlight-color: transparent;}
 h1 {  margin:0; padding:0;}
@@ -32,14 +41,14 @@ hr{display:none;margin-top:16px;}
 .list {display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;     margin-bottom: 100px;}
 .movie {width: var(--step);margin: var(--marge);}
 .poster {   background-image: url('./poster-map.png');  background-repeat: no-repeat;  height: var(--stepvert); background-color: #130f0f;}
-.poster:hover { outline: 1px solid rgb(36, 34, 34);  outline-offset: 2px;}
+.poster:hover { outline: 1px solid #00c387;  outline-offset: 2px;}
 .star{background-image: url('./assets.svg');  background-repeat: no-repeat; background-position: 0px -58px;  height:14px;     margin-bottom: 4px;}
 .star-one {  background-position: 0px -58px; }
 .star-two { background-position: 0px -44px;}
 .star-three { background-position: 0px -28px;}
 .star-four { background-position: 0px -14px; }
 .star-five { background-position: 0px 0px; }
-.navigation {    z-index: 99999999;  background-color:  var(--bgpage); position: fixed; height: 6em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 1;} 
+.navigation {  	 z-index: 99999999;  background-color:  var(--bgpage); position: fixed; height: 6em;   padding: 16px;  overflow-x:auto;white-space:nowrap; display:block; z-index:99;  width:100%; bottom:0px; opacity: 1;} 
 .actions{    display: block;    position: fixed;    right: 0px;    bottom: 0px; 	height: 6em; width: 48px;padding:16px; background: linear-gradient(-90deg, #010101 0%, #010101 72%, #01010100 100%);padding-top:32px !important; padding-right: 48px;}
 .action-icon{display: block;  background-image: url("data:image/svg+xml,%3Csvg width='20' height='5' viewBox='0 0 20 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2.45455' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='9.99947' cy='2.45455' r='2.45455' fill='white'/%3E%3Ccircle cx='17.5463' cy='2.45455' r='2.45455' fill='white'/%3E%3C/svg%3E%0A"); height: 48px; width: 48px; background-repeat: no-repeat; }
 .spacer {    display: inline-block;    width: 30px;}
@@ -52,7 +61,7 @@ hr{display:none;margin-top:16px;}
 .dropdown-content button  {display: block; height: 54px;width: 100%; background-color: #353746; color: #fff; text-align:left;  margin-top: 16px; padding: 16px; border-radius: 8px; border: 0; font-size: 16px;}
 .dropdown-content button:hover  {background-color: #5c5f6f; cursor: pointer;}
 
-
+#menu {	animation: menuIn ease 0.5s; }
 
 .show {display:block; }
 .search{  width:100% ;height:49px; border:none;  color: #00ff88;  padding-left:3em;  padding-top:1px;  color:rgb(0, 255, 157);  background-image: url("data:image/svg+xml,%3Csvg width='21' height='20' viewBox='0 0 21 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.1 16.8875C13.5735 16.8875 17.2 13.261 17.2 8.7875C17.2 4.31399 13.5735 0.6875 9.1 0.6875C4.62649 0.6875 1 4.31399 1 8.7875C1 13.261 4.62649 16.8875 9.1 16.8875Z' stroke='%23797171' stroke-width='0.8' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M19.9 19.5875L14.8267 14.5142' stroke='%23797171' stroke-width='0.8' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A"); background-repeat: no-repeat;  background-position:left;  background-position-x: 1em;  outline:0;  background-color:#130f0f;  }
@@ -63,11 +72,6 @@ hr{display:none;margin-top:16px;}
   .navigation {  height:4em !important; overflow: hidden;}
   .actions{  height:4em !important;}
 } 
-
-@-webkit-keyframes fadeInOnly { from {opacity:0; } to {opacity:1; }}
-@keyframes fadeInOnly { from {opacity:0;  } to {opacity:1;  }}
-
-
 
 
 .background-color{
