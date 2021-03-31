@@ -42,11 +42,13 @@
 		
       <div id="collection">
 		  
-		<div id="gmDropdown" class="dropdown-content">
-		<ul>
-			<li><a href="javascript:history.go(0)" >Refresh</a></li>
-			<li><a href="https://router.asus.com/AICLOUD978923459/sample-mp4-file.mp4" target="_blank">Sample movie</a></li>
-		 </ul></div>
+		<div id="menu" class="dropdown-content">
+<a href="javascript:history.go(0)" >Refresh</a>
+			<a href="https://router.asus.com/AICLOUD978923459/sample-mp4-file.mp4" target="_blank">Sample movie</a>
+			<hr>
+			<button onclick="previewMenu()" >Close</button>
+			
+		</div>
 
 					<div class="navigation">
 						<input class="checkbox-tools" type="radio" name="tools" id="removeFilters" checked>
@@ -83,7 +85,7 @@
 						
 
 						<div class="actions">
-							<a class="action-icon" href="#" onclick="mobileMenuOpen();"></a>
+							<a class="action-icon" href="#" onclick="previewMenu();"></a>
 						  </div>
 
 						</div>
@@ -99,15 +101,7 @@
 		  </div>
       </div>
     </div>
-	<script type="text/javascript">			function mobileMenuOpen() {		document.getElementById("gmDropdown").classList.toggle("show");	}		</script>	
-	<script type="text/javascript">		
-	function previewOpen() {
-		var x = document.getElementById("preview");
-		if (x.style.display === "none") {
-		  x.style.display = "block";
-		} else {
-		  x.style.display = "none";
-		}
-	  }
-</script>	
+	<script type="text/javascript">		function previewOpen() {		var x = document.getElementById("preview");		if (x.style.display === "none") {	  x.style.display = "block";	} else {  x.style.display = "none";	}	  }</script>	
+	<script type="text/javascript">		function previewMenu() {		var x = document.getElementById("menu");		if (x.style.display === "none") {	  x.style.display = "block";	} else {  x.style.display = "none";	}	  }</script>	
+	
 </body></html>
