@@ -382,6 +382,9 @@ const userList = new List('collection', options);
 const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
 
+userList.sort('name', { order: "asc" });
+
+
 var filterJeunesse = document.getElementById("filter-jeunesse");
 var filterComedie = document.getElementById("filter-comedie");
 var filterAction = document.getElementById("filter-action");
