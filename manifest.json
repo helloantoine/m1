@@ -6,6 +6,14 @@
   "background_color": "#fdfdfd",
   "theme_color": "#db4938",
   "orientation": "portrait-primary",
+  "version": "0.2",
+  "description": "Movies",
+  "browser_action": {
+    "default_popup": "embedder.html",
+    "default_title": "Movies",
+    "default_icon": {"128": "i128.png", "32": "i32.png", "16": "i16.png"}
+  },
+  "manifest_version": 2,
   "icons": [
     {
       "src": "/ic/icon-96x96.png",

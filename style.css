@@ -55,10 +55,10 @@ hr{display:none;margin-top:16px;}
   
 .dropdown-content {	display: none;  position: fixed; right:16px; bottom: 2em;	overflow: hidden;	width:     calc(100% - 16px); max-width: 344px;	list-style-type: none;	margin-top: 0;	padding-left: 0;	z-index:9999999;	box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.386);}
 .dropdown-content a {	color: White;	padding: 1rem 1rem;	text-decoration: none;	display: block;	font-family: 'Open Sans', sans-serif;	z-index:9999999;	background-color: #353746;	border-bottom: #272727 1px solid;}
-.dropdown-content a:hover {background-color: #5c5f6f;}
+.dropdown-content a:hover {background-color: #5c5f6f; cursor:pointer;}
 .dropdown-content a:first-child  {border-radius: 8px 8px 0 0;}
-.dropdown-content a:nth-child(2) {border-radius: 0 0 8px 8px ;}
-.dropdown-content button  {display: block; height: 54px;width: 100%; background-color: #353746; color: #fff; text-align:left;  margin-top: 16px; padding: 16px; border-radius: 8px; border: 0; font-size: 16px;}
+.dropdown-content a:nth-child(3) {border-radius: 0 0 8px 8px ;}
+.dropdown-content button  {display: block; height: 54px;width: 100%; background-color: #25262f;color: #fff; text-align:left;  margin-top: 16px; padding: 16px; border-radius: 8px; border: 0; font-size: 16px;     text-align: center !important;}
 .dropdown-content button:hover  {background-color: #5c5f6f; cursor: pointer;}
 
 #menu {	animation: menuIn ease 0.5s; }
