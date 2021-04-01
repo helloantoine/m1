@@ -8,12 +8,11 @@
   "orientation": "portrait-primary",
   "version": "0.2",
   "description": "Movies",
+  "manifest_version": 2,
   "browser_action": {
     "default_popup": "embedder.html",
     "default_title": "Movies",
-    "default_icon": {"128": "i128.png", "32": "i32.png", "16": "i16.png"}
-  },
-  "manifest_version": 2,
+    "default_icon": {"16": "/ic/i16.png","32": "/ic/i32.png","48": "/ic/i48.png","128": "/ic/i128.png"},
   "icons": [
     {
       "src": "/ic/icon-96x96.png",
@@ -51,4 +50,5 @@
       "sizes": "512x512"
     }
   ]
+}
 }
