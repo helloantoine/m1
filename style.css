@@ -39,7 +39,7 @@ select:focus { font-size: 16px; }
 hr{display:none;margin-top:16px;}
 
 .list {display: flex;   flex-wrap: wrap;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;     margin-bottom: 100px;}
-.movie {width: var(--step);margin: var(--marge);}
+.movie {width: var(--step);margin: var(--marge);  }
 .poster {   background-image: url('./poster-map.png');  background-repeat: no-repeat;  height: var(--stepvert); background-color: #130f0f;}
 .poster:hover { outline: 1px solid #00c387;  outline-offset: 2px;}
 .star{background-image: url('./assets.svg');  background-repeat: no-repeat; background-position: 0px -58px;  height:14px;     margin-bottom: 4px;}
@@ -188,7 +188,7 @@ hr{display:none;margin-top:16px;}
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-background: radial-gradient(    at center left,    #00fecf 0%, #00121a 10%, rgb(0, 255, 213) 100%);
+background: radial-gradient(    at top center,    #00fecf 0%, #00121a 10%, rgb(0, 255, 213) 100%);
 background-position: 120px 100px; 
 background-size: 300px 200px; 
 	z-index: -1;
