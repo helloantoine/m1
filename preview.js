@@ -373,9 +373,9 @@ const showMovies = () => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
-      return `<li class="fade-in movie" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
+      return `<li  >
         <a href="${url}"  >
-          <div class="poster"  style="background-position: ${xPos}px ${yPos}px; z-index:0;"></div>
+        <img src="bg/${index}.jpg" style="width: 920px;">
           <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
