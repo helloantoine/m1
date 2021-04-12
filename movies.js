@@ -381,7 +381,7 @@ const showMovies = () => {
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
           <h4 class="year">${year}</h4>
-          
+          <h4 class="index">${index}</h4>
           
       </li>`
     }

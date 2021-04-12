@@ -355,15 +355,15 @@ const movies = [
       {name: "Youth", url: "https://vod.canalplus.com/cinema/youth/h/5545650_40099",    year: "2015", genre:"Drame", lang:"En", keyword:"", stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },  
       {name: "Lost in translation", url: "https://vod.canalplus.com/cinema/irreversible-inversion-integrale/h/14544567_40099",    year: "2003", genre:"Drame", lang:"En", keyword:"", stars:"star-four",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },  
       {name: "Irréversible", url: "https://vod.canalplus.com/cinema/irreversible-inversion-integrale/h/14544567_40099",    year: "2002", genre:"Drame", lang:"En", keyword:"", stars:"star-four",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },  
-       {name: "Menteur menteur", url: "https://vod.canalplus.com/cinema/menteur-menteur/h/478135_40099",    year: "21997000", genre:"Comédie", lang:"En", keyword:"", stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },  
+       {name: "Menteur menteur", url: "https://vod.canalplus.com/cinema/menteur-menteur/h/478135_40099",    year: "1997", genre:"Comédie", lang:"En", keyword:"", stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },  
+       {name: "Sur le fil de Darwin : la dernière terre inconnue", url: "https://vod.canalplus.com/cinema/sur-le-fil-de-darwin-la-derniere-terre-inconnue/h/6038811_40099",    year: "2013", genre:"Documentaire", lang:"Fr", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
+       {name: "Wasabi", url: "https://vod.canalplus.com/cinema/wasabi/h/3147781_40099",    year: "2001", genre:"Comédie", lang:"Fr", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
+       {name: "Gangs of New York", url: "https://vod.canalplus.com/cinema/gangs-of-new-york/h/1489346_40099",    year: "2002", genre:"Drame", lang:"En", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
+       {name: "Astérix : le secret de la potion magique", url: "https://vod.canalplus.com/cinema/asterix-le-secret-de-la-potion-magique/h/10673480_40099",    year: "2018", genre:"Animation", lang:"En", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
+       {name: "Inséparables", url: "https://vod.canalplus.com/cinema/inseparables/h/12298110_40099",    year: "2019", genre:"Comédie", lang:"Fr", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
    
-
-
-
-
      
   ];
-  
   
 const rowWidth = 50 // how many images per row?
 const showMovies = () => {
@@ -380,7 +380,7 @@ const showMovies = () => {
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
           <h4 class="year">${year}</h4>
-          
+          <h4 class="year">${index}</h4>
           
       </li>`
     }
