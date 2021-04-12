@@ -362,9 +362,6 @@ const movies = [
        {name: "Astérix : le secret de la potion magique", url: "https://vod.canalplus.com/cinema/asterix-le-secret-de-la-potion-magique/h/10673480_40099",    year: "2018", genre:"Animation", lang:"En", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
        {name: "Inséparables", url: "https://vod.canalplus.com/cinema/inseparables/h/12298110_40099",    year: "2019", genre:"Comédie", lang:"Fr", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
    
-
-
-
      
   ];
   
