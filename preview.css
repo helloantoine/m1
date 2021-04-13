@@ -38,7 +38,7 @@ input:focus{ font-size: 16px; }
 select:focus { font-size: 16px; } 
 hr{display:none;margin-top:16px;}
 
-.list {display: inline-flex;   overflow-x: scroll;	overflow-y: hidden;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;     margin-bottom: 100px;}
+.list {display: inline-flex;  	overflow-y: hidden;  font-family:sans-serif;  margin:0;  padding: 16px 0 0;  margin-top:8px;     margin-bottom: 100px;}
 .movie {width: var(--step);margin: var(--marge);  }
 .poster {   background-image: url('./poster-map.png');  background-repeat: no-repeat;  height: var(--stepvert); background-color: #130f0f;}
 .poster:hover { outline: 1px solid #00c387;  outline-offset: 2px;}
