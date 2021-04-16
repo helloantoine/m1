@@ -1,4 +1,4 @@
-const container = document.querySelector(".list");
+const container = document.querySelector(".splide__list");
 const movies = [
   {name: "Felicità",    url: "https://vod.canalplus.com/cinema/felicita/h/14283213_40099",    year: "2020", genre:"Comédie", lang:"En", keyword:"",stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },
   {name: "Yakari, la grande aventure",   url: "https://vod.canalplus.com/cinema/yakari-la-grande-aventure/h/14460003_40099",    year: "2020", genre:"Animation", lang:"En", keyword:"",stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },
@@ -361,6 +361,7 @@ const movies = [
        {name: "Gangs of New York", url: "https://vod.canalplus.com/cinema/gangs-of-new-york/h/1489346_40099",    year: "2002", genre:"Drame", lang:"En", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
        {name: "Astérix : le secret de la potion magique", url: "https://vod.canalplus.com/cinema/asterix-le-secret-de-la-potion-magique/h/10673480_40099",    year: "2018", genre:"Animation", lang:"En", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
        {name: "Inséparables", url: "https://vod.canalplus.com/cinema/inseparables/h/12298110_40099",    year: "2019", genre:"Comédie", lang:"Fr", keyword:"", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
+       {name: "Planes", url: "https://vod.canalplus.com/cinema/planes/h/3126180_40099",    year: "2013", genre:"Animation", lang:"En", keyword:"Disney", stars:"star-three",storyline:"Lors de la cueillette du gui, le druide Panoramix se blesse la cheville. Il réalise alors qu'il est temps de transmettre son savoir à un druide plus jeune. Il veut donner la recette de la potion magique à l'heureux élu. Avec Astérix et Obélix, il se met en quête de la perle rare dans toute la Gaule..." },  
    
      
   ];
@@ -373,7 +374,7 @@ const showMovies = () => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
-      return `<li  >
+      return `<li  class="splide__slide">
         <a href="${url}"  >
         <img src="bg/${index}.jpg" style="width: 920px;">
         <div class="poster"  style="width: 111px; background-position: ${xPos}px ${yPos}px; z-index:0;"></div>
