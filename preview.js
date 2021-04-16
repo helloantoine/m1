@@ -376,6 +376,7 @@ const showMovies = () => {
       return `<li  >
         <a href="${url}"  >
         <img src="bg/${index}.jpg" style="width: 920px;">
+        <div class="poster"  style="width: 111px; background-position: ${xPos}px ${yPos}px; z-index:0;"></div>
           <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
