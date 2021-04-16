@@ -1,4 +1,4 @@
-const container = document.querySelector(".list");
+const container = document.querySelector(".listaa");
 const movies = [
   {name: "Felicità",    url: "https://vod.canalplus.com/cinema/felicita/h/14283213_40099",    year: "2020", genre:"Comédie", lang:"En", keyword:"",stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },
   {name: "Yakari, la grande aventure",   url: "https://vod.canalplus.com/cinema/yakari-la-grande-aventure/h/14460003_40099",    year: "2020", genre:"Animation", lang:"En", keyword:"",stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },
@@ -418,7 +418,7 @@ removeFiltersButton.addEventListener("click", function() {userList.filter();});
 
 
   document.addEventListener("DOMContentLoaded", showMovies);
-
+  document.addEventListener( 'DOMContentLoaded', function () { new Splide( '.splide' ).mount();  } );
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {

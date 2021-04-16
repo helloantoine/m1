@@ -1,4 +1,4 @@
-const container = document.querySelector(".splide__list");
+const container = document.querySelector(".list");
 const movies = [
   {name: "Felicità",    url: "https://vod.canalplus.com/cinema/felicita/h/14283213_40099",    year: "2020", genre:"Comédie", lang:"En", keyword:"",stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },
   {name: "Yakari, la grande aventure",   url: "https://vod.canalplus.com/cinema/yakari-la-grande-aventure/h/14460003_40099",    year: "2020", genre:"Animation", lang:"En", keyword:"",stars:"star-three",storyline:"Pour se rapprocher de leur mère hospitalisée, deux petites filles, Satsuki et Mei, s'installent dans une vieille maison de campagne avec leur père. Elles explorent les environs et finissent par faire la rencontre de Totoro, une créature débonnaire qui leur fait découvrir les mystères cachés de la nature..." },
@@ -376,7 +376,7 @@ const showMovies = () => {
       const yPos = -167 * row
       return `<li  class="splide__slide">
         <a href="${url}"  >
-        <img src="bg/${index}.jpg" style="width: 920px;">
+        <img src="bg/${index}.jpg" loading="lazy" style="width: 1920px; ">
         <div class="poster"  style="width: 111px; background-position: ${xPos}px ${yPos}px; z-index:0;"></div>
           <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
@@ -388,41 +388,18 @@ const showMovies = () => {
       </li>`
     }
   };
-const userList = new List('collection', options);
+const userList = new List('splide', options);
 const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
 
 userList.sort('name', { order: "asc" });
-
-var filterFR = document.getElementById("filter-fr");
-var filterJeunesse = document.getElementById("filter-jeunesse");
-var filterComedie = document.getElementById("filter-comedie");
-var filterAction = document.getElementById("filter-action");
-var filterDisney = document.getElementById("filter-disney");
-var filterDocumentaire = document.getElementById("filter-documentaire");
-var filterDrame = document.getElementById("filter-drame");
-var filterSF = document.getElementById("filter-SF");
-var filterWestern = document.getElementById("filter-Western");
-var removeFiltersButton = document.getElementById("removeFilters");
-
-filterFR.addEventListener("click", function() {userList.filter(function(item) {if (item.values().lang == "Fr") {return true;} else {return false;}});});
-filterJeunesse.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Animation") {return true;} else {return false;}});});
-filterComedie.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Comédie") {return true;} else {return false;}});});
-filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
-filterDisney.addEventListener("click", function() {userList.filter(function(item) {if (item.values().keyword == "Disney") {return true;} else {return false;}});});
-filterDocumentaire.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Documentaire") {return true;} else {return false;}});});
-filterDrame.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Drame") {return true;} else {return false;}});});
-filterSF.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Science-fiction") {return true;} else {return false;}});});
-filterWestern.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Western") {return true;} else {return false;}});});
-removeFiltersButton.addEventListener("click", function() {userList.filter();});
-
 
 };
 
 
 
   document.addEventListener("DOMContentLoaded", showMovies);
-
+  document.addEventListener( 'DOMContentLoaded', function () {	new Splide( '#splide' ).mount();} );
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
