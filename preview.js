@@ -382,10 +382,10 @@ const showMovies = () => {
 </svg>
 </div>
 
-        <img src="bg/${index}.jpg" loading="lazy" style="width: 320px; ">
+        <img src="assets/1920/${index}.jpg" loading="lazy" style="width: 200px; ">
         </div>
         <a href="${url}"  >
-        <img src="poster/${index}.jpg" style="width: 120px; ">
+        <img src="assets/370/${index}.jpg" style="width: 120px; ">
                   <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
