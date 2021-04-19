@@ -375,10 +375,18 @@ const showMovies = () => {
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
       return `<li  class="splide__slide">
+      <div class="banner" >
+          <div class="player" style="position: absolute;">
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+<circle cx="27.5" cy="27.5" r="26.75" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></circle><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.97 40.81L40.64 27.5 20.97 14.19v26.62z"></path>
+</svg>
+</div>
+
+        <img src="bg/${index}.jpg" loading="lazy" style="width: 320px; ">
+        </div>
         <a href="${url}"  >
-        <img src="bg/${index}.jpg" loading="lazy" style="width: 1920px; ">
-        <div class="poster"  style="width: 111px; background-position: ${xPos}px ${yPos}px; z-index:0;"></div>
-          <h3 class="name">${name}</h3></a>
+        <img src="poster/${index}.jpg" style="width: 120px; ">
+                  <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
           <h4 class="year">${year}</h4>
@@ -392,7 +400,6 @@ const userList = new List('splide', options);
 const movieCallback = (movie, index) => userList.add({ ...movie, index })
 movies.forEach(movieCallback);
 
-userList.sort('name', { order: "asc" });
 
 };
 
