@@ -2676,7 +2676,7 @@ const movies = [
   },
   {
     "name": "Strictly Criminal",
-    "original-name": "Strictly Criminal",
+    "original-name": "Black Mass",
     "available": "available-off",
     "url": "https://vod.canalplus.com/cinema/strictly-criminal/h/5929348_40099",
     "year": 2015,
@@ -5208,21 +5208,7 @@ const movies = [
     "people": "Ewan McGregor, Albert Finney, Jessica Lange",
     "storyline": "L'histoire à la fois drôle et poignante d'Edward Bloom, un père débordant d'imagination, et de son fils William. Ce dernier retourne au domicile familial après l'avoir quitté longtemps auparavant, pour être au chevet de son père, atteint d'un cancer. Il souhaite mieux le connaître et découvrir ses secrets avant qu'il ne soit trop tard. L'aventure débutera lorsque William tentera de discerner le vrai du faux dans les propos de son père mourant."
   },
-  {
-    "name": "Strictly Criminal",
-    "original-name": "Black Mass",
-    "available": "available-on",
-    "url": "",
-    "year": null,
-    "genre": "",
-    "lang": "En",
-    "keyword": "",
-    "stars": "",
-    "director": "Scott Cooper",
-    "people": "Johnny Depp, Joel Edgerton, Benedict Cumberbatch",
-    "storyline": "Le quartier de South Boston dans les années 70. L'agent du FBI John Connolly convainc le caïd irlandais James \"Whitey\" Bulger de collaborer avec l'agence fédérale afin d'éliminer un ennemi commun : la mafia italienne. Le film retrace l'histoire vraie de cette alliance contre nature qui a dégénéré et permis à Whitey d'échapper à la justice, de consolider son pouvoir et de s'imposer comme l'un des malfrats les plus redoutables de Boston et les plus puissants des États-Unis."
-  },
-  {
+   {
     "name": "Blades of Glory",
     "original-name": "Blades of Glory",
     "available": "available-on",
@@ -5517,20 +5503,6 @@ const movies = [
     "storyline": "Topper Harley s'est refugié en Inde pour oublier Ramada. Mais Saddam Hussein continue de mener la vie dure aux commandos américains. L'armée fait alors appel à Topper, dernier espoir du monde libre..."
   },
   {
-    "name": "I Am Legend",
-    "original-name": "I Am Legend",
-    "available": "",
-    "url": "",
-    "year": 2007,
-    "genre": "Science-fiction",
-    "lang": "En",
-    "keyword": "",
-    "stars": "",
-    "director": "Francis Lawrence",
-    "people": "Will Smith, Alice Braga, Charlie Tahan",
-    "storyline": "Robert Neville était un savant de haut niveau et de réputation mondiale, mais il en aurait fallu plus pour stopper les ravages de cet incurable et terrifiant virus d'origine humaine. Mystérieusement immunisé contre le mal, Neville est aujourd'hui le dernier homme à hanter les ruines de New York. Peut-être le dernier homme sur Terre... Depuis trois ans, il diffuse chaque jour des messages radio dans le fol espoir de trouver d'autres survivants. Nul n'a encore répondu. Mais Neville n'est pas seul. Des mutants, victimes de cette peste moderne - on les appelle les \"Infectés\" - rôdent dans les ténèbres... observent ses moindres gestes, guettent sa première erreur. Devenu l'ultime espoir de l'humanité, Neville se consacre tout entier à sa mission : venir à bout du virus, en annuler les terribles effets en se servant de son propre sang. Ses innombrables ennemis lui en laisseront-ils le temps ? Le compte à rebours touche à sa fin..."
-  },
-  {
     "name": "Indiana Jones et le Royaume du Crâne de Cristal",
     "original-name": "Indiana Jones and the Kingdom of the Crystal Skull",
     "available": "",
@@ -5669,20 +5641,6 @@ const movies = [
     "director": "Tim Burton",
     "people": "Paul Reubens, Mark Holton, Diane Salinger",
     "storyline": "Pee Wee, un adulte qui ressemble à un enfant, s'apprête à passer une belle journée avec l'amour de sa vie : sa bicyclette. Mais cet objet vient d'être volé par le méchant Francis. Pee Wee part à la recherche de son amour perdu et nous entraîne dans des aventures de plus en plus burlesques."
-  },
-  {
-    "name": "Phone game",
-    "original-name": "Phone Booth",
-    "available": "",
-    "url": "",
-    "year": 2003,
-    "genre": "Thriller",
-    "lang": "En",
-    "keyword": "",
-    "stars": "",
-    "director": "Joel Schumacher",
-    "people": "Colin Farrell, Forest Whitaker, Katie Holmes",
-    "storyline": "Stu Shepard, un attaché de presse, passe devant une cabine publique. Le téléphone sonne, Stu répond à l'appel. Une voix qu'il ne connaît pas l'informe qu'il est mort s'il raccroche le combiné. Le point lumineux d'un rayon infrarouge sur son torse prouve que le mystérieux interlocuteur ne bluffe pas... Un terrible incident ayant éclaté à quelques mètres de la cabine, la police arrive sur les lieux, flanquée de tireurs d'élite. Tous pensent que Stu, et non son invisible interlocuteur téléphonique, en est l'auteur. L'officier responsable, le capitaine Ramey, tente de convaincre Stu de sortir de la cabine..."
   },
   {
     "name": "La Planète des singes",
@@ -5937,20 +5895,6 @@ const movies = [
     "storyline": "Jack Skellington, roi des citrouilles et guide de Halloween-ville, s'ennuie : depuis des siècles, il en a assez de préparer la même fête de Halloween qui revient chaque année, et il rêve de changement. C'est alors qu'il a l'idée de s'emparer de la fête de Noël..."
   },
   {
-    "name": "The Polar Express",
-    "original-name": "The Polar Express",
-    "available": "",
-    "url": "",
-    "year": 2004,
-    "genre": "Animation",
-    "lang": "En",
-    "keyword": "",
-    "stars": "",
-    "director": "Robert Zemeckis",
-    "people": "Tom Hanks, Leslie Harter Zemeckis, Eddie Deezen",
-    "storyline": "Un jeune garçon qui se met à douter de l'existence du père Noël monte dans un train mystérieux en partance pour le pôle Nord. A mesure que le Pôle Express s'enfonce dans des contrées enchantées, l'aventure est au rendez-vous et les jeunes passagers prennent conscience de l'étendue de leurs dons."
-  },
-  {
     "name": "Les Evadés",
     "original-name": "The Shawshank Redemption",
     "available": "",
@@ -6090,4 +6034,71 @@ const movies = [
     "people": "Jean Dujardin, Jocelyn Quivrin, Patrick Mille",
     "storyline": "Octave est le maître du monde : il exerce la profession de rédacteur publicitaire. Il décide aujourd'hui ce que vous allez vouloir demain. Pour lui, \"l'homme est un produit comme les autres\". Octave travaille pour la plus grosse agence de pub du monde : Ross & Witchcraft, surnommée \"La Ross\". Il est couvert d'argent, de filles et de cocaïne. Pourtant, il doute. Deux événements vont bouleverser le cours de la vie d'Octave. Son histoire d'amour avec Sophie, la plus belle employée de l'agence, et une réunion chez Madone pour vendre un film de pub à ce géant du produit laitier. Le doué Octave déjante alors et décide de se rebeller contre le système qui l'a créé, en sabotant sa plus grande campagne. De Paris, où négocient les patrons d'agences, à Miami, où l'on tourne un spot sous antidépresseurs, de Saint-Germain-des-Prés à une île perdue d'Amérique Centrale, Octave parviendra-t-il à échapper à sa prison dorée ?"
   }
- ]
+ ];
+
+
+  
+const rowWidth = 50 // how many images per row?
+const showMovies = () => {
+  const options = {
+    valueNames: [ 'name' ],
+    item: ({ name, url, year, genre, stars, index }) => {
+      const row = index === 0 ? 0 : Math.floor(index / rowWidth)
+      const xPos = -111 * (index - row * rowWidth)
+      const yPos = -167 * row
+      return `<li class="fade-in movie" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
+        <a href="${url}"  >
+          <img src="assets/120/${index}.jpg" width="120"></img>
+          <h3 class="name">${name}</h3></a>
+          <div class="star" ${stars}"></div>
+          <h4 class="genre">${genre}</h4>
+          <h4 class="genre">${index}</h4>
+          <h4 class="year">${year}</h4>         
+      </li>`
+    }
+  };
+const userList = new List('collection', options);
+const movieCallback = (movie, index) => userList.add({ ...movie, index })
+movies.forEach(movieCallback);
+
+
+
+var filterFR = document.getElementById("filter-fr");
+var filterJeunesse = document.getElementById("filter-jeunesse");
+var filterComedie = document.getElementById("filter-comedie");
+var filterAction = document.getElementById("filter-action");
+var filterDisney = document.getElementById("filter-disney");
+var filterDocumentaire = document.getElementById("filter-documentaire");
+var filterDrame = document.getElementById("filter-drame");
+var filterSF = document.getElementById("filter-SF");
+var filterWestern = document.getElementById("filter-Western");
+var removeFiltersButton = document.getElementById("removeFilters");
+
+filterFR.addEventListener("click", function() {userList.filter(function(item) {if (item.values().lang == "Fr") {return true;} else {return false;}});});
+filterJeunesse.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Animation") {return true;} else {return false;}});});
+filterComedie.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Comédie") {return true;} else {return false;}});});
+filterAction.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Action") {return true;} else {return false;}});});
+filterDisney.addEventListener("click", function() {userList.filter(function(item) {if (item.values().keyword == "Disney") {return true;} else {return false;}});});
+filterDocumentaire.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Documentaire") {return true;} else {return false;}});});
+filterDrame.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Drame") {return true;} else {return false;}});});
+filterSF.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Science-fiction") {return true;} else {return false;}});});
+filterWestern.addEventListener("click", function() {userList.filter(function(item) {if (item.values().genre == "Western") {return true;} else {return false;}});});
+removeFiltersButton.addEventListener("click", function() {userList.filter();});
+
+
+};
+
+
+
+  document.addEventListener("DOMContentLoaded", showMovies);
+  document.addEventListener( 'DOMContentLoaded', function () { new Splide( '.splide' ).mount();  } );
+
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("/m1/serviceWorker.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err));
+    });
+  }
+
