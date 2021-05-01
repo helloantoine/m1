@@ -199,7 +199,7 @@ const movies = [
   {
     "name": "DieHard: Une journée en enfer",
     "original-name": "Die Hard: With a Vengeance",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/une-journee-en-enfer/h/1784027_40099",
     "year": 1995,
     "genre": "Action",
@@ -213,7 +213,7 @@ const movies = [
   {
     "name": "DieHard: 58 minutes pour vivre",
     "original-name": "Die Hard 2",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/58-minutes-pour-vivre/h/771194_40099",
     "year": 1990,
     "genre": "Action",
@@ -227,7 +227,7 @@ const movies = [
   {
     "name": "DieHard: Piège de cristal",
     "original-name": "Die Hard",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/piege-de-cristal/h/771207_40099",
     "year": 1988,
     "genre": "Action",
@@ -549,7 +549,7 @@ const movies = [
   {
     "name": "Batman",
     "original-name": "Batman",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/batman/h/12590458_40099",
     "year": 1989,
     "genre": "Fantastique",
@@ -689,7 +689,7 @@ const movies = [
   {
     "name": "Master and Commander : de l'autre côté du monde",
     "original-name": "Master & Commander : The Far Side of the World",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/master-and-commander-de-l-autre-cote-du-monde/h/1893709_40099",
     "year": 2003,
     "genre": "Aventure",
@@ -717,7 +717,7 @@ const movies = [
   {
     "name": "Chinatown",
     "original-name": "Chinatown",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/chinatown/h/200345_40099",
     "year": 1974,
     "genre": "Action",
@@ -759,7 +759,7 @@ const movies = [
   {
     "name": "Retour vers le futur 3",
     "original-name": "Back to the Future Part III",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/retour-vers-le-futur-3/h/1063987_40099",
     "year": 1990,
     "genre": "Science-fiction",
@@ -773,7 +773,7 @@ const movies = [
   {
     "name": "Retour vers le futur 2",
     "original-name": "Back to the Future Part II",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/retour-vers-le-futur-2/h/1063986_40099",
     "year": 1989,
     "genre": "Science-fiction",
@@ -787,7 +787,7 @@ const movies = [
   {
     "name": "Retour vers le futur",
     "original-name": "Back to the Future Part I",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/retour-vers-le-futur/h/1063985_40099",
     "year": 1985,
     "genre": "Science-fiction",
@@ -927,7 +927,7 @@ const movies = [
   {
     "name": "A gauche en sortant de l'ascenceur",
     "original-name": "A gauche en sortant de l'ascenceur",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/a-gauche-en-sortant-de-l-ascenseur/h/413625_40099",
     "year": 1988,
     "genre": "Comédie",
@@ -1333,7 +1333,7 @@ const movies = [
   {
     "name": "Gone Girl",
     "original-name": "Gone Girl",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/gone-girl/h/4720696_40099",
     "year": 2014,
     "genre": "Action",
@@ -1361,7 +1361,7 @@ const movies = [
   {
     "name": "Prisoners",
     "original-name": "Prisoners",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/prisoners/h/3126176_40099",
     "year": 2013,
     "genre": "Action",
@@ -1655,7 +1655,7 @@ const movies = [
   {
     "name": "Poltergeist",
     "original-name": "Poltergeist",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/poltergeist/h/5225552_40099",
     "year": 2015,
     "genre": "Fantastique",
@@ -1669,7 +1669,7 @@ const movies = [
   {
     "name": "Pride",
     "original-name": "Pride",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/pride/h/4634326_40099",
     "year": 2014,
     "genre": "Drame",
@@ -1697,7 +1697,7 @@ const movies = [
   {
     "name": "Monuments Men",
     "original-name": "The Monuments Men",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/monuments-men/h/3864104_40099",
     "year": 2013,
     "genre": "Guerre",
@@ -1711,7 +1711,7 @@ const movies = [
   {
     "name": "The Grand Budapest Hotel",
     "original-name": "The Grand Budapest Hotel",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/the-grand-budapest-hotel/h/4053009_40099",
     "year": 2014,
     "genre": "Drame",
@@ -1795,7 +1795,7 @@ const movies = [
   {
     "name": "La vie rêvée de Walter Mitty",
     "original-name": "The Secret Life of Walter Mitty",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-vie-revee-de-walter-mitty/h/3669184_40099",
     "year": 2013,
     "genre": "Aventure",
@@ -1809,7 +1809,7 @@ const movies = [
   {
     "name": "Alceste à bicyclette",
     "original-name": "Alceste à bicyclette",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/alceste-a-bicyclette/h/1820209_40099",
     "year": 2012,
     "genre": "Drame",
@@ -1851,7 +1851,7 @@ const movies = [
   {
     "name": "The Descendants",
     "original-name": "The Descendants",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/the-descendants/h/151408_40099",
     "year": 2011,
     "genre": "Drame",
@@ -1865,7 +1865,7 @@ const movies = [
   {
     "name": "La piel que habito",
     "original-name": "La piel que habito",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-piel-que-habito/h/436037_40099",
     "year": 2011,
     "genre": "Drame",
@@ -1921,7 +1921,7 @@ const movies = [
   {
     "name": "127 heures",
     "original-name": "128 heures",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/127-heures/h/911521_40099",
     "year": 2010,
     "genre": "Drame",
@@ -1977,7 +1977,7 @@ const movies = [
   {
     "name": "Braveheart",
     "original-name": "Braveheart",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/braveheart/h/573582_40099",
     "year": 1995,
     "genre": "Aventure",
@@ -2005,7 +2005,7 @@ const movies = [
   {
     "name": "Sunshine",
     "original-name": "Sunshine",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/sunshine/h/438278_40099",
     "year": 2007,
     "genre": "Science-fiction",
@@ -2033,7 +2033,7 @@ const movies = [
   {
     "name": "Madame Doubtfire",
     "original-name": "Madame Doubtfire",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/madame-doubtfire/h/168665_40099",
     "year": 1993,
     "genre": "Comédie",
@@ -2047,7 +2047,7 @@ const movies = [
   {
     "name": "Conan le barbare",
     "original-name": "Conan the barbarian",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/conan-le-barbare/h/2229368_40099",
     "year": 1982,
     "genre": "Aventure",
@@ -2103,7 +2103,7 @@ const movies = [
   {
     "name": "Les suffragettes",
     "original-name": "Les suffragettes",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-suffragettes/h/5890850_40099",
     "year": 2015,
     "genre": "Drame",
@@ -2173,7 +2173,7 @@ const movies = [
   {
     "name": "Vicky Cristina Barcelona",
     "original-name": "Vicky Cristina Barcelona",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/vicky-cristina-barcelona/h/1784018_40099",
     "year": 2008,
     "genre": "Drame",
@@ -2187,7 +2187,7 @@ const movies = [
   {
     "name": "Les goonies",
     "original-name": "Les goonies",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-goonies/h/435659_40099",
     "year": 1985,
     "genre": "Jeunesse",
@@ -2243,7 +2243,7 @@ const movies = [
   {
     "name": "Man of Steel",
     "original-name": "Man of Steel",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/man-of-steel/h/2669070_40099",
     "year": 2013,
     "genre": "Fantastique",
@@ -2257,7 +2257,7 @@ const movies = [
   {
     "name": "American Sniper",
     "original-name": "American Sniper",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/american-sniper/h/5268666_40099",
     "year": 2014,
     "genre": "Guerre",
@@ -2271,7 +2271,7 @@ const movies = [
   {
     "name": "Interstellar",
     "original-name": "Interstellar",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/interstellar/h/4920580_40099",
     "year": 2014,
     "genre": "Science-fiction",
@@ -2313,7 +2313,7 @@ const movies = [
   {
     "name": "L'arme fatale 3",
     "original-name": "Lethal Weapon 3",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-arme-fatale-3/h/1797802_40099",
     "year": 1992,
     "genre": "Action",
@@ -2327,7 +2327,7 @@ const movies = [
   {
     "name": "L'arme fatale 4",
     "original-name": "Lethal Weapon 4",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-arme-fatale-4/h/1797743_40099",
     "year": 1998,
     "genre": "Action",
@@ -2341,7 +2341,7 @@ const movies = [
   {
     "name": "L'arme fatale",
     "original-name": "Lethal Weapon",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-arme-fatale/h/1777460_40099",
     "year": 1987,
     "genre": "Action",
@@ -2355,7 +2355,7 @@ const movies = [
   {
     "name": "L'arme fatale 2",
     "original-name": "Lethal Weapon 2",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-arme-fatale-2/h/1797801_40099",
     "year": 1989,
     "genre": "Action",
@@ -2369,7 +2369,7 @@ const movies = [
   {
     "name": "Gravity",
     "original-name": "Gravity",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/gravity/h/3229004_40099",
     "year": 2013,
     "genre": "Science-fiction",
@@ -2383,7 +2383,7 @@ const movies = [
   {
     "name": "Matrix",
     "original-name": "Matrix",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/matrix/h/114045_40099",
     "year": 1999,
     "genre": "Science-fiction",
@@ -2397,7 +2397,7 @@ const movies = [
   {
     "name": "300",
     "original-name": "300",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/300/h/438047_40099",
     "year": 2006,
     "genre": "Action",
@@ -2411,7 +2411,7 @@ const movies = [
   {
     "name": "Ocean's Eleven",
     "original-name": "Ocean's Eleven",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/ocean-s-eleven/h/435044_40099",
     "year": 2001,
     "genre": "Action",
@@ -2425,7 +2425,7 @@ const movies = [
   {
     "name": "Godzilla",
     "original-name": "Godzilla",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/godzilla/h/4107699_40099",
     "year": 2014,
     "genre": "Science-fiction",
@@ -2565,7 +2565,7 @@ const movies = [
   {
     "name": "San Andreas",
     "original-name": "San Andreas",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/san-andreas/h/5145500_40099",
     "year": 2015,
     "genre": "Action",
@@ -2635,7 +2635,7 @@ const movies = [
   {
     "name": "Gremlins 2",
     "original-name": "Gremlins 2: The New Batch",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/u-s-marshals/h/725197_40099",
     "year": 2013,
     "genre": "Fantastique",
@@ -2649,7 +2649,7 @@ const movies = [
   {
     "name": "Gremlins",
     "original-name": "Gremlins",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/gremlins/h/800965_40099",
     "year": 1984,
     "genre": "Fantastique",
@@ -2747,7 +2747,7 @@ const movies = [
   {
     "name": "Sherlock Holmes : jeu d'ombres",
     "original-name": "Sherlock Holmes : jeu d'ombres",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/sherlock-holmes-jeu-d-ombres/h/436368_40099",
     "year": 2011,
     "genre": "Action",
@@ -2761,7 +2761,7 @@ const movies = [
   {
     "name": "Sherlock Holmes",
     "original-name": "Sherlock Holmes",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/sherlock-holmes/h/199769_40099",
     "year": 2009,
     "genre": "Action",
@@ -2859,7 +2859,7 @@ const movies = [
   {
     "name": "Le pôle express",
     "original-name": "Le pôle express",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-pole-express/h/1038437_40099",
     "year": 2004,
     "genre": "Animation",
@@ -2873,7 +2873,7 @@ const movies = [
   {
     "name": "Charlie et la chocolaterie",
     "original-name": "Charlie et la chocolaterie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/charlie-et-la-chocolaterie/h/437201_40099",
     "year": 2005,
     "genre": "Jeunesse",
@@ -2915,7 +2915,7 @@ const movies = [
   {
     "name": "Inception",
     "original-name": "Inception",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/inception/h/510368_40099",
     "year": 2010,
     "genre": "Science-fiction",
@@ -2943,7 +2943,7 @@ const movies = [
   {
     "name": "Midnight Special",
     "original-name": "Midnight Special",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/midnight-special/h/6503602_40099",
     "year": 2016,
     "genre": "Science-fiction",
@@ -2957,7 +2957,7 @@ const movies = [
   {
     "name": "Agents très spéciaux : Code U.N.C.L.E.",
     "original-name": "Agents très spéciaux : Code U.N.C.L.E.",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/agents-tres-speciaux-code-u-n-c-l-e/h/5576427_40099",
     "year": 2015,
     "genre": "Action",
@@ -2999,7 +2999,7 @@ const movies = [
   {
     "name": "Batman Begins",
     "original-name": "Batman Begins",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/batman-begins/h/437179_40099",
     "year": 2005,
     "genre": "Action",
@@ -3013,7 +3013,7 @@ const movies = [
   {
     "name": "Orange mécanique",
     "original-name": "A Clockwork Orange ",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/orange-mecanique/h/435045_40099",
     "year": 1971,
     "genre": "Drame",
@@ -3027,7 +3027,7 @@ const movies = [
   {
     "name": "Gran Torino",
     "original-name": "Gran Torino",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/gran-torino/h/3441559_40099",
     "year": 2008,
     "genre": "Action",
@@ -3069,7 +3069,7 @@ const movies = [
   {
     "name": "Argo",
     "original-name": "Argo",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/argo/h/1515972_40099",
     "year": 2012,
     "genre": "Action",
@@ -3083,7 +3083,7 @@ const movies = [
   {
     "name": "Blade Runner (Final Cut)",
     "original-name": "Blade Runner (Final Cut)",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/blade-runner-final-cut/h/1099194_40099",
     "year": 1982,
     "genre": "Science-fiction",
@@ -3111,7 +3111,7 @@ const movies = [
   {
     "name": "Conjuring 2",
     "original-name": "Conjuring 3",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/conjuring-2-le-cas-enfield/h/7009425_40099",
     "year": 2016,
     "genre": "Horreur",
@@ -3125,7 +3125,7 @@ const movies = [
   {
     "name": "Conjuring",
     "original-name": "Conjuring",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/conjuring-les-dossiers-warren/h/2892135_40099",
     "year": 2013,
     "genre": "Horreur",
@@ -3139,7 +3139,7 @@ const movies = [
   {
     "name": "Kiss Kiss Bang Bang",
     "original-name": "Kiss Kiss Bang Bang",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/kiss-kiss-bang-bang/h/361058_40099",
     "year": 2005,
     "genre": "Action",
@@ -3181,7 +3181,7 @@ const movies = [
   {
     "name": "Batman: The Dark Knight",
     "original-name": "Batman: The Dark Knight",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/the-dark-knight-le-chevalier-noir/h/433162_40099",
     "year": 2008,
     "genre": "Action",
@@ -3195,7 +3195,7 @@ const movies = [
   {
     "name": "Batman: The Dark Knight Rises",
     "original-name": "Batman: The Dark Knight Rises",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/the-dark-knight-rises/h/1033296_40099",
     "year": 2012,
     "genre": "Action",
@@ -3209,7 +3209,7 @@ const movies = [
   {
     "name": "Le prestige",
     "original-name": "Le prestige",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-prestige/h/2863354_40099",
     "year": 2006,
     "genre": "Action",
@@ -3251,7 +3251,7 @@ const movies = [
   {
     "name": "Very Bad Trip",
     "original-name": "The Hangover",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/very-bad-trip/h/611911_40099",
     "year": 2009,
     "genre": "Comédie",
@@ -3265,7 +3265,7 @@ const movies = [
   {
     "name": "Edge of Tomorrow",
     "original-name": "Edge of Tomorrow",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/vivre-mourir-recommencer-edge-of-tomorrow/h/4217208_40099",
     "year": 2014,
     "genre": "Science-fiction",
@@ -3293,7 +3293,7 @@ const movies = [
   {
     "name": "Mad Max : Fury Road",
     "original-name": "Mad Max : Fury Road",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/mad-max-fury-road/h/5738491_40099",
     "year": 2015,
     "genre": "Action",
@@ -3335,7 +3335,7 @@ const movies = [
   {
     "name": "#Chef",
     "original-name": "#Chef",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/chef/h/4833418_40099",
     "year": 2014,
     "genre": "Comédie",
@@ -3405,7 +3405,7 @@ const movies = [
   {
     "name": "Bodyguard",
     "original-name": "Bodyguard",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/bodyguard/h/107112_40099",
     "year": 1992,
     "genre": "Action",
@@ -3419,7 +3419,7 @@ const movies = [
   {
     "name": "Eyes Wide Shut",
     "original-name": "Eyes Wide Shut",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/eyes-wide-shut/h/199812_40099",
     "year": 1999,
     "genre": "Drame",
@@ -3433,7 +3433,7 @@ const movies = [
   {
     "name": "Spotlight",
     "original-name": "Spotlight",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/spotlight/h/6231044_40099",
     "year": 2015,
     "genre": "Drame",
@@ -3447,7 +3447,7 @@ const movies = [
   {
     "name": "The Shining",
     "original-name": "The Shining",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/shining/h/435556_40099",
     "year": 1980,
     "genre": "Horreur",
@@ -3461,7 +3461,7 @@ const movies = [
   {
     "name": "Full Metal Jacket",
     "original-name": "Full Metal Jacket",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/full-metal-jacket/h/435558_40099",
     "year": 1987,
     "genre": "Guerre",
@@ -3839,7 +3839,7 @@ const movies = [
   {
     "name": "Jurassic Park",
     "original-name": "Jurassic Park",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=7HnBs__n_cA",
     "year": 1993,
     "genre": "Science-fiction",
@@ -3853,7 +3853,7 @@ const movies = [
   {
     "name": "Jurassic Park 2",
     "original-name": "Jurassic Park 2",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=pz8d7ZHAc4w",
     "year": 1997,
     "genre": "Science-fiction",
@@ -3867,7 +3867,7 @@ const movies = [
   {
     "name": "Jurassic Park 3",
     "original-name": "Jurassic Park 3",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=GtmJuXPr4-I",
     "year": 2001,
     "genre": "Science-fiction",
@@ -3923,7 +3923,7 @@ const movies = [
   {
     "name": "Jaws: Les dents de la mer",
     "original-name": "Jaws: Les dents de la mer",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=QSDqB7T8ItM",
     "year": 1975,
     "genre": "Horreur",
@@ -3951,7 +3951,7 @@ const movies = [
   {
     "name": "Still Alice",
     "original-name": "Still Alice",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=oNyM0R1civc",
     "year": 2014,
     "genre": "Drame",
@@ -3965,7 +3965,7 @@ const movies = [
   {
     "name": "Melancholia",
     "original-name": "Melancholia",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=xqHAciEENaI",
     "year": 2011,
     "genre": "Science-fiction",
@@ -4007,7 +4007,7 @@ const movies = [
   {
     "name": "Hot Shots!",
     "original-name": "Hot Shots!",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=vlwByK3MguY",
     "year": 1991,
     "genre": "Comédie",
@@ -4049,7 +4049,7 @@ const movies = [
   {
     "name": "Jason Bourne",
     "original-name": "Jason Bourne",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=D-Ys_wNlaE4",
     "year": 2016,
     "genre": "Action",
@@ -4077,7 +4077,7 @@ const movies = [
   {
     "name": "Ghostbusters",
     "original-name": "SOS Fantomes",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=RRxzVZWaGNA",
     "year": 2016,
     "genre": "Comédie",
@@ -4105,7 +4105,7 @@ const movies = [
   {
     "name": "Fun with Dick and Jane",
     "original-name": "Braqueurs Amateurs",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=V0OEC9rG6Jg",
     "year": 2005,
     "genre": "Comédie",
@@ -4133,7 +4133,7 @@ const movies = [
   {
     "name": "Office Space",
     "original-name": "Office Space",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=1hnKwTCcVSs",
     "year": 1999,
     "genre": "Comédie",
@@ -4147,7 +4147,7 @@ const movies = [
   {
     "name": "The thin red line",
     "original-name": "La ligne rouge",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=g1v9PwFrPYo",
     "year": 1998,
     "genre": "Guerre",
@@ -4161,7 +4161,7 @@ const movies = [
   {
     "name": "Idiocracy",
     "original-name": "Idiocracy",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Bb6j0SukuOE",
     "year": 2006,
     "genre": "Comédie",
@@ -4189,7 +4189,7 @@ const movies = [
   {
     "name": "Groundhog Day",
     "original-name": "Un jour sans fin",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=1VWbrFqTyCA",
     "year": 1993,
     "genre": "Comédie",
@@ -4203,7 +4203,7 @@ const movies = [
   {
     "name": "Eternal Sunshine of the Spotless Mind",
     "original-name": "Eternal Sunshine of the Spotless Mind",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=-98VknWkSWo",
     "year": 2004,
     "genre": "Science-fiction",
@@ -4245,7 +4245,7 @@ const movies = [
   {
     "name": "Chérie, j'ai rétréci les gosses",
     "original-name": "Honey, I Shrunk the Kids",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Zoivkxpf-Jc",
     "year": 1989,
     "genre": "Jeunesse",
@@ -4259,7 +4259,7 @@ const movies = [
   {
     "name": "Two Lovers",
     "original-name": "Two Lovers",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=6pzXDL8UAWc",
     "year": 2008,
     "genre": "Drame",
@@ -4273,7 +4273,7 @@ const movies = [
   {
     "name": "Babel",
     "original-name": "Babel",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=8JQS_KkpJ4g",
     "year": 2006,
     "genre": "Drame",
@@ -4301,7 +4301,7 @@ const movies = [
   {
     "name": "Dumb & Dumber",
     "original-name": "Dumb & Dumber",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=RiEYvpZef_s",
     "year": 1994,
     "genre": "Comédie",
@@ -4315,7 +4315,7 @@ const movies = [
   {
     "name": "The Wolf of Wall Street",
     "original-name": "The Wolf of Wall Street",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Bbn43IhaiqQ",
     "year": 2013,
     "genre": "Comédie",
@@ -4343,7 +4343,7 @@ const movies = [
   {
     "name": "Apollo 13",
     "original-name": "Apollo 13",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=y98JSUVWj7I",
     "year": 1995,
     "genre": "Drame",
@@ -4358,7 +4358,7 @@ const movies = [
     "name": "La Nuit nous appartient",
     "original-name": "We own the night",
     "available": "available-off",
-    "url": "https://www.youtube.com/watch?v=bRIYrLoY_wQ",
+    "url": "  ",
     "year": 2007,
     "genre": "Thriller",
     "lang": "En",
@@ -4371,7 +4371,7 @@ const movies = [
   {
     "name": "Rain Man",
     "original-name": "Rain Man",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=glK8NN4u3tw",
     "year": 1988,
     "genre": "Drame",
@@ -4385,7 +4385,7 @@ const movies = [
   {
     "name": "Alien",
     "original-name": "Alien",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=IMZpZiEsk4g",
     "year": 1979,
     "genre": "Horreur",
@@ -4399,7 +4399,7 @@ const movies = [
   {
     "name": "The Mask",
     "original-name": "The Mask",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=ATO4bkj67ew",
     "year": 1994,
     "genre": "Comédie",
@@ -4413,7 +4413,7 @@ const movies = [
   {
     "name": "Escape from Alcatraz",
     "original-name": "Escape from Alcatraz",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Z1iEGJL5z6E",
     "year": 1979,
     "genre": "Drame",
@@ -4427,7 +4427,7 @@ const movies = [
   {
     "name": "Man on Fire",
     "original-name": "Man on Fire",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=nfJOW7CCbEM",
     "year": 2004,
     "genre": "Drame",
@@ -4441,7 +4441,7 @@ const movies = [
   {
     "name": "Good Will Hunting",
     "original-name": "Good Will Hunting",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=iZsVl69Xd_w",
     "year": 1997,
     "genre": "Drame",
@@ -4455,7 +4455,7 @@ const movies = [
   {
     "name": "Walk the line",
     "original-name": "Walk the line",
-    "available": "available-off",
+    "available": " available-on",
     "url": "https://www.youtube.com/watch?v=j45l8Vb0Wok",
     "year": 2005,
     "genre": "Drame",
@@ -4483,7 +4483,7 @@ const movies = [
   {
     "name": "Into the Wild",
     "original-name": "Into the Wild",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=QO3vYHdvx3s",
     "year": 2007,
     "genre": "Aventure",
@@ -4497,7 +4497,7 @@ const movies = [
   {
     "name": "Once upon a time in the West",
     "original-name": "Once upon a time in the West",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=euia5cbhYxo",
     "year": 1968,
     "genre": "Western",
@@ -4581,7 +4581,7 @@ const movies = [
   {
     "name": "Arrête-moi si tu peux",
     "original-name": "Catch me if you can",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=p1Fbf358i7I",
     "year": 2002,
     "genre": "Drame",
@@ -4595,7 +4595,7 @@ const movies = [
   {
     "name": "Psycho",
     "original-name": "Psycho",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=tUXuDjf9gPo",
     "year": 1960,
     "genre": "Horreur",
@@ -4609,7 +4609,7 @@ const movies = [
   {
     "name": "Little Miss Sunshine",
     "original-name": "Little Miss Sunshine",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=MOv-XZtQyGY",
     "year": 2006,
     "genre": "Comédie",
@@ -4665,7 +4665,7 @@ const movies = [
   {
     "name": "Up in the air",
     "original-name": "Up in the air",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=2k1LHoSHQJM",
     "year": 2009,
     "genre": "Drame",
@@ -4679,7 +4679,7 @@ const movies = [
   {
     "name": "Les Aventuriers de l'Arche perdue",
     "original-name": "Indiana Jones and the Raiders of the Lost Ark",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=vR-GBt3u1_E",
     "year": 1981,
     "genre": "Aventure",
@@ -4693,7 +4693,7 @@ const movies = [
   {
     "name": "Prometheus",
     "original-name": "Prometheus",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=IQNJC4gd2-Y",
     "year": 2012,
     "genre": "Science-fiction",
@@ -4721,7 +4721,7 @@ const movies = [
   {
     "name": "Maman, j'ai raté l'avion",
     "original-name": "Home Alone",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://movies.jason.codes/movie/771",
     "year": 1990,
     "genre": "Comédie",
@@ -4735,7 +4735,7 @@ const movies = [
   {
     "name": "Anchorman: The Legend of Ron Burgundy",
     "original-name": "Anchorman: The Legend of Ron Burgundy",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=kZAaNP_xzWw",
     "year": 2004,
     "genre": "Comédie",
@@ -4749,7 +4749,7 @@ const movies = [
   {
     "name": "Gandhi",
     "original-name": "Gandhi",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=a_xZaaSZez0",
     "year": 1982,
     "genre": "Drame",
@@ -4847,7 +4847,7 @@ const movies = [
   {
     "name": "Beetlejuice",
     "original-name": "Beetlejuice",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/beetlejuice/h/436396_40099",
     "year": 1988,
     "genre": "Comédie",
@@ -5208,7 +5208,21 @@ const movies = [
     "people": "Ewan McGregor, Albert Finney, Jessica Lange",
     "storyline": "L'histoire à la fois drôle et poignante d'Edward Bloom, un père débordant d'imagination, et de son fils William. Ce dernier retourne au domicile familial après l'avoir quitté longtemps auparavant, pour être au chevet de son père, atteint d'un cancer. Il souhaite mieux le connaître et découvrir ses secrets avant qu'il ne soit trop tard. L'aventure débutera lorsque William tentera de discerner le vrai du faux dans les propos de son père mourant."
   },
-   {
+  {
+    "name": "Strictly Criminal",
+    "original-name": "Black Mass",
+    "available": "available-on",
+    "url": "",
+    "year": null,
+    "genre": "",
+    "lang": "En",
+    "keyword": "",
+    "stars": "",
+    "director": "Scott Cooper",
+    "people": "Johnny Depp, Joel Edgerton, Benedict Cumberbatch",
+    "storyline": "Le quartier de South Boston dans les années 70. L'agent du FBI John Connolly convainc le caïd irlandais James \"Whitey\" Bulger de collaborer avec l'agence fédérale afin d'éliminer un ennemi commun : la mafia italienne. Le film retrace l'histoire vraie de cette alliance contre nature qui a dégénéré et permis à Whitey d'échapper à la justice, de consolider son pouvoir et de s'imposer comme l'un des malfrats les plus redoutables de Boston et les plus puissants des États-Unis."
+  },
+  {
     "name": "Blades of Glory",
     "original-name": "Blades of Glory",
     "available": "available-on",
@@ -5491,7 +5505,7 @@ const movies = [
   {
     "name": "Hot Shots ! 2",
     "original-name": "Hot Shots ! 3",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1993,
     "genre": "Comédie",
@@ -5503,9 +5517,23 @@ const movies = [
     "storyline": "Topper Harley s'est refugié en Inde pour oublier Ramada. Mais Saddam Hussein continue de mener la vie dure aux commandos américains. L'armée fait alors appel à Topper, dernier espoir du monde libre..."
   },
   {
+    "name": "I Am Legend",
+    "original-name": "I Am Legend",
+    "available": "available-on",
+    "url": "",
+    "year": 2007,
+    "genre": "Science-fiction",
+    "lang": "En",
+    "keyword": "",
+    "stars": "",
+    "director": "Francis Lawrence",
+    "people": "Will Smith, Alice Braga, Charlie Tahan",
+    "storyline": "Robert Neville était un savant de haut niveau et de réputation mondiale, mais il en aurait fallu plus pour stopper les ravages de cet incurable et terrifiant virus d'origine humaine. Mystérieusement immunisé contre le mal, Neville est aujourd'hui le dernier homme à hanter les ruines de New York. Peut-être le dernier homme sur Terre... Depuis trois ans, il diffuse chaque jour des messages radio dans le fol espoir de trouver d'autres survivants. Nul n'a encore répondu. Mais Neville n'est pas seul. Des mutants, victimes de cette peste moderne - on les appelle les \"Infectés\" - rôdent dans les ténèbres... observent ses moindres gestes, guettent sa première erreur. Devenu l'ultime espoir de l'humanité, Neville se consacre tout entier à sa mission : venir à bout du virus, en annuler les terribles effets en se servant de son propre sang. Ses innombrables ennemis lui en laisseront-ils le temps ? Le compte à rebours touche à sa fin..."
+  },
+  {
     "name": "Indiana Jones et le Royaume du Crâne de Cristal",
     "original-name": "Indiana Jones and the Kingdom of the Crystal Skull",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2008,
     "genre": "Science-fiction",
@@ -5519,7 +5547,7 @@ const movies = [
   {
     "name": "King Kong",
     "original-name": "King Kong",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2005,
     "genre": "Aventure",
@@ -5533,7 +5561,7 @@ const movies = [
   {
     "name": "Mars Attacks!",
     "original-name": "Mars Attacks",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1997,
     "genre": "Science-fiction",
@@ -5547,7 +5575,7 @@ const movies = [
   {
     "name": "Mary Poppins",
     "original-name": "Mary Poppins",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1965,
     "genre": "Comédie musicale",
@@ -5561,7 +5589,7 @@ const movies = [
   {
     "name": "Mon beau-père, mes parents et moi",
     "original-name": "Meet The Fockers",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2005,
     "genre": "Comédie",
@@ -5575,7 +5603,7 @@ const movies = [
   {
     "name": "Monty Python, sacré Graal",
     "original-name": "Monty Python and the Holy Grail",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1975,
     "genre": "Comédie",
@@ -5589,7 +5617,7 @@ const movies = [
   {
     "name": "Mystic river",
     "original-name": "Mystic river",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2003,
     "genre": "Thriller",
@@ -5603,7 +5631,7 @@ const movies = [
   {
     "name": "Napoleon Dynamite",
     "original-name": "Napoleon Dynamite",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2004,
     "genre": "Comédie",
@@ -5617,7 +5645,7 @@ const movies = [
   {
     "name": "Hors de portée",
     "original-name": "Out of reach",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2004,
     "genre": "Action",
@@ -5631,7 +5659,7 @@ const movies = [
   {
     "name": "Pee Wees Big Adventure",
     "original-name": "Pee Wees Big Adventure",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2007,
     "genre": "Comédie",
@@ -5643,9 +5671,23 @@ const movies = [
     "storyline": "Pee Wee, un adulte qui ressemble à un enfant, s'apprête à passer une belle journée avec l'amour de sa vie : sa bicyclette. Mais cet objet vient d'être volé par le méchant Francis. Pee Wee part à la recherche de son amour perdu et nous entraîne dans des aventures de plus en plus burlesques."
   },
   {
+    "name": "Phone game",
+    "original-name": "Phone Booth",
+    "available": "available-on",
+    "url": "",
+    "year": 2003,
+    "genre": "Thriller",
+    "lang": "En",
+    "keyword": "",
+    "stars": "",
+    "director": "Joel Schumacher",
+    "people": "Colin Farrell, Forest Whitaker, Katie Holmes",
+    "storyline": "Stu Shepard, un attaché de presse, passe devant une cabine publique. Le téléphone sonne, Stu répond à l'appel. Une voix qu'il ne connaît pas l'informe qu'il est mort s'il raccroche le combiné. Le point lumineux d'un rayon infrarouge sur son torse prouve que le mystérieux interlocuteur ne bluffe pas... Un terrible incident ayant éclaté à quelques mètres de la cabine, la police arrive sur les lieux, flanquée de tireurs d'élite. Tous pensent que Stu, et non son invisible interlocuteur téléphonique, en est l'auteur. L'officier responsable, le capitaine Ramey, tente de convaincre Stu de sortir de la cabine..."
+  },
+  {
     "name": "La Planète des singes",
     "original-name": "Planet of the Apes",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2001,
     "genre": "Science-fiction",
@@ -5659,7 +5701,7 @@ const movies = [
   {
     "name": "Orgueil et préjugés",
     "original-name": "Pride and Prejudice",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2006,
     "genre": "Drame",
@@ -5673,7 +5715,7 @@ const movies = [
   {
     "name": "Il faut sauver le soldat Ryan",
     "original-name": "Saving Private Ryan",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1998,
     "genre": "Guerre",
@@ -5687,7 +5729,7 @@ const movies = [
   {
     "name": "Shaun Of The Dead",
     "original-name": "Shaun Of The Dead",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2004,
     "genre": "Comédie",
@@ -5701,7 +5743,7 @@ const movies = [
   {
     "name": "Sicario",
     "original-name": "Sicario",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2015,
     "genre": "Thriller",
@@ -5715,7 +5757,7 @@ const movies = [
   {
     "name": "Sleepy Hollow ",
     "original-name": "Sleepy Hollow ",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2000,
     "genre": "Thriller",
@@ -5729,7 +5771,7 @@ const movies = [
   {
     "name": "Slumdog Millionaire",
     "original-name": "Slumdog Millionaire",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2009,
     "genre": "Drame",
@@ -5743,7 +5785,7 @@ const movies = [
   {
     "name": "Starship Troopers",
     "original-name": "Starship Troopers",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1998,
     "genre": "Comédie",
@@ -5757,7 +5799,7 @@ const movies = [
   {
     "name": "State Of Play",
     "original-name": "State Of Play",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2009,
     "genre": "Thriller",
@@ -5771,7 +5813,7 @@ const movies = [
   {
     "name": "Ricky Bobby : roi du circuit",
     "original-name": "Talladega Nights The Ballad of Ricky Bobby",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2016,
     "genre": "Comédie",
@@ -5785,7 +5827,7 @@ const movies = [
   {
     "name": "The Bone Collector",
     "original-name": "The Bone Collector",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2000,
     "genre": "Thriller",
@@ -5799,7 +5841,7 @@ const movies = [
   {
     "name": "The Constant Gardener",
     "original-name": "The Constant Gardener",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2005,
     "genre": "Thriller",
@@ -5813,7 +5855,7 @@ const movies = [
   {
     "name": "The Darjeeling Limited",
     "original-name": "The Darjeeling Limited",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2008,
     "genre": "Drame",
@@ -5827,7 +5869,7 @@ const movies = [
   {
     "name": "The Firm",
     "original-name": "The Firm",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1993,
     "genre": "Thriller",
@@ -5841,7 +5883,7 @@ const movies = [
   {
     "name": "The Game",
     "original-name": "The Game",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1997,
     "genre": "Thriller",
@@ -5855,7 +5897,7 @@ const movies = [
   {
     "name": "Les Stagiaires",
     "original-name": "The Internship",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2013,
     "genre": "Comédie",
@@ -5869,7 +5911,7 @@ const movies = [
   {
     "name": "The Muppets",
     "original-name": "The Muppets",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2011,
     "genre": "Comédie",
@@ -5883,7 +5925,7 @@ const movies = [
   {
     "name": "L' Etrange Noël de M. Jack",
     "original-name": "The Nightmare Before Christmas",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1994,
     "genre": "Animation",
@@ -5897,7 +5939,7 @@ const movies = [
   {
     "name": "Les Evadés",
     "original-name": "The Shawshank Redemption",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1995,
     "genre": "Drame",
@@ -5911,7 +5953,7 @@ const movies = [
   {
     "name": "Voisins du troisième type",
     "original-name": "The Watch",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2012,
     "genre": "Comédie",
@@ -5925,7 +5967,7 @@ const movies = [
   {
     "name": "The Wrestler",
     "original-name": "The Wrestler",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2009,
     "genre": "Drame",
@@ -5939,7 +5981,7 @@ const movies = [
   {
     "name": "To Kill a Mockingbird",
     "original-name": "To Kill a Mockingbird",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2017,
     "genre": "Drame",
@@ -5953,7 +5995,7 @@ const movies = [
   {
     "name": "L' Armée des 12 singes",
     "original-name": "Twelve Monkeys",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1996,
     "genre": "Science-fiction",
@@ -5967,7 +6009,7 @@ const movies = [
   {
     "name": "U.S.Marshals",
     "original-name": "U.S.Marshals",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1998,
     "genre": "Action",
@@ -5981,7 +6023,7 @@ const movies = [
   {
     "name": "Impitoyable",
     "original-name": "Unforgiven",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1992,
     "genre": "Western",
@@ -5995,7 +6037,7 @@ const movies = [
   {
     "name": "Volver",
     "original-name": "Volver",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2006,
     "genre": "Comédie dramatique",
@@ -6009,7 +6051,7 @@ const movies = [
   {
     "name": "Les Hauts de Hurlevent",
     "original-name": "Wuthering Heights",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2003,
     "genre": "Drame",
@@ -6023,7 +6065,7 @@ const movies = [
   {
     "name": "99 Francs",
     "original-name": "99 Francs",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 2007,
     "genre": "Comédie",
@@ -6042,11 +6084,11 @@ const rowWidth = 50 // how many images per row?
 const showMovies = () => {
   const options = {
     valueNames: [ 'name' ],
-    item: ({ name, url, year, genre, stars, index }) => {
+    item: ({ name, available, url, year, genre, stars, index }) => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
-      return `<li class="fade-in movie" style="animation-delay: calc(1s * 0.005 * ${index} ); ">
+      return `<li class="fade-in movie ${available}" " style="animation-delay: calc(1s * 0.005 * ${index} ); ">
         <a href="${url}"  >
           <img src="assets/120/${index}.jpg" width="120"></img>
           <h3 class="name">${name}</h3></a>
