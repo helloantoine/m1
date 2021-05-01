@@ -12,40 +12,40 @@
   "browser_action": {
     "default_popup": "embedder.html",
     "default_title": "Movies",
-    "default_icon": {"16": "/ic/i16.png","32": "/ic/i32.png","48": "/ic/i48.png","128": "/ic/i128.png"},
+    "default_icon": {"16": "/assets/ic/i16.png","32": "/assets/ic/i32.png","48": "/assets/ic/i48.png","128": "/assets/ic/i128.png"},
   "icons": [
     {
-      "src": "/ic/icon-96x96.png",
+      "src": "/assets/ic/icon-96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/ic/icon-128x128.png",
+      "src": "/assets/ic/icon-128x128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/ic/icon-144x144.png",
+      "src": "/assets/ic/icon-144x144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/ic/icon-152x152.png",
+      "src": "/assets/ic/icon-152x152.png",
       "type": "image/png",
       "sizes": "152x152"
     },
     {
-      "src": "/ic/icon-192x192.png",
+      "src": "/assets/ic/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/ic/icon-384x384.png",
+      "src": "/assets/ic/icon-384x384.png",
       "type": "image/png",
       "sizes": "384x384"
     },
     {
-      "src": "/ic/icon-512x512.png",
+      "src": "/assets/ic/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

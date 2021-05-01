@@ -73,7 +73,7 @@ const movies = [
   {
     "name": "La grande aventure Lego",
     "original-name": "The Lego Movie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-grande-aventure-lego/h/3753674_40099",
     "year": 2014,
     "genre": "Animation",
@@ -297,7 +297,7 @@ const movies = [
   {
     "name": "Les pirates ! Bons à rien, mauvais en tout",
     "original-name": "The Pirates! Band of Misfits",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-pirates-bons-a-rien-mauvais-en-tout/h/490525_40099",
     "year": 2012,
     "genre": "Animation",
@@ -409,7 +409,7 @@ const movies = [
   {
     "name": "Quai des Orfèvres",
     "original-name": "Quai des Orfèvres",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/quai-des-orfevres/h/117558_40099",
     "year": 1947,
     "genre": "Action",
@@ -437,7 +437,7 @@ const movies = [
   {
     "name": "Le distrait",
     "original-name": "Le distrait",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-distrait/h/421862_40099",
     "year": 1970,
     "genre": "Comédie",
@@ -591,7 +591,7 @@ const movies = [
   {
     "name": "Le coup du parapluie",
     "original-name": "Le coup du parapluie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-coup-du-parapluie/h/177993_40099",
     "year": 1989,
     "genre": "Comédie",
@@ -605,7 +605,7 @@ const movies = [
   {
     "name": "Les choristes",
     "original-name": "The Chorus",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-choristes/h/3080957_40099",
     "year": 2004,
     "genre": "Drame",
@@ -619,7 +619,7 @@ const movies = [
   {
     "name": "Les bronzés font du ski",
     "original-name": "Les bronzés font du ski",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-bronzes-font-du-ski/h/4661500_40099",
     "year": 1979,
     "genre": "Comédie",
@@ -885,7 +885,7 @@ const movies = [
   {
     "name": "Les barbouzes",
     "original-name": "Les barbouzes",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-barbouzes/h/267781_40099",
     "year": 1964,
     "genre": "Comédie",
@@ -899,7 +899,7 @@ const movies = [
   {
     "name": "Les tontons flingueurs",
     "original-name": "Les tontons flingueurs",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-tontons-flingueurs/h/438484_40099",
     "year": 1963,
     "genre": "Comédie",
@@ -913,7 +913,7 @@ const movies = [
   {
     "name": "Un chien dans un jeu de quilles",
     "original-name": "Un chien dans un jeu de quilles",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/un-chien-dans-un-jeu-de-quilles/h/516885_40099",
     "year": 1983,
     "genre": "Comédie",
@@ -1095,7 +1095,7 @@ const movies = [
   {
     "name": "Le grand bleu",
     "original-name": "The Big Blue",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-grand-bleu-version-longue/h/15199135_40099",
     "year": 1988,
     "genre": "Aventure",
@@ -1109,7 +1109,7 @@ const movies = [
   {
     "name": "Léon",
     "original-name": "Léon",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/leon/h/437617_40099",
     "year": 1994,
     "genre": "Action",
@@ -1543,7 +1543,7 @@ const movies = [
   {
     "name": "Brendan et le secret de Kells",
     "original-name": "The Secret of Kells",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/brendan-et-le-secret-de-kells/h/446992_40099",
     "year": 2009,
     "genre": "Animation",
@@ -1557,7 +1557,7 @@ const movies = [
   {
     "name": "Le chant de la mer",
     "original-name": "Song of the sea",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-chant-de-la-mer/h/5108908_40099",
     "year": 2014,
     "genre": "Animation",
@@ -1879,7 +1879,7 @@ const movies = [
   {
     "name": "La fille du puisatier",
     "original-name": "La fille du puisatier",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-fille-du-puisatier/h/911527_40099",
     "year": 2011,
     "genre": "Drame",
@@ -1893,7 +1893,7 @@ const movies = [
   {
     "name": "L'age de glace 4",
     "original-name": "Ice Age",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-age-de-glace-4-la-derive-des-continents/h/981890_40099",
     "year": 2012,
     "genre": "Animation",
@@ -1991,7 +1991,7 @@ const movies = [
   {
     "name": "Les trois frères",
     "original-name": "Les trois frères",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-trois-freres/h/2919583_40099",
     "year": 1995,
     "genre": "Comédie",
@@ -2061,7 +2061,7 @@ const movies = [
   {
     "name": "Chicken run",
     "original-name": "Chicken run",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/chicken-run/h/413605_40099",
     "year": 2000,
     "genre": "Animation",
@@ -2131,7 +2131,7 @@ const movies = [
   {
     "name": "La reine Margot",
     "original-name": "La reine Margot",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-reine-margot/h/1512012_40099",
     "year": 1993,
     "genre": "Drame",
@@ -2145,7 +2145,7 @@ const movies = [
   {
     "name": "Les gamins",
     "original-name": "Les gamins",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-gamins/h/2329165_40099",
     "year": 2013,
     "genre": "Comédie",
@@ -2159,7 +2159,7 @@ const movies = [
   {
     "name": "Le cave se rebiffe",
     "original-name": "Le cave se rebiffe",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-cave-se-rebiffe/h/433204_40099",
     "year": 1961,
     "genre": "Comédie",
@@ -2285,7 +2285,7 @@ const movies = [
   {
     "name": "Le géant de fer",
     "original-name": "The Iron Giant",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-geant-de-fer/h/240404_40099",
     "year": 1999,
     "genre": "Animation",
@@ -2298,8 +2298,8 @@ const movies = [
   },
   {
     "name": "100 000 dollars au soleil",
-    "original-name": "101 000 dollars au soleil",
-    "available": "available-off",
+    "original-name": "100 000 dollars au soleil",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/100-000-dollars-au-soleil/h/120667_40099",
     "year": 1964,
     "genre": "Aventure",
@@ -2453,7 +2453,7 @@ const movies = [
   {
     "name": "Astérix: Les douze travaux d'Astérix",
     "original-name": "Astérix: Les douze travaux d'Astérix",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-douze-travaux-d-asterix/h/363817_40099",
     "year": 1976,
     "genre": "Animation",
@@ -2467,7 +2467,7 @@ const movies = [
   {
     "name": "Astérix le Gaulois",
     "original-name": "Astérix le Gaulois",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/asterix-le-gaulois/h/302917_40099",
     "year": 1967,
     "genre": "Animation",
@@ -2481,7 +2481,7 @@ const movies = [
   {
     "name": "Astérix chez les Bretons",
     "original-name": "Astérix chez les Bretons",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/asterix-chez-les-bretons/h/235948_40099",
     "year": 1986,
     "genre": "Animation",
@@ -2509,7 +2509,7 @@ const movies = [
   {
     "name": "Astérix et Cléopâtre",
     "original-name": "Astérix et Cléopâtre",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/asterix-et-cleopatre/h/163731_40099",
     "year": 1968,
     "genre": "Animation",
@@ -2675,20 +2675,6 @@ const movies = [
     "storyline": "Ben Whittaker, un veuf de 70 ans s'aperçoit que la retraite ne correspond pas vraiment à l'idée qu'il s'en faisait. Dès que l'occasion se présente de reprendre du service, il accepte un poste de stagiaire sur un site Internet de mode, créé et dirigé par Jules Ostin."
   },
   {
-    "name": "Strictly Criminal",
-    "original-name": "Black Mass",
-    "available": "available-off",
-    "url": "https://vod.canalplus.com/cinema/strictly-criminal/h/5929348_40099",
-    "year": 2015,
-    "genre": "Action",
-    "lang": "En",
-    "keyword": "",
-    "stars": "star-three",
-    "director": "Scott Cooper",
-    "people": "Johnny Depp, Joel Edgerton, Benedict Cumberbatch",
-    "storyline": "Le quartier de South Boston dans les années 70. L'agent du FBI John Connolly convainc le caïd irlandais James \"Whitey\" Bulger de collaborer avec l'agence fédérale afin d'éliminer un ennemi commun : la mafia italienne. Le film retrace l'histoire vraie de cette alliance contre nature qui a dégénéré et permis à Whitey d'échapper à la justice, de consolider son pouvoir et de s'imposer comme l'un des malfrats les plus redoutables de Boston et les plus puissants des États-Unis."
-  },
-  {
     "name": "Les affranchis",
     "original-name": "Les affranchis",
     "available": "available-off",
@@ -2715,20 +2701,6 @@ const movies = [
     "director": "Stuart Baird",
     "people": "Tommy Lee Jones, Wesley Snipes, Joe Pantoliano",
     "storyline": "C'est par hasard, à la suite d'un banal accident de la circulation, que la police de Chicago retrouve la piste de Mark Roberts, recherché pour un double meurtre. Le prévenu est placé sous la garde de l'US Marshal Samuel Gerard pour être extradé par avion sur New York avec une vingtaine de prisonniers. Au cours du vol, un détenu s'empare d'une arme et tire sur Robert. Il rate son objectif et pulverise un hublot. C'est le crash. L'appareil termine sa course dans l'Ohio. Une fois l'épave évacuée, le marshal découvre que Roberts a disparu..."
-  },
-  {
-    "name": "Happy Feet",
-    "original-name": "Happy Feet",
-    "available": "available-off",
-    "url": "https://vod.canalplus.com/cinema/happy-feet/h/437810_40099",
-    "year": 2006,
-    "genre": "Animation",
-    "lang": "En",
-    "keyword": "",
-    "stars": "star-three",
-    "director": "George Miller, Judy Morris, Warren Coleman",
-    "people": "Clovis Cornillac, Marion Cotillard, Kad Merad",
-    "storyline": "Un manchot de l'Antarctique n'arrivera jamais à rien s'il ne sait pas chanter, et le pauvre Mumble est sans conteste le pire chanteur du monde. Son talent à lui, c'est... les claquettes, qu'il pratique en virtuose, avec une ardeur confondante. Bien que sa maman, Norma Jean, trouve ce don \"tout à fait charmant\", son père, Memphis, juge que \"ça ne fait vraiment pas pingouin\". Tous deux savent aussi que leur rejeton ne trouvera l'âme soeur que le jour où il saura pousser son \"chant d'amour\". Le hasard fait bien les choses : Gloria, la seule et unique amie de notre héros, est la meilleure chanteuse de la région. Mumble et elle sont copains depuis toujours, bien que cette gracieuse créature ait encore du mal à accepter son étrange \"anomalie\". Banni de la tribu, Mumble se lie avec les Amigos de Terre Adélie, un groupe latino exubérant, mené par Ramon..."
   },
   {
     "name": "L'associé du Diable",
@@ -3223,7 +3195,7 @@ const movies = [
   {
     "name": "Le monde de Nemo",
     "original-name": "Le monde de Nemo",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-monde-de-nemo/h/116353_40099",
     "year": 2003,
     "genre": "Animation",
@@ -3237,7 +3209,7 @@ const movies = [
   {
     "name": "Zootopie",
     "original-name": "Zootopie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/zootopie/h/6344462_40099",
     "year": 2016,
     "genre": "Animation",
@@ -3349,7 +3321,7 @@ const movies = [
   {
     "name": "La tortue rouge",
     "original-name": "La tortue rouge",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-tortue-rouge/h/7009426_40099",
     "year": 2016,
     "genre": "Animation",
@@ -3377,7 +3349,7 @@ const movies = [
   {
     "name": "Vice-Versa",
     "original-name": "Vice-Versa",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/vice-versa/h/5196978_40099",
     "year": 2015,
     "genre": "Animation",
@@ -3475,7 +3447,7 @@ const movies = [
   {
     "name": "L'illusionniste",
     "original-name": "L'illusionniste",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-illusionniste/h/242145_40099",
     "year": 2010,
     "genre": "Animation",
@@ -3489,7 +3461,7 @@ const movies = [
   {
     "name": "Ouvert la nuit",
     "original-name": "Ouvert la nuit",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/ouvert-la-nuit/h/7981356_40099",
     "year": 2016,
     "genre": "Drame",
@@ -3503,7 +3475,7 @@ const movies = [
   {
     "name": "Ernest et Célestine",
     "original-name": "Ernest et Célestine",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/ernest-et-celestine/h/1617071_40099",
     "year": 2012,
     "genre": "Animation",
@@ -3685,7 +3657,7 @@ const movies = [
   {
     "name": "Toy Story",
     "original-name": "Toy Story",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=CI5eQm-0CUw",
     "year": 1995,
     "genre": "Animation",
@@ -3699,7 +3671,7 @@ const movies = [
   {
     "name": "Toy Story 2",
     "original-name": "Toy Story 2",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=fBcb_eq9qOY",
     "year": 1999,
     "genre": "Animation",
@@ -3713,7 +3685,7 @@ const movies = [
   {
     "name": "Toy Story 3",
     "original-name": "Toy Story 3",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=1-8pawNzmXg",
     "year": 2010,
     "genre": "Animation",
@@ -3727,7 +3699,7 @@ const movies = [
   {
     "name": "Toy Story 4",
     "original-name": "Toy Story 4",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Q-eU3fQmBaY",
     "year": 2010,
     "genre": "Animation",
@@ -3755,7 +3727,7 @@ const movies = [
   {
     "name": "Kung Fu Panda",
     "original-name": "Kung Fu Panda",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=9oECG2PzobM",
     "year": 2008,
     "genre": "Animation",
@@ -3769,7 +3741,7 @@ const movies = [
   {
     "name": "Kung Fu Panda 2",
     "original-name": "Kung Fu Panda 2",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=6Pr-2XX7MUk",
     "year": 2011,
     "genre": "Animation",
@@ -3783,7 +3755,7 @@ const movies = [
   {
     "name": "Kung Fu Panda 3",
     "original-name": "Kung Fu Panda 3",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=H0f6RXtxGy4",
     "year": 2016,
     "genre": "Animation",
@@ -3808,6 +3780,7 @@ const movies = [
     "people": "Clovis Cornillac, Marion Cotillard, Kad Merad",
     "storyline": "Un manchot de l'Antarctique n'arrivera jamais à rien s'il ne sait pas chanter, et le pauvre Mumble est sans conteste le pire chanteur du monde. Son talent à lui, c'est... les claquettes, qu'il pratique en virtuose, avec une ardeur confondante. Bien que sa maman, Norma Jean, trouve ce don \"tout à fait charmant\", son père, Memphis, juge que \"ça ne fait vraiment pas pingouin\". Tous deux savent aussi que leur rejeton ne trouvera l'âme soeur que le jour où il saura pousser son \"chant d'amour\". Le hasard fait bien les choses : Gloria, la seule et unique amie de notre héros, est la meilleure chanteuse de la région. Mumble et elle sont copains depuis toujours, bien que cette gracieuse créature ait encore du mal à accepter son étrange \"anomalie\". Banni de la tribu, Mumble se lie avec les Amigos de Terre Adélie, un groupe latino exubérant, mené par Ramon..."
   },
+
   {
     "name": "Peanut Butter Falcon",
     "original-name": "Le cri du faucon",
@@ -3895,7 +3868,7 @@ const movies = [
   {
     "name": "Le Film de Tigrou",
     "original-name": "Les aventures de Tigrou",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=xOYLc8KqVxw",
     "year": 2000,
     "genre": "Animation",
@@ -3909,7 +3882,7 @@ const movies = [
   {
     "name": "La reine des neiges",
     "original-name": "Frozen",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-reine-des-neiges/h/3370099_40099",
     "year": 2013,
     "genre": "Animation",
@@ -3979,7 +3952,7 @@ const movies = [
   {
     "name": "An American Tail",
     "original-name": "Fievel et le nouveau monde",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=NT67Oz0u7lM",
     "year": 1986,
     "genre": "Animation",
@@ -3993,7 +3966,7 @@ const movies = [
   {
     "name": "Wallace & Gromit: The curse of the were-rabbit",
     "original-name": "Wallace & Gromit: The curse of the were-rabbit",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=gidNiWx0Ak0",
     "year": 2005,
     "genre": "Animation",
@@ -4021,7 +3994,7 @@ const movies = [
   {
     "name": "Up",
     "original-name": "Là-haut",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=wTpsA1myfPw",
     "year": 2009,
     "genre": "Animation",
@@ -4031,20 +4004,6 @@ const movies = [
     "director": "Pete Docter, Bob Peterson",
     "people": "Charles Aznavour, Tom Trouffier, Lou Levy",
     "storyline": "Des studios Disney-Pixar arrive la comédie d'aventure «Up», qui suit un vendeur de ballons de 78 ans, Carl Fredricksen, au moment où il réalise enfin le rêve de sa vie. Son désir de vivre une grande aventure le pousse à attacher des milliers de ballons à sa maison pour s'envoler vers les régions sauvages de l'Amérique du Sud. Mais il s'aperçoit trop tard de la présence d'un colis ayant la forme de son pire cauchemar : Russell, un jeune explorateur de 8 ans un peu trop optimiste, l'accompagnera dans son voyage."
-  },
-  {
-    "name": "The Lego Movie",
-    "original-name": "La Grande Aventure Lego",
-    "available": "available-off",
-    "url": "https://www.youtube.com/watch?v=lVl6UxiDQQs",
-    "year": 2014,
-    "genre": "Animation",
-    "lang": "En",
-    "keyword": "",
-    "stars": "star-four",
-    "director": "Phil Lord, Christopher Miller",
-    "people": "Arnaud Ducret, Tal, Chris Pratt",
-    "storyline": "Emmet est un petit personnage banal et conventionnel que l'on prend par erreur pour un être extraordinaire, capable de sauver le monde. Il se retrouve entraîné, parmi d'autres, dans un périple des plus mouvementés, dans le but de mettre hors d'état de nuire un redoutable despote. Mais le pauvre Emmet n'est absolument pas prêt à relever un tel défi !"
   },
   {
     "name": "Jason Bourne",
@@ -4063,7 +4022,7 @@ const movies = [
   {
     "name": "Ice Age",
     "original-name": "L'age de glace",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=AW9b6unX_wo",
     "year": 2002,
     "genre": "Animation",
@@ -4091,7 +4050,7 @@ const movies = [
   {
     "name": "Big Hero 6",
     "original-name": "Les nouveaux heros",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=-AWpph_Rvoo",
     "year": 2014,
     "genre": "Animation",
@@ -4231,7 +4190,7 @@ const movies = [
   {
     "name": "Fantastic Mr. Fox",
     "original-name": "Fantastic Mr. Fox",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=7_tVZQIM37s",
     "year": 2009,
     "genre": "Animation",
@@ -4511,7 +4470,7 @@ const movies = [
   {
     "name": "Wall E",
     "original-name": "Wall E",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=TbT3P_bsgcg",
     "year": 2008,
     "genre": "Animation",
@@ -4525,7 +4484,7 @@ const movies = [
   {
     "name": "Ratatouille",
     "original-name": "Ratatouille",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=BOzQaDg01ZY",
     "year": 2007,
     "genre": "Animation",
@@ -4567,7 +4526,7 @@ const movies = [
   {
     "name": "The Lion King",
     "original-name": "The Lion King",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=1BVuxUVnP6s",
     "year": 1994,
     "genre": "Animation",
@@ -4651,7 +4610,7 @@ const movies = [
   {
     "name": "The SpongeBob SquarePants Movie",
     "original-name": "The SpongeBob SquarePants Movie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=iguu0lAaXF8",
     "year": 2004,
     "genre": "Animation",
@@ -4707,7 +4666,7 @@ const movies = [
   {
     "name": "Monstres & Cie",
     "original-name": "Monsters, Inc.",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=VXP1he4awKg",
     "year": 2001,
     "genre": "Animation",
@@ -4875,7 +4834,7 @@ const movies = [
   {
     "name": "Shaun le mouton, le film : la ferme contre-attaque",
     "original-name": "A Shaun the Sheep Movie: Farmageddon",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/shaun-le-mouton-le-film-la-ferme-contre-attaque/h/12556215_40099",
     "year": 2019,
     "genre": "Animation",
@@ -4889,7 +4848,7 @@ const movies = [
   {
     "name": "Shaun le mouton, le film",
     "original-name": "Shaun le mouton, le film",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/shaun-le-mouton/h/4878681_40099",
     "year": 2015,
     "genre": "Animation",
@@ -5001,7 +4960,7 @@ const movies = [
   {
     "name": "Wasabi",
     "original-name": "Wasabi",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/wasabi/h/3147781_40099",
     "year": 2001,
     "genre": "Comédie",
@@ -5207,20 +5166,6 @@ const movies = [
     "director": "Tim Burton",
     "people": "Ewan McGregor, Albert Finney, Jessica Lange",
     "storyline": "L'histoire à la fois drôle et poignante d'Edward Bloom, un père débordant d'imagination, et de son fils William. Ce dernier retourne au domicile familial après l'avoir quitté longtemps auparavant, pour être au chevet de son père, atteint d'un cancer. Il souhaite mieux le connaître et découvrir ses secrets avant qu'il ne soit trop tard. L'aventure débutera lorsque William tentera de discerner le vrai du faux dans les propos de son père mourant."
-  },
-  {
-    "name": "Strictly Criminal",
-    "original-name": "Black Mass",
-    "available": "available-on",
-    "url": "",
-    "year": null,
-    "genre": "",
-    "lang": "En",
-    "keyword": "",
-    "stars": "",
-    "director": "Scott Cooper",
-    "people": "Johnny Depp, Joel Edgerton, Benedict Cumberbatch",
-    "storyline": "Le quartier de South Boston dans les années 70. L'agent du FBI John Connolly convainc le caïd irlandais James \"Whitey\" Bulger de collaborer avec l'agence fédérale afin d'éliminer un ennemi commun : la mafia italienne. Le film retrace l'histoire vraie de cette alliance contre nature qui a dégénéré et permis à Whitey d'échapper à la justice, de consolider son pouvoir et de s'imposer comme l'un des malfrats les plus redoutables de Boston et les plus puissants des États-Unis."
   },
   {
     "name": "Blades of Glory",
@@ -5517,20 +5462,6 @@ const movies = [
     "storyline": "Topper Harley s'est refugié en Inde pour oublier Ramada. Mais Saddam Hussein continue de mener la vie dure aux commandos américains. L'armée fait alors appel à Topper, dernier espoir du monde libre..."
   },
   {
-    "name": "I Am Legend",
-    "original-name": "I Am Legend",
-    "available": "available-on",
-    "url": "",
-    "year": 2007,
-    "genre": "Science-fiction",
-    "lang": "En",
-    "keyword": "",
-    "stars": "",
-    "director": "Francis Lawrence",
-    "people": "Will Smith, Alice Braga, Charlie Tahan",
-    "storyline": "Robert Neville était un savant de haut niveau et de réputation mondiale, mais il en aurait fallu plus pour stopper les ravages de cet incurable et terrifiant virus d'origine humaine. Mystérieusement immunisé contre le mal, Neville est aujourd'hui le dernier homme à hanter les ruines de New York. Peut-être le dernier homme sur Terre... Depuis trois ans, il diffuse chaque jour des messages radio dans le fol espoir de trouver d'autres survivants. Nul n'a encore répondu. Mais Neville n'est pas seul. Des mutants, victimes de cette peste moderne - on les appelle les \"Infectés\" - rôdent dans les ténèbres... observent ses moindres gestes, guettent sa première erreur. Devenu l'ultime espoir de l'humanité, Neville se consacre tout entier à sa mission : venir à bout du virus, en annuler les terribles effets en se servant de son propre sang. Ses innombrables ennemis lui en laisseront-ils le temps ? Le compte à rebours touche à sa fin..."
-  },
-  {
     "name": "Indiana Jones et le Royaume du Crâne de Cristal",
     "original-name": "Indiana Jones and the Kingdom of the Crystal Skull",
     "available": "available-on",
@@ -5669,20 +5600,6 @@ const movies = [
     "director": "Tim Burton",
     "people": "Paul Reubens, Mark Holton, Diane Salinger",
     "storyline": "Pee Wee, un adulte qui ressemble à un enfant, s'apprête à passer une belle journée avec l'amour de sa vie : sa bicyclette. Mais cet objet vient d'être volé par le méchant Francis. Pee Wee part à la recherche de son amour perdu et nous entraîne dans des aventures de plus en plus burlesques."
-  },
-  {
-    "name": "Phone game",
-    "original-name": "Phone Booth",
-    "available": "available-on",
-    "url": "",
-    "year": 2003,
-    "genre": "Thriller",
-    "lang": "En",
-    "keyword": "",
-    "stars": "",
-    "director": "Joel Schumacher",
-    "people": "Colin Farrell, Forest Whitaker, Katie Holmes",
-    "storyline": "Stu Shepard, un attaché de presse, passe devant une cabine publique. Le téléphone sonne, Stu répond à l'appel. Une voix qu'il ne connaît pas l'informe qu'il est mort s'il raccroche le combiné. Le point lumineux d'un rayon infrarouge sur son torse prouve que le mystérieux interlocuteur ne bluffe pas... Un terrible incident ayant éclaté à quelques mètres de la cabine, la police arrive sur les lieux, flanquée de tireurs d'élite. Tous pensent que Stu, et non son invisible interlocuteur téléphonique, en est l'auteur. L'officier responsable, le capitaine Ramey, tente de convaincre Stu de sortir de la cabine..."
   },
   {
     "name": "La Planète des singes",
@@ -6092,7 +6009,7 @@ const showMovies = () => {
         <a href="${url}"  >
           <img src="assets/120/${index}.jpg" width="120"></img>
           <h3 class="name">${name}</h3></a>
-          <div class="star" ${stars}"></div>
+          <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
           <h4 class="genre">${index}</h4>
           <h4 class="year">${year}</h4>         
