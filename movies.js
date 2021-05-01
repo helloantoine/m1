@@ -1039,7 +1039,7 @@ const movies = [
   {
     "name": "Océans",
     "original-name": "Océans",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/oceans/h/174956_40099",
     "year": 2009,
     "genre": "Documentaire",
@@ -2201,7 +2201,7 @@ const movies = [
   {
     "name": "Marie-Francine",
     "original-name": "Marie-Francine",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/marie-francine/h/8643789_40099",
     "year": 2017,
     "genre": "Comédie",
@@ -2229,11 +2229,11 @@ const movies = [
   {
     "name": "Problemos",
     "original-name": "Problemos",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/problemos/h/8569306_40099",
     "year": 2017,
     "genre": "Comédie",
-    "lang": "En",
+    "lang": "Fr",
     "keyword": "",
     "stars": "star-three",
     "director": "Eric Judor",
@@ -2761,7 +2761,7 @@ const movies = [
   {
     "name": "Les sous-doués",
     "original-name": "Les sous-doués",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-sous-doues/h/303001_40099",
     "year": 1980,
     "genre": "Comédie",
@@ -2775,7 +2775,7 @@ const movies = [
   {
     "name": "Le château de ma mère",
     "original-name": "Le château de ma mère",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-chateau-de-ma-mere/h/438490_40099",
     "year": 1990,
     "genre": "Drame",
@@ -2803,7 +2803,7 @@ const movies = [
   {
     "name": "La gloire de mon père",
     "original-name": "La gloire de mon père",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-gloire-de-mon-pere/h/438499_40099",
     "year": 1990,
     "genre": "Drame",
@@ -3279,7 +3279,7 @@ const movies = [
   {
     "name": "Didier",
     "original-name": "Didier",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/didier/h/911536_40099",
     "year": 1996,
     "genre": "Comédie",
@@ -3335,7 +3335,7 @@ const movies = [
   {
     "name": "Paris pieds nus",
     "original-name": "Paris pieds nus",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/ouvert-la-nuit/h/7981356_40099",
     "year": 2016,
     "genre": "Comédie",
@@ -3615,7 +3615,7 @@ const movies = [
   {
     "name": "Se souvenir des belles choses",
     "original-name": "Se souvenir des belles choses",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/se-souvenir-des-belles-choses/h/2235125_40099",
     "year": 2002,
     "genre": "Drame",
@@ -4176,7 +4176,7 @@ const movies = [
   {
     "name": "Be Kind Rewind",
     "original-name": "Be Kind Rewind",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=MaDKdvArDkE",
     "year": 2008,
     "genre": "Comédie",
