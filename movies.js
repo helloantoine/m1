@@ -353,7 +353,7 @@ const movies = [
   {
     "name": "Mais où est donc passée la 7e compagnie ?",
     "original-name": "Mais où est donc passée la septieme compagnie ?",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/mais-ou-est-donc-passee-la-7-e-compagnie/h/625644_40099",
     "year": 1973,
     "genre": "Comédie",
@@ -451,7 +451,7 @@ const movies = [
   {
     "name": "Marie Antoinette",
     "original-name": "Marie Antoinette",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/marie-antoinette/h/437547_40099",
     "year": 2006,
     "genre": "Histoire",
@@ -1137,7 +1137,7 @@ const movies = [
   {
     "name": "Etre et avoir",
     "original-name": "Etre et avoir",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/etre-et-avoir/h/437915_40099",
     "year": 2002,
     "genre": "Documentaire",
@@ -1739,7 +1739,7 @@ const movies = [
   {
     "name": "Les rois mages",
     "original-name": "Les rois mages",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-rois-mages/h/650676_40099",
     "year": 2001,
     "genre": "Comédie",
@@ -1767,7 +1767,7 @@ const movies = [
   {
     "name": "Quai d'Orsay",
     "original-name": "Quai d'Orsay",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/quai-d-orsay/h/3221383_40099",
     "year": 2013,
     "genre": "Comédie",
@@ -1781,7 +1781,7 @@ const movies = [
   {
     "name": "La vallée des loups",
     "original-name": "La vallée des loups",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-vallee-des-loups/h/7948131_40099",
     "year": 2016,
     "genre": "Documentaire",
@@ -2859,7 +2859,7 @@ const movies = [
   {
     "name": "L'opération Corned Beef",
     "original-name": "L'opération Corned Beef",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-operation-corned-beef/h/1064009_40099",
     "year": 1990,
     "genre": "Comédie",
@@ -3139,7 +3139,7 @@ const movies = [
   {
     "name": "Marseille",
     "original-name": "Marseille",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/marseille/h/6503644_40099",
     "year": 2016,
     "genre": "Drame",
@@ -3769,7 +3769,7 @@ const movies = [
   {
     "name": "Happy Feet",
     "original-name": "Happy Feet",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=i73C9dJUp3k",
     "year": 2006,
     "genre": "Animation",
@@ -4134,7 +4134,7 @@ const movies = [
   {
     "name": "Deux jours, une nuit",
     "original-name": "Deux jours, une nuit",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=hiuAIzA9i98",
     "year": 2014,
     "genre": "Drame",
@@ -4512,7 +4512,7 @@ const movies = [
   {
     "name": "Inside Job",
     "original-name": "Inside Job",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=T7WY8BZZiQc",
     "year": 2010,
     "genre": "Documentaire",
@@ -4596,7 +4596,7 @@ const movies = [
   {
     "name": "Amour",
     "original-name": "Amour",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Qy9FDeR-2Y8",
     "year": 2012,
     "genre": "Drame",
