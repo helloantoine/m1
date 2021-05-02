@@ -241,7 +241,7 @@ const movies = [
   {
     "name": "Tout simplement noir",
     "original-name": "Tout simplement noir",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/tout-simplement-noir/h/14250527_40099",
     "year": 2020,
     "genre": "Comédie",
@@ -731,7 +731,7 @@ const movies = [
   {
     "name": "Moi, moche et méchant",
     "original-name": "Desplicable me",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/moi-moche-et-mechant/h/733525_40099",
     "year": 2010,
     "genre": "Animation",
@@ -801,7 +801,7 @@ const movies = [
   {
     "name": "Les minions",
     "original-name": "The Minions",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-minions/h/5281800_40099",
     "year": 2015,
     "genre": "Animation",
@@ -983,7 +983,7 @@ const movies = [
   {
     "name": "Astérix: Le domaine des dieux",
     "original-name": "Astérix: Le domaine des dieux",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/asterix-le-domaine-des-dieux/h/4891937_40099",
     "year": 2014,
     "genre": "Animation",
@@ -1151,7 +1151,7 @@ const movies = [
   {
     "name": "Kirikou et la sorcière",
     "original-name": "Kirikou et la sorcière",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/kirikou-et-la-sorciere/h/569183_40099",
     "year": 1998,
     "genre": "Animation",
@@ -1571,7 +1571,7 @@ const movies = [
   {
     "name": "Cars",
     "original-name": "Cars",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/cars-quatre-roues/h/603415_40099",
     "year": 2006,
     "genre": "Animation",
@@ -1599,7 +1599,7 @@ const movies = [
   {
     "name": "Les indestructibles",
     "original-name": "Les indestructibles",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-indestructibles/h/205541_40099",
     "year": 2004,
     "genre": "Animation",
@@ -2215,7 +2215,7 @@ const movies = [
   {
     "name": "Le grand méchant Renard et autres contes",
     "original-name": "Le grand méchant Renard et autres contes",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-grand-mechant-renard-et-autres-contes/h/8716590_40099",
     "year": 2017,
     "genre": "Animation",
@@ -2789,7 +2789,7 @@ const movies = [
   {
     "name": "Les triplettes de Belleville",
     "original-name": "Les triplettes de Belleville",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-triplettes-de-belleville/h/4247757_40099",
     "year": 2003,
     "genre": "Animation",
@@ -3363,7 +3363,7 @@ const movies = [
   {
     "name": "Un idiot à Paris",
     "original-name": "Un idiot à Paris",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/un-idiot-a-paris/h/432921_40099",
     "year": 1967,
     "genre": "Comédie",
@@ -3587,7 +3587,7 @@ const movies = [
   {
     "name": "Drôle de drame",
     "original-name": "Drôle de drame",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/drole-de-drame/h/375220_40099",
     "year": 1937,
     "genre": "Comédie",
@@ -3601,7 +3601,7 @@ const movies = [
   {
     "name": "Tchao pantin",
     "original-name": "Tchao pantin",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/tchao-pantin/h/5525434_40099",
     "year": 1983,
     "genre": "Drame",
@@ -3629,7 +3629,7 @@ const movies = [
   {
     "name": "Un cœur en hiver",
     "original-name": "Un cœur en hiver",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/un-coeur-en-hiver/h/438706_40099",
     "year": 1992,
     "genre": "Drame",
@@ -3643,7 +3643,7 @@ const movies = [
   {
     "name": "Nelly et monsieur Arnaud",
     "original-name": "Nelly et monsieur Arnaud",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/nelly-et-monsieur-arnaud/h/286005_40099",
     "year": 1995,
     "genre": "Drame",
@@ -4722,7 +4722,7 @@ const movies = [
   {
     "name": "Mon voisin Totoro",
     "original-name": "Mon voisin Totoro",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/mon-voisin-totoro/h/6073547_40099",
     "year": 1988,
     "genre": "Animation",
@@ -4988,7 +4988,7 @@ const movies = [
   {
     "name": "Astérix : le secret de la potion magique",
     "original-name": "Astérix : le secret de la potion magique",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/asterix-le-secret-de-la-potion-magique/h/10673480_40099",
     "year": 2018,
     "genre": "Animation",
@@ -5016,7 +5016,7 @@ const movies = [
   {
     "name": "Planes",
     "original-name": "Planes",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/planes/h/3126180_40099",
     "year": 2013,
     "genre": "Animation",
