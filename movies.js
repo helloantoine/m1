@@ -871,7 +871,7 @@ const movies = [
   {
     "name": "Taxi",
     "original-name": "Taxi",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/taxi/h/267817_40099",
     "year": 1997,
     "genre": "Action",
@@ -1445,7 +1445,7 @@ const movies = [
   {
     "name": "Intouchables",
     "original-name": "Intouchables",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/intouchables/h/151459_40099",
     "year": 2011,
     "genre": "Drame",
@@ -2495,7 +2495,7 @@ const movies = [
   {
     "name": "La cité de la peur",
     "original-name": "La cité de la peur",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-cite-de-la-peur/h/437562_40099",
     "year": 1994,
     "genre": "Comédie",
@@ -2817,7 +2817,7 @@ const movies = [
   {
     "name": "Le téléphone sonne toujours deux fois",
     "original-name": "Le téléphone sonne toujours deux fois",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-telephone-sonne-toujours-deux-fois/h/351196_40099",
     "year": 1984,
     "genre": "Comédie",
@@ -3293,7 +3293,7 @@ const movies = [
   {
     "name": "Le Père Noël est une ordure",
     "original-name": "Le Père Noël est une ordure",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-pere-noel-est-une-ordure/h/4519507_40099",
     "year": 1982,
     "genre": "Comédie",
@@ -3559,7 +3559,7 @@ const movies = [
   {
     "name": "L'ours",
     "original-name": "L'ours",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-ours/h/433064_40099",
     "year": 1988,
     "genre": "Aventure",
@@ -5002,7 +5002,7 @@ const movies = [
   {
     "name": "Inséparables",
     "original-name": "Inséparables",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/inseparables/h/12298110_40099",
     "year": 2019,
     "genre": "Comédie",
