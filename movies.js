@@ -129,7 +129,7 @@ const movies = [
   {
     "name": "Astérix et le coup du menhir",
     "original-name": "Astérix et le coup du menhir",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/asterix-et-le-coup-du-menhir/h/267699_40099",
     "year": 1989,
     "genre": "Jeunesse",
@@ -143,7 +143,7 @@ const movies = [
   {
     "name": "La folie des grandeurs",
     "original-name": "La folie des grandeurs",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-folie-des-grandeurs/h/437616_40099",
     "year": 1971,
     "genre": "Comédie",
@@ -171,7 +171,7 @@ const movies = [
   {
     "name": "Le cinquième élément",
     "original-name": "The fifth element",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-cinquieme-element/h/2799080_40099",
     "year": 1997,
     "genre": "Science-fiction",
@@ -339,7 +339,7 @@ const movies = [
   {
     "name": "Le dîner de cons",
     "original-name": "Le dîner de cons",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-diner-de-cons/h/1445242_40099",
     "year": 1997,
     "genre": "Comédie",
@@ -381,7 +381,7 @@ const movies = [
   {
     "name": "Jour de fête",
     "original-name": "Jour de fête",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/jour-de-fete/h/2767115_40099",
     "year": 1949,
     "genre": "Comédie",
@@ -479,7 +479,7 @@ const movies = [
   {
     "name": "Chappie",
     "original-name": "Chappie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/chappie/h/4814980_40099",
     "year": 2015,
     "genre": "Science-fiction",
@@ -507,7 +507,7 @@ const movies = [
   {
     "name": "Passengers",
     "original-name": "Passengers",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/passengers/h/7908222_40099",
     "year": 2016,
     "genre": "Science-fiction",
@@ -675,7 +675,7 @@ const movies = [
   {
     "name": "Bienvenue à Gattaca",
     "original-name": "Gattaca",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/bienvenue-a-gattaca/h/437345_40099",
     "year": 1997,
     "genre": "Science-fiction",
@@ -829,7 +829,7 @@ const movies = [
   {
     "name": "Playtime",
     "original-name": "Playtime",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/playtime/h/2863218_40099",
     "year": 1967,
     "genre": "Comédie",
@@ -843,7 +843,7 @@ const movies = [
   {
     "name": "Les vacances de Mr Hulot",
     "original-name": "Les vacances de Mr Hulot",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-vacances-de-monsieur-hulot/h/2799017_40099",
     "year": 1953,
     "genre": "Comédie",
@@ -857,7 +857,7 @@ const movies = [
   {
     "name": "Mon oncle",
     "original-name": "Mon oncle",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/mon-oncle/h/2830409_40099",
     "year": 1958,
     "genre": "Comédie",
@@ -941,7 +941,7 @@ const movies = [
   {
     "name": "Premier contact",
     "original-name": "Arrival",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/premier-contact/h/7798919_40099",
     "year": 2016,
     "genre": "Science-fiction",
@@ -1207,7 +1207,7 @@ const movies = [
   {
     "name": "Ready Player One",
     "original-name": "Ready Player One",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/ready-player-one/h/9716666_40099",
     "year": 2018,
     "genre": "Science-fiction",
@@ -1263,7 +1263,7 @@ const movies = [
   {
     "name": "Blade Runner 2049",
     "original-name": "Blade Runner 2049",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/blade-runner-2049/h/9078527_40099",
     "year": 2017,
     "genre": "Science-fiction",
@@ -1319,7 +1319,7 @@ const movies = [
   {
     "name": "Les gardiens de la galaxie",
     "original-name": "Guardians of the Galaxy",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-gardiens-de-la-galaxie/h/4452285_40099",
     "year": 2014,
     "genre": "Science-fiction",
@@ -1347,7 +1347,7 @@ const movies = [
   {
     "name": "Django Unchained",
     "original-name": "Django Unchained",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/django-unchained/h/1820212_40099",
     "year": 2012,
     "genre": "Western",
@@ -1431,7 +1431,7 @@ const movies = [
   {
     "name": "True Grit",
     "original-name": "True Grit",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/true-grit/h/118252_40099",
     "year": 2010,
     "genre": "Western",
@@ -2522,8 +2522,8 @@ const movies = [
   },
   {
     "name": "Sur la route de Madison",
-    "original-name": "Sur la route de Madison",
-    "available": "available-off",
+    "original-name": "The Brdiges of Madison County",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/sur-la-route-de-madison/h/435500_40099",
     "year": 1995,
     "genre": "Drame",
@@ -3013,7 +3013,7 @@ const movies = [
   {
     "name": "Je suis une légende",
     "original-name": "Je suis une légende",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/je-suis-une-legende/h/185102_40099",
     "year": 2007,
     "genre": "Science-fiction",
@@ -3026,8 +3026,8 @@ const movies = [
   },
   {
     "name": "Impitoyable",
-    "original-name": "Impitoyable",
-    "available": "available-off",
+    "original-name": "Unforgiven",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/impitoyable/h/434653_40099",
     "year": 1992,
     "genre": "Western",
@@ -3545,7 +3545,7 @@ const movies = [
   {
     "name": "Godzilla",
     "original-name": "Godzilla",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/godzilla/h/437531_40099",
     "year": 1998,
     "genre": "Science-fiction",
@@ -4750,7 +4750,7 @@ const movies = [
   {
     "name": "Matrix Revolutions",
     "original-name": "Matrix Revolutions",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/matrix-revolutions/h/113945_40099",
     "year": 2003,
     "genre": "Science-fiction",
@@ -4764,7 +4764,7 @@ const movies = [
   {
     "name": "Matrix Reloaded",
     "original-name": "Matrix Reloaded",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/matrix-reloaded/h/113987_40099",
     "year": 2003,
     "genre": "Science-fiction",
@@ -4778,7 +4778,7 @@ const movies = [
   {
     "name": "Casablanca",
     "original-name": "Casablanca",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/casablanca/h/2123457_40099",
     "year": 1942,
     "genre": "Science-fiction",
@@ -4820,7 +4820,7 @@ const movies = [
   {
     "name": "2001, l'odyssée de l'espace",
     "original-name": "2001, l'odyssée de l'espace",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/2001-l-odyssee-de-l-espace/h/435026_40099",
     "year": 1968,
     "genre": "Science-fiction",
@@ -5064,7 +5064,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+    "stars": "star-three",
     "director": "Clint Eastwood",
     "people": "Clint Eastwood, Scott Glenn, Ed Harris",
     "storyline": "Luther Whitney est un Arsène Lupin moderne, un voleur élégant qui s'en est toujours pris aux riches. Arrivé au terme de sa longue carrière, il entreprend de dévaliser la résidence de Sullivan, un des hommes les plus riches de Washington, parti en voyage d'affaires avec sa jeune épouse, Christy. Tout se passe pour le mieux. Il s'apprête à repartir lorsqu'il découvre que la cloison de la chambre forte est un miroir sans tain qui donne sur la chambre à coucher. De l'autre côté de ce miroir, Luther assiste à un meurtre impliquant Christy et Richmond, le Président des Etats-Unis."
@@ -5078,7 +5078,7 @@ const movies = [
     "genre": "Science-fiction",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+    "stars": "star-three",
     "director": "James Cameron",
     "people": "Ed Harris, Mary Elizabeth Mastrantonio, Michael Biehn",
     "storyline": "Un commando de la Marine américaine débarque à bord de la station de forage sous-marine DeepCore, afin de porter secours à un sous-marin échoué dans les profondeurs. L'équipe de Bud Brigman accueille ces nouveaux arrivants, ainsi que Lindsey, future ex-femme de Bud. Alors que les travaux de récupération commencent autour du submersible naufragé, l'équipage de DeepCore doit faire face à des phénomènes inexpliqués. Et s'ils n'étaient pas seuls, dans les abysses ?"
@@ -5092,7 +5092,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+    "stars": "star-three",
     "director": "Ken Finkleman",
     "people": "Robert Hays, Julie Hagerty, Lloyd Bridges",
     "storyline": "La première navette spatiale commerciale pilotée par le commandant Over est en partance pour la Lune. Dès l'envol, déjà laborieux, les difficultés commencent. Malgré les efforts de sa responsable Elaine, l'ordinateur de bord devient fou. Ted, évadé d'un établissement psychiatrique et membre de l'équipage, prend désormais les commandes en main."
@@ -5106,7 +5106,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+    "stars": "star-three",
     "director": "David Zucker, Jim Abrahams, Jerry Zucker",
     "people": "Kareem Abdul-Jabbar, Leslie Nielsen, Peter Graves",
     "storyline": "Le vol 209, à destination de Chicago n'est pas vraiment un vol ordinaire. Tous les membres de l'équipage étant victimes d'un empoisonnement alimentaire, il faut vite trouver un pilote de dépannage parmi les passagers. Elaine supplie son ex-ami, un ancien pilote de chasse de prendre les commandes de l'avion."
@@ -5120,7 +5120,7 @@ const movies = [
     "genre": "Fantastique",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+    "stars": "star-three",
     "director": "Tim Burton",
     "people": "Johnny Depp, Mia Wasikowska, Matt Lucas",
     "storyline": "Alice, désormais âgée de 19 ans, retourne dans le monde fantastique qu'elle a découvert quand elle était enfant. Elle y retrouve ses amis le Lapin Blanc, Bonnet Blanc et Blanc Bonnet, le Loir, la Chenille, le Chat du Cheshire et, bien entendu, le Chapelier Fou. Alice s'embarque alors dans une aventure extraordinaire où elle accomplira son destin : mettre fin au règne de terreur de la Reine Rouge."
@@ -5134,7 +5134,7 @@ const movies = [
     "genre": "Guerre",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+    "stars": "star-three",
     "director": "Francis Ford Coppola",
     "people": "Martin Sheen, Frederic Forrest, Robert Duvall",
     "storyline": "Cloîtré dans une chambre d'hôtel de Saïgon, le jeune capitaine Willard, mal rasé et imbibé d'alcool, est sorti de sa prostration par une convocation de l'état-major américain. Le général Corman lui confie une mission qui doit rester secrète : éliminer le colonel Kurtz, un militaire aux méthodes quelque peu expéditives et qui sévit au-delà de la frontière cambodgienne."
@@ -5148,7 +5148,7 @@ const movies = [
     "genre": "Fantastique",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+    "stars": "star-three",
     "director": "Tim Burton",
     "people": "Michael Keaton, Michelle Pfeiffer, Danny DeVito",
     "storyline": "Non seulement Batman doit affronter le Pingouin, monstre génétique doté d'une intelligence à toute épreuve, qui sème la terreur mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman."
@@ -5162,7 +5162,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Tim Burton",
     "people": "Ewan McGregor, Albert Finney, Jessica Lange",
     "storyline": "L'histoire à la fois drôle et poignante d'Edward Bloom, un père débordant d'imagination, et de son fils William. Ce dernier retourne au domicile familial après l'avoir quitté longtemps auparavant, pour être au chevet de son père, atteint d'un cancer. Il souhaite mieux le connaître et découvrir ses secrets avant qu'il ne soit trop tard. L'aventure débutera lorsque William tentera de discerner le vrai du faux dans les propos de son père mourant."
@@ -5176,7 +5176,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Josh Gordon, Will Speck",
     "people": "Will Ferrell, Jon Heder, Will Arnett",
     "storyline": "Deux patineurs olympiques, adversaires de toujours mais disqualifiés de toute compétition officielle depuis quelques années après s'être battus en public, ont l'occasion unique de participer de nouveau à un tournoi international. Mais pour cela, ces deux rivaux historiques vont devoir patiner... ensemble !"
@@ -5190,7 +5190,7 @@ const movies = [
     "genre": "Aventure",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Edward Zwick",
     "people": "Leonardo DiCaprio, Djimon Hounsou, Jennifer Connelly",
     "storyline": "Alors qu'il purge une peine de prison pour ses trafics, Archer rencontre Solomon Vandy, un pêcheur d'origine Mende. Arraché à sa famille et forcé de travailler dans les mines diamantifères, ce dernier a trouvé - et caché - un diamant rose extrêmement rare. Accompagnés de Maddy Bowen, une journaliste idéaliste, les deux hommes s'embarquent pour un dangereux voyage en territoire rebelle pour récupérer le fameux caillou. Un voyage qui pourrait bien sauver la famille de Salomon et donner à Archer la seconde chance qu'il n'espérait plus."
@@ -5204,7 +5204,7 @@ const movies = [
     "genre": "Documentaire",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Michael Moore",
     "people": "Michael Moore, Charlton Heston, Marilyn Manson",
     "storyline": "Michael Moore enquête sur la violence provoquée par les armes à feu aux Etats-Unis. Son point de départ est la tragédie du lycée Columbine dans le Colorado en 1999. Des dizaines de lycéens avaient alors été assassinés par deux de leurs camarades."
@@ -5218,7 +5218,7 @@ const movies = [
     "genre": "Musical",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Wim Wenders",
     "people": "Compay Segundo, Eliades Ochoa, Ry Cooder",
     "storyline": "Ry Cooder a compose la musique de Paris Texas et de The End of Violence. Au cours du travail sur ce dernier film, il parlait souvent avec enthousiasme a Wim Wenders de son voyage a Cuba et du disque qu'il y avait enregistre avec de vieux musiciens cubains. Le disque, sorti sous le nom de \"Buena Vista Social Club\", fut un succes international. Au printemps 1998, Ry Cooder retourne a Cuba pour y enregistrer un disque avec Ibrahim Ferrer et tous les musiciens qui avaient participe au premier album. Cette fois, Wim Wenders etait du voyage avec une petite equipe de tournage."
@@ -5232,7 +5232,7 @@ const movies = [
     "genre": "Aventure",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Martin Campbell",
     "people": "Daniel Craig, Eva Green, Mads Mikkelsen",
     "storyline": "Pour sa première mission, James Bond affronte le tout-puissant banquier privé du terrorisme international, Le Chiffre. Pour achever de le ruiner et démanteler le plus grand réseau criminel qui soit, Bond doit le battre lors d'une partie de poker à haut risque au Casino Royale. La très belle Vesper, attachée au Trésor, l'accompagne afin de veiller à ce que l'agent 007 prenne soin de l'argent du gouvernement britannique qui lui sert de mise, mais rien ne va se passer comme prévu. Alors que Bond et Vesper s'efforcent d'échapper aux tentatives d'assassinat du Chiffre et de ses hommes, d'autres sentiments surgissent entre eux, ce qui ne fera que les rendre plus vulnérables..."
@@ -5260,7 +5260,7 @@ const movies = [
     "genre": "Action",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Simon West",
     "people": "Nicolas Cage, John Malkovich, John Cusack",
     "storyline": "Con Air, c'est la division aeroportée de la police fédérale américaine qui assure le transport des detenus à travers le pays pour comparution devant la cour, urgence médicale ou transfert de prison à prison. Cameron Poe, récemment libéré sur parole, prend place à bord d'un de ces avions pour retrouver sa femme et sa fille, qu'il n'a encore jamais vue. A bord egalement, Cyrus Grissom, surnommé le virus et quelques-uns de ses comparses, qui doivent rejoindre un nouveau quartier de haute sécurité."
@@ -5274,7 +5274,7 @@ const movies = [
     "genre": "Fantastique",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Mike Johnson, Tim Burton",
     "people": "Johnny Depp, Helena Bonham Carter, Emily Watson",
     "storyline": "Au XIXe siècle, dans un petit village d'Europe de l'est, Victor, un jeune homme, découvre le monde de l'au-delà après avoir épousé, sans le vouloir, le cadavre d'une mystérieuse mariée. Pendant son voyage, sa promise, Victoria l'attend désespérément dans le monde des vivants. Bien que la vie au Royaume des Morts s'avère beaucoup plus colorée et joyeuse que sa véritable existence, Victor apprend que rien au monde, pas même la mort, ne pourra briser son amour pour sa femme."
@@ -5288,7 +5288,7 @@ const movies = [
     "genre": "Action",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Ang Lee",
     "people": "Chow Yun-Fat, Michelle Yeoh, Ziyi Zhang",
     "storyline": "Dans la Chine du XIXème siècle, Li Mu Bai, virtuose des arts martiaux, possède une épée légère, rapide et magique nommée \"Destinée\". Elle est l'objet de nombreuses convoitises. Las des combats, Li Mu Bai décide de confier \"Destinée\" à une excellente guerrière, Yu Shu Lien, à qui il n'ose pas avouer son amour. Celle-ci doit remettre la fameuse épée au seigneur Té, mais une fois la nuit tombée un habile voleur parvient à la lui dérober. A la résidence du seigneur Té, Shu Lien fait la connaissance de Jen, la fille du gouverneur Yu, qui a été promise à un homme qu'elle n'aime point et ferait tout pour mener une vie aussi libre que Shu Lien. Mais l'apparente candeur de Jen cache un sinistre secret ; elle travaille de concert avec la terrible Jade \"La Hyène\" et n'est autre que l'auteur du vol de \"Destinée\". Li et Shu Lien partent alors à la poursuite de Jen pour récupérer l'épée aux vertus magiques."
@@ -5302,7 +5302,7 @@ const movies = [
     "genre": "Action",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Len Wiseman",
     "people": "Bruce Willis, Justin Long, Timothy Olyphant",
     "storyline": "Pour sa quatrième aventure, l'inspecteur John McClane se trouve confronté à un nouveau genre de terrorisme. Le réseau informatique national qui contrôle absolument toutes les communications, les transports et l'énergie des Etats-Unis, est détruit de façon systématique, plongeant le pays dans le chaos. Le cerveau qui est derrière le complot a tout calculé à la perfection. Ou presque... Il n'avait pas prévu McClane, un flic de la vieille école qui connait deux ou trois trucs efficaces pour déjouer les attaques terroristes."
@@ -5316,7 +5316,7 @@ const movies = [
     "genre": "Action",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "John Moore",
     "people": "Bruce Willis, Jai Courtney, Sebastian Koch",
     "storyline": "Bruce Willis est de retour dans son rôle le plus mythique : John McClane, le « vrai héros » par excellence, qui a le talent et la trempe de celui qui résiste jusqu’au bout. Cette fois-ci, le flic qui ne fait pas dans la demi-mesure, est vraiment au mauvais endroit au mauvais moment après s’être rendu à Moscou pour aider son fils Jack, qu’il avait perdu de vue. Ce qu’il ignore, c’est que Jack est en réalité un agent hautement qualifié de la CIA en mission pour empêcher un vol d’armes nucléaires. Avec la mafia russe à leur poursuite et la menace d’une guerre imminente, les deux McClane vont découvrir que leurs méthodes radicalement différentes vont aussi faire d’eux des héros que rien ne peut arrêter."
@@ -5330,7 +5330,7 @@ const movies = [
     "genre": "Horreur",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Francis Ford Coppola",
     "people": "Gary Oldman, Winona Ryder, Keanu Reeves",
     "storyline": "En 1492, le prince Vlad Dracul, revenant de combattre les armées turques, trouve sa fiancée suicidée. Fou de douleur, il défie Dieu, et devient le comte Dracula, vampire de son état. Quatre cents ans plus tard, désireux de quitter la Transylvanie pour s'établir en Angleterre, il fait appel à Jonathan Harker, clerc de notaire et fiancé de la jolie Mina Murray. La jeune fille est le sosie d'Elisabeta, l'amour ancestral du comte..."
@@ -5344,7 +5344,7 @@ const movies = [
     "genre": "Fantastique",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Tim Burton",
     "people": "Johnny Depp, Winona Ryder, Dianne Wiest",
     "storyline": "Edward Scissorhands n'est pas un garçon ordinaire. Création d'un inventeur, il a reçu un cœur pour aimer, un cerveau pour comprendre. Mais son concepteur est mort avant d'avoir pu terminer son œuvre et Edward se retrouve avec des lames de métal et des instruments tranchants en guise de doigts."
@@ -5358,7 +5358,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Jon Favreau",
     "people": "Will Ferrell, James Caan, Zooey Deschanel",
     "storyline": "Buddy est élevé par les lutins du Père Noël. Lorsqu'il atteint la taille adulte, ces derniers s'aperçoivent que cette différence physique pose quelques problèmes. Renvoyé dans son pays d'origine, Buddy se lance à la recherche de son père biologique."
@@ -5372,7 +5372,7 @@ const movies = [
     "genre": "Animation",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Mamoru Oshii",
     "people": "Tania Torrens, Daniel Berreta, René Beriard",
     "storyline": "Dans un Japon futuriste régi par l'Internet, le major Motoko Kusunagi, une femme cyborg ultra-perfectionnée, est hantée par des interrogations ontologiques. Elle appartient, malgré elle, à une cyber-police musclée dotée de moyens quasi-illimités pour lutter contre le crime informatique. Le jour où sa section retrouve la trace du 'Puppet Master', un hacker mystérieux et légendaire dont l'identité reste totalement inconnue, la jeune femme se met en tète de pénétrer le corps de celui-ci et d'en analyser le ghost (élément indéfinissable de la conscience, apparenté à l'âme) dans l'espoir d'y trouver les réponses à ses propres questions existentielles..."
@@ -5386,7 +5386,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Richard Curtis",
     "people": "Tom Sturridge, Philip Seymour Hoffman, Rhys Ifans",
     "storyline": "Carl vient de se faire renvoyer du lycée, et sa mère a décidé qu'il irait réfléchir à son avenir auprès de son parrain, Quentin. Il se trouve que celui-ci est le patron de Radio Rock, une radio pirate qui émet depuis un bateau en mer du Nord peuplé d'un équipage éclectique de DJ's rock and roll. À leur tête se trouve le Comte, un Américain exubérant, véritable dieu des ondes en synergie totale avec la musique. A ses côtés, ses fidèles animateurs : Dave, ironique, intelligent et d'un humour acéré ; l'adorable Simon, qui cherche l'amour ; l'énigmatique Midnight Mark, séduisant et silencieux ; Wee Small Hours Bob, le DJ des petites heures du matin, accro à la musique folk et à la drogue, Thick Kevin, qui possède l'intelligence la plus microscopique du monde ; On-the-Hour John, le chroniqueur des actualités, et Angus \"The Nut\" Nutsford, qui est sans doute l'homme le plus agaçant d'Angleterre..."
@@ -5400,7 +5400,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-four",
     "director": "Martin Scorsese",
     "people": "Ray Liotta, Robert De Niro, Joe Pesci",
     "storyline": "Depuis sa plus tendre enfance, Henry Hill, né d'un père irlandais et d'une mère sicilienne, veut devenir gangster et appartenir à la Mafia. Adolescent dans les années cinquante, il commence par travailler pour le compte de Paul Cicero et voue une grande admiration pour Jimmy Conway, qui a fait du détournement de camions sa grande spécialité. Lucide et ambitieux, il contribue au casse des entrepôts de l'aéroport d'Idlewild et épouse Karen, une jeune Juive qu'il trompe régulièrement. Mais son implication dans le trafic de drogue le fera plonger..."
@@ -5414,7 +5414,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-four",
     "director": "Ridley Scott",
     "people": "Anthony Hopkins, Julianne Moore, Gary Oldman",
     "storyline": "Il y a dix ans, le docteur Hannibal Lecter s'échappait de sa cellule. Clarice Starling, agent du FBI sur la touche, n'a pas oublié sa rencontre avec lui, sa présence troublante et le son grave de sa voix qui hantent toujours ses nuits. Mason Verger, un ancien patient, se souvient également d'Hannibal, puisqu'il a été sa quatrième victime. Malgré le fait qu'il ait été atrocement défiguré et mutilé, il a survécu. Il nourrit sa vengeance depuis dix ans. Devenu extrêmement riche, il promet une récompense de trois millions de dollars pour quiconque le repérera. L'inspecteur Rinaldo Pazzi lui téléphone pour l'informer de sa présence en Italie. En effet, après avoir changé d'identité, Hannibal est devenu le conservateur d'un musée à Florence. Et pour attirer ce dernier dans ses filets, Mason connaît un appât irrésistible : Clarice Starling. L'heure de la vengeance va peut-être sonner."
@@ -5428,7 +5428,7 @@ const movies = [
     "genre": "Fantastique",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Chris Columbus",
     "people": "Daniel Radcliffe, Rupert Grint, Emma Watson",
     "storyline": "Orphelin, Harry Potter a été recueilli à contrecœur par son oncle Vernon et sa tante Pétunia, aussi cruels que mesquins, qui n'hésitent pas à le faire dormir dans le placard sous l'escalier. Constamment maltraité, il doit en outre supporter les jérémiades de son cousin Dudley, garçon cupide et archi-gâté par ses parents. De leur côté, Vernon et Pétunia détestent leur neveu dont la présence leur rappelle sans cesse le tempérament \"imprévisible\" des parents du garçon et leur mort mystérieuse. À l'approche de ses 11 ans, Harry ne s'attend à rien de particulier – ni carte, ni cadeau, ni même un goûter d'anniversaire. Et pourtant, c'est à cette occasion qu'il découvre qu'il est le fils de deux puissants magiciens et qu'il possède lui aussi d'extraordinaires pouvoirs. Quand on lui propose d'intégrer Poudlard, la prestigieuse école de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manqué… et s'engage dans l'aventure de sa vie."
@@ -5442,7 +5442,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Jean-Pierre Melville",
     "people": "Alain Delon, François Périer, Nathalie Delon",
     "storyline": "Jeff Costello, dit le Samouraï est un tueur à gages. Alors qu'il sort du bureau où git le cadavre de Martey, sa dernière cible, il croise la pianiste du club, Valérie. En dépit d'un bon alibi, il est suspecté du meurtre par le commissaire chargé de l'enquête. Lorsqu'elle est interrogée par celui-ci, la pianiste feint ne pas le reconnaître. Relâché, Jeff cherche à comprendre la raison pour laquelle la jeune femme a agi de la sorte."
@@ -5456,7 +5456,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Jim Abrahams",
     "people": "Charlie Sheen, Lloyd Bridges, Valeria Golino",
     "storyline": "Topper Harley s'est refugié en Inde pour oublier Ramada. Mais Saddam Hussein continue de mener la vie dure aux commandos américains. L'armée fait alors appel à Topper, dernier espoir du monde libre..."
@@ -5470,7 +5470,7 @@ const movies = [
     "genre": "Science-fiction",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Steven Spielberg",
     "people": "Harrison Ford, Shia LaBeouf, Karen Allen",
     "storyline": "La nouvelle aventure d'Indiana Jones débute dans un désert du sud-ouest des Etats-Unis. Nous sommes en 1957, en pleine Guerre Froide. Indy et son copain Mac viennent tout juste d'échapper à une bande d'agents soviétiques à la recherche d'une mystérieuse relique surgie du fond des temps. De retour au Marshall College, le Professeur Jones apprend une très mauvaise nouvelle : ses récentes activités l'ont rendu suspect aux yeux du gouvernement américain. Le doyen Stanforth, qui est aussi un proche ami, se voit contraint de le licencier. A la sortie de la ville, Indiana fait la connaissance d'un jeune motard rebelle, Mutt, qui lui fait une proposition inattendue. En échange de son aide, il le mettra sur la piste du Crâne de Cristal d'Akator, relique mystérieuse qui suscite depuis des siècles autant de fascination que de craintes. Ce serait à coup sûr la plus belle trouvaille de l'histoire de l'archéologie. Indy et Mutt font route vers le Pérou, terre de mystères et de superstitions, où tant d'explorateurs ont trouvé la mort ou sombré dans la folie, à la recherche d'hypothétiques et insaisissables trésors. Mais ils réalisent très vite qu'ils ne sont pas seuls dans leur quête : les agents soviétiques sont eux aussi à la recherche du Crâne de Cristal, car il est dit que celui qui possède le Crâne et en déchiffre les énigmes s'assure du même coup le contrôle absolu de l'univers. Le chef de cette bande est la cruelle et somptueuse Irina Spalko. Indy n'aura jamais d'ennemie plus implacable... Indy et Mutt réuissiront-ils à semer leurs poursuivants, à déjouer les pièges de leurs faux amis et surtout à éviter que le Crâne de Cristal ne tombe entre les mains avides d'Irina et ses sinistres sbires ?"
@@ -5484,7 +5484,7 @@ const movies = [
     "genre": "Aventure",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Peter Jackson",
     "people": "Naomi Watts, Jack Black, Adrien Brody",
     "storyline": "New York, 1933. Ann Darrow est une artiste de music-hall dont la carrière a été brisée net par la Dépression. Se retrouvant sans emploi ni ressources, la jeune femme rencontre l'audacieux explorateur-réalisateur Carl Denham et se laisse entraîner par lui dans la plus périlleuse des aventures...Ce dernier a dérobé à ses producteurs le négatif de son film inachevé. Il n'a que quelques heures pour trouver une nouvelle star et l'embarquer pour Singapour avec son scénariste, Jack Driscoll, et une équipe réduite. Objectif avoué : achever sous ces cieux lointains son génial film d'action. Mais Denham nourrit en secret une autre ambition, bien plus folle : être le premier homme à explorer la mystérieuse Skull Island et à en ramener des images. Sur cette île de légende, Denham sait que \"quelque chose\" l'attend, qui changera à jamais le cours de sa vie..."
@@ -5512,7 +5512,7 @@ const movies = [
     "genre": "Comédie musicale",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-four",
     "director": "Robert Stevenson",
     "people": "Julie Andrews, Dick Van Dyke, David Tomlinson",
     "storyline": "Rien ne va plus dans la famille Banks. La nurse vient de donner ses huit jours. Et ni M. Banks, banquier d'affaire, ni son épouse, suffragette active, ne peuvent s'occuper des enfants Jane et Michaël. Ces derniers passent alors une annonce tout à fait fantaisiste pour trouver une nouvelle nurse. C'est Mary Poppins qui répond et apparaît dès le lendemain, portée par le vent d'Est. Elle entraîne aussitôt les enfants dans son univers merveilleux. Un des plus célèbres films de la production Disney."
@@ -5526,7 +5526,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Jay Roach",
     "people": "Robert De Niro, Ben Stiller, Teri Polo",
     "storyline": "Greg Focker est un brave infirmier qui accumule les déboires, les maladresses et les faux-pas. Soucieux de plaire à tout le monde et de faire oublier son nom grotesque, sa première entrevue avec ses futurs beaux-parents Jack et Dina Byrnes fut un concentré exemplaire de tout ce qu'il ne faut pas faire dans de telles circonstances. Entre-temps, les choses se sont arrangées, et Greg a même réussi à amadouer le terrifiant Jack et à intégrer son cercle de confiance. Pam et lui peuvent donc envisager le mariage, mais il reste à organiser une réunion entre les Byrnes et les Focker. Un paisible week-end en Floride dans la propriété de Bernie et Roz Focker -lui fervent libéral, elle sexologue militante- permettra enfin aux deux familles de lier connaissance. Un ultime examen de passage, qui ne devrait pas poser de problème..."
@@ -5540,7 +5540,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Terry Jones, Terry Gilliam",
     "people": "Graham Chapman, Terry Gilliam, John Cleese",
     "storyline": "Le roi Arthur et les Chevaliers de la Table Ronde se lancent à la conquête du Graal, chevauchant de fantômatiques montures dans un bruitage de noix de coco cognées. La petite troupe va devoir passer mille épreuves, dont un chevalier à trois têtes, des jouvencelles en chaleur, voire même un terrible lapin tueur."
@@ -5554,7 +5554,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Clint Eastwood",
     "people": "Tim Robbins, Kevin Bacon, Laurence Fishburne",
     "storyline": "Jimmy Markum, Dave Boyle et Sean Devine ont grandi ensemble dans les rues de Boston. Rien ne semblait devoir altérer le cours de leur amitié jusqu'au jour où Dave se fit enlever par un inconnu sous les yeux de ses amis. Leur complicité juvénile ne résista pas à un tel événement et leurs chemins se séparèrent inéluctablement. Jimmy sombra pendant quelque temps dans la délinquance, Sean s'engagea dans la police, Dave se replia sur lui-même, se contenta de petits boulots et vécut durant plusieurs années avec sa mère avant d'épouser Celeste. Une nouvelle tragédie rapproche soudain les trois hommes : Katie, la fille de Jimmy, est retrouvée morte au fond d'un fossé. Le père endeuillé ne rêve plus que d'une chose : se venger. Et Sean, affecté à l'enquête, croit connaître le coupable : Dave Boyle..."
@@ -5568,7 +5568,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Jared Hess",
     "people": "Jon Heder, Efren Ramirez, Jon Gries",
     "storyline": "Napoleon Dynamite est un nerd de premier ordre, tendance no-life. Associal, désagréable et menteur, Napoleon entraîne (malgré lui) dans ses aventures l'oncle Rico, son frère Kip, son ami mexicain Pedro, et la timide et touchante Deb, secrètement amoureuse de lui... Par hasard plus que par conviction, Napoleon va tenter de faire élire Pedro délégué des élèves : il utilise pour cela toutes ses aptitudes, dont son talent inné pour dessiner les guerriers médievaux..."
@@ -5582,7 +5582,7 @@ const movies = [
     "genre": "Action",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Leong Po-Chih",
     "people": "Steven Seagal, Ida Nowakowska, Agnieszka Wagner",
     "storyline": "William Lancing est sans nouvelles d'Irina, une orpheline polonaise avec qui il entretenait une correspondance. Pour cet ex-agent de la CIA, il n'y a pas de doute : l’adolescente est en danger. William se rend en Pologne et constate que l'orphelinat qui l'hébergeait cache un vaste réseau de prostitution...."
@@ -5596,7 +5596,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Tim Burton",
     "people": "Paul Reubens, Mark Holton, Diane Salinger",
     "storyline": "Pee Wee, un adulte qui ressemble à un enfant, s'apprête à passer une belle journée avec l'amour de sa vie : sa bicyclette. Mais cet objet vient d'être volé par le méchant Francis. Pee Wee part à la recherche de son amour perdu et nous entraîne dans des aventures de plus en plus burlesques."
@@ -5610,7 +5610,7 @@ const movies = [
     "genre": "Science-fiction",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Tim Burton",
     "people": "Mark Wahlberg, Tim Roth, Helena Bonham Carter",
     "storyline": "En 2029, un groupe d'astronautes entraîne sur la station orbitale Oberon des singes pour remplacer l'homme dans des explorations spatiales à haut risque. Suite à la réception d'étranges signaux, les astronautes envoient le chimpanzé Pericles afin d'en connaître l'origine. Toutes les communications entre le primate et la station sont subitement interrompues et le vaisseau disparaît des radars. Désobéissant à ses supérieurs, Leo Davidson embarque dans un des vaisseaux expérimentaux pour aller porter secours à Pericles. Tout comme lui, il perd le contrôle des commandes et s'écrase dans les marais d'une forêt tropicale. L'intrépide pilote voit alors un groupe d'humains affolés foncer droit sur lui, et se fait capturer par des chimpanzés parlants. Qu'est-il arrivé sur cette planète pour que des singes en viennent à dominer la race humaine ?"
@@ -5624,7 +5624,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Joe Wright",
     "people": "Keira Knightley, Matthew Macfadyen, Rosamund Pike",
     "storyline": "Dans un petit village d'Angleterre, sous le règne de George III, Mrs. Bennet veut marier ses filles afin de leur assurer un avenir serein. L'arrivée de nouveaux voisins, Mr. Bingley et son ami Mr. Darcy, plonge Jane et Elisabeth dans des affaires de coeur tumultueuses. Cette dernière découvre l'amour en rencontrant le bel et aristocratique Darcy. Pourtant, tous deux devront passer outre leur orgueil et les mauvaises interprétations qui s'ensuivent avant de tomber dans les bras l'un de l'autre à la grande surprise des Bennet."
@@ -5638,7 +5638,7 @@ const movies = [
     "genre": "Guerre",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Steven Spielberg",
     "people": "Ryan Hurst, Tom Hanks, Tom Sizemore",
     "storyline": "Alors que les forces alliées débarquent à Omaha Beach, Miller doit conduire son escouade derrière les lignes ennemies pour une mission particulièrement dangereuse : trouver et ramener sain et sauf le simple soldat James Ryan, dont les trois frères sont morts au combat en l'espace de trois jours. Pendant que l'escouade progresse en territoire ennemi, les hommes de Miller se posent des questions. Faut-il risquer la vie de huit hommes pour en sauver un seul ?"
@@ -5666,7 +5666,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Denis Villeneuve",
     "people": "Emily Blunt, Benicio Del Toro, Josh Brolin",
     "storyline": "La zone frontalière entre les Etats-Unis et le Mexique est devenue un territoire de non-droit. Kate, une jeune recrue idéaliste du FBI, y est enrôlée pour aider un groupe d’intervention d’élite dirigé par un agent du gouvernement dans la lutte contre le trafic de drogues. Menée par un consultant énigmatique, l'équipe se lance dans un périple clandestin, obligeant Kate à remettre en question ses convictions pour pouvoir survivre."
@@ -5680,7 +5680,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Tim Burton",
     "people": "Johnny Depp, Christina Ricci, Christopher Walken",
     "storyline": "En 1799, dans une bourgade de La Nouvelle-Angleterre, plusieurs cadavres sont successivement retrouvés décapités. Les têtes ont disparu. Terrifiés, les habitants sont persuadés que ces meurtres sont commis par un étrange et furieux cavalier, dont la rumeur prétend qu'il est lui-même sans tête. Les autorités new-yorkaises envoient alors leur plus fin limier pour éclaircir ce mystère. Ichabod Crane ne croit ni aux légendes, ni aux vengeances post-mortem. Mais, à peine arrive, il succombe au charme étrange et vénéneux de la belle Katrina Van Tassel."
@@ -5694,7 +5694,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Danny Boyle, Loveleen Tandan",
     "people": "Dev Patel, Freida Pinto, Mia Drake",
     "storyline": "Jamal Malik, 18 ans, orphelin vivant dans les taudis de Mumbai, est sur le point de remporter la somme colossale de 20 millions de roupies lors de la version indienne de l'émission Qui veut gagner des millions ? Il n'est plus qu'à une question de la victoire lorsque la police l'arrête sur un soupçon de tricherie. Sommé de justifier ses bonnes réponses, Jamal explique d'où lui viennent ses connaissances et raconte sa vie dans la rue, ses histoires de famille et même celle de cette fille dont il est tombé amoureux et qu'il a perdue. Mais comment ce jeune homme est-il parvenu en finale d'une émission de télévision ? La réponse ne fait pas partie du jeu, mais elle est passionnante."
@@ -5708,7 +5708,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Paul Verhoeven",
     "people": "Casper Van Dien, Dina Meyer, Denise Richards",
     "storyline": "Au XXIVe siècle, une fédération musclée fait régner sur la Terre l'ordre et la vertu, exhortant sans relâche la jeunesse à la lutte, au devoir, à l'abnégation et au sacrifice de soi. Mais aux confins de la galaxie, une armée d'arachnides se dresse contre l'espèce humaine et ces insectes géants rasent en quelques secondes la ville de Buenos-Aires. Cinq jeunes gens, cinq volontaires à peine sortis du lycée, pleins d'ardeurs et de courage, partent en mission dans l'espace pour combattre les envahisseurs. Ils sont loin de se douter de ce qui les attend."
@@ -5736,7 +5736,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Adam McKay",
     "people": "Will Ferrell, John C. Reilly, Sacha Baron Cohen",
     "storyline": "Ricky Bobby est devenu un héros national grâce à ses nombreuses victoires dans la course automobile. Avec Cal, son ami d'enfance, ils se partagent, en toute loyauté, la première et la deuxième places du podium. L'arrivée d'un Français réputé dans le monde de la formule 1 va venir troubler la compétition et remettre en cause leur suprématie."
@@ -5750,7 +5750,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Phillip Noyce",
     "people": "Angelina Jolie, Denzel Washington, Queen Latifah",
     "storyline": "Lyncoln Rhyme, ex-brillant criminologue paralysé à vie suite à un accident, se retrouve melé, bien malgré lui, à une nouvelle affaire de meurtres. Aidé dans sa tâche par Amelia Donaghy, une jeune recrue qui devient pour les besoins de l'enquête ses yeux et ses jambes, il doit à tout prix examiner chaque indice laissé par l'assassin pour pouvoir prédire où et quand se produiront les prochains crimes..."
@@ -5764,7 +5764,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Fernando Meirelles",
     "people": "Ralph Fiennes, Rachel Weisz, Danny Huston",
     "storyline": "Dans une région reculée du nord du Kenya, Tessa Quayle, une brillante avocate aussi militante que passionnée, est retrouvée sauvagement assassinée. Le médecin africain qui l'accompagnait est porté disparu, et tout porte à croire qu'il s'agit d'un crime passionnel. Sandy Woodrow, Sir Bernard Pellegrin et les autres membres du Haut commissariat britannique s'imaginent que l'époux de Tessa, leur discret et modeste collègue, Justin Quayle, ne cherchera pas à prendre l'affaire en main. C'est bien mal le connaître..."
@@ -5778,7 +5778,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Wes Anderson",
     "people": "Owen Wilson, Adrien Brody, Jason Schwartzman",
     "storyline": "Trois frères qui ne se sont pas parlé depuis la mort de leur père décident de faire ensemble un grand voyage en train à travers l'Inde afin de renouer les liens d'autrefois. Pourtant, la \"quête spirituelle\" de Francis, Peter et Jack va vite dérailler, et ils se retrouvent seuls, perdus au milieu du désert avec onze valises, une imprimante, une machine à plastifier et beaucoup de comptes à régler avec la vie... Dans ce pays magique dont ils ignorent tout, c'est alors un autre voyage qui commence, riche en imprévus, une odyssée qu'aucun d'eux ne pouvait imaginer, une véritable aventure d'amitié et de fraternité..."
@@ -5792,7 +5792,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Sydney Pollack",
     "people": "Tom Cruise, Jeanne Tripplehorn, Gene Hackman",
     "storyline": "A la fin de ses études de droit, Mitch McDeere, brillant élément, est sollicité par plusieurs grands cabinets d'avocats. Il fixe son choix sur Bendini, Lambert & Locke, qui lui offrent les conditions les plus avantageuses. En contrepartie, il devra, comme chaque membre du cabinet, fournir quelque quatre-vingts heures de travail hebdomadaire. Il ignore encore qu'il vient de vendre son âme au diable."
@@ -5806,7 +5806,7 @@ const movies = [
     "genre": "Thriller",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "David Fincher",
     "people": "Michael Douglas, Sean Penn, Deborah Kara Unger",
     "storyline": "Nicholas Van Orton, homme d'affaires avisé, reçoit le jour de son anniversaire un étrange cadeau que lui offre son frère Conrad. Il s'agit d'un jeu. Nicholas découvre peu à peu que les enjeux en sont très élevés, bien qu'il ne soit certain ni des règles, ni même de l'objectif réel. Il prend peu à peu conscience qu'il est manipulé jusque dans sa propre maison par des conspirateurs inconnus qui semblent vouloir faire voler sa vie en eclats."
@@ -5820,7 +5820,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Shawn Levy",
     "people": "Vince Vaughn, Owen Wilson, Rose Byrne",
     "storyline": "Billy et Nick, deux quarantenaires dont les carrières ont été pulvérisées par Internet, repartent à zéro en obtenant un stage chez Google, qui peut-être, débouchera sur un job. En compétition avec des petits génies de l’informatique tout droit sortis de l’école, ils vont devoir prouver qu’ils ne sont pas des dinosaures…"
@@ -5834,7 +5834,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
     "keyword": "Disney",
-    "stars": "",
+    "stars": "star-three",
     "director": "James Bobin",
     "people": "Jason Segel, Amy Adams, Chris Cooper",
     "storyline": "Tex Richman est un homme d'affaire qui compte acheter le théâtre des Muppets. Gary, Marie et Walter la marionnette se mettent alors à la recherche des anciens du théâtre, séparés depuis plusieurs années, afin de tenter de sauver cet endroit qui leur est très cher. Ils arrivent à retrouver Kermit la grenouille qui part à son tour dans le but de réunir ses anciens compagnons de scène."
@@ -5848,7 +5848,7 @@ const movies = [
     "genre": "Animation",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Henry Selick",
     "people": "Trickfilm, Chris Sarandon, Danny Elfman",
     "storyline": "Jack Skellington, roi des citrouilles et guide de Halloween-ville, s'ennuie : depuis des siècles, il en a assez de préparer la même fête de Halloween qui revient chaque année, et il rêve de changement. C'est alors qu'il a l'idée de s'emparer de la fête de Noël..."
@@ -5862,7 +5862,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-five",
     "director": "Frank Darabont",
     "people": "Tim Robbins, Morgan Freeman, Bob Gunton",
     "storyline": "En 1947, Andy Dufresne, un jeune banquier, est condamné à la prison à vie pour le meurtre de sa femme et de son amant. Ayant beau clamer son innocence, il est emprisonné à Shawshank, le pénitencier le plus sévère de l'Etat du Maine. Il y fait la rencontre de Red, un Noir désabusé, détenu depuis vingt ans. Commence alors une grande histoire d'amitié entre les deux hommes..."
@@ -5876,7 +5876,7 @@ const movies = [
     "genre": "Comédie",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Akiva Schaffer",
     "people": "Ben Stiller, Vince Vaughn, Jonah Hill",
     "storyline": "À Glenview, dans l’Ohio, quatre banlieusards ordinaires décident de former un comité de surveillance de quartier. Même s’il s’agit surtout d’un prétexte pour échapper à leurs mornes existences, nos quatre héros vont tout de même faire une découverte incroyable : leur paisible petite ville a été envahie par des extraterrestres qui se font passer pour d’honnêtes citoyens. Face à la menace, le sort de leur quartier – et du monde – est désormais entre leurs mains…"
@@ -5890,7 +5890,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Darren Aronofsky",
     "people": "Mickey Rourke, Marisa Tomei, Evan Rachel Wood",
     "storyline": "A la fin des années 80, Randy Robinson, dit The Ram (\"Le Bélier\"), était une star du catch. Vingt ans plus tard, il ne se produit plus que dans des salles de gym de lycées ou des maisons de quartier... Brouillé avec sa fille, il est incapable d'entretenir une relation durable avec quiconque : il ne vit que pour le plaisir du spectacle et l'adoration de ses fans. Mais lorsqu'il est foudroyé par une crise cardiaque au beau milieu d'un match, son médecin lui ordonne d'abandonner le catch : un autre combat pourrait lui être fatal. Contraint de se ranger, il tente de renouer avec sa fille et, dans le même temps, entame une liaison avec une strip-teaseuse vieillissante. Pourtant, son goût du spectacle et sa passion pour le catch risquent bien de reprendre le dessus et de le propulser de nouveau sur le ring..."
@@ -5904,7 +5904,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Robert Mulligan",
     "people": "Gregory Peck, Mary Badham, Phillip Alford",
     "storyline": "Dans une petite ville d'Alabama, au moment de la Grande Dépression, Atticus Finch élève seul ses deux enfants, Jem et Scout. Avocat intègre et rigoureux, il est commis d'office pour défendre un homme noir injustement accusé de viol..."
@@ -5918,7 +5918,7 @@ const movies = [
     "genre": "Science-fiction",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Terry Gilliam",
     "people": "Bruce Willis, Madeleine Stowe, Christopher Plummer",
     "storyline": "Nous sommes en l'an 2035. Les quelques milliers d'habitants qui restent sur notre planète sont contraints de vivre sous terre. La surface du globe est devenue inhabitable à la suite d'un virus ayant décimé 99% de la population. Les survivants mettent tous leurs espoirs dans un voyage à travers le temps pour découvrir les causes de la catastrophe et la prévenir. C'est James Cole, hanté depuis des années par une image incompréhensible, qui est désigné pour cette mission."
@@ -5932,24 +5932,10 @@ const movies = [
     "genre": "Action",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Stuart Baird",
     "people": "Tommy Lee Jones, Wesley Snipes, Joe Pantoliano",
     "storyline": "C'est par hasard, à la suite d'un banal accident de la circulation, que la police de Chicago retrouve la piste de Mark Roberts, recherché pour un double meurtre. Le prévenu est placé sous la garde de l'US Marshal Samuel Gerard pour être extradé par avion sur New York avec une vingtaine de prisonniers. Au cours du vol, un détenu s'empare d'une arme et tire sur Robert. Il rate son objectif et pulverise un hublot. C'est le crash. L'appareil termine sa course dans l'Ohio. Une fois l'épave évacuée, le marshal découvre que Roberts a disparu..."
-  },
-  {
-    "name": "Impitoyable",
-    "original-name": "Unforgiven",
-    "available": "available-on",
-    "url": "",
-    "year": 1992,
-    "genre": "Western",
-    "lang": "En",
-"keyword": "",
-    "stars": "",
-    "director": "Clint Eastwood",
-    "people": "Clint Eastwood, Gene Hackman, Morgan Freeman",
-    "storyline": "Kansas 1880. William Munny, redoutable hors-la-loi reconverti dans l'élevage va, à la demande d'un jeune tueur, reprendre du service pour venger une prostituée défigurée par un cow-boy sadique."
   },
   {
     "name": "Volver",
@@ -5960,7 +5946,7 @@ const movies = [
     "genre": "Comédie dramatique",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Pedro Almodóvar",
     "people": "Penélope Cruz, Carmen Maura, Lola Dueñas",
     "storyline": "Madrid et les quartiers effervescents de la classe ouvrière, où les immigrés des différentes provinces espagnoles partagent leurs rêves, leur vie et leur fortune avec une multitude d'ethnies étrangères. Au sein de cette trame sociale, trois générations de femmes survivent au vent, au feu, et même à la mort, grâce à leur bonté, à leur audace et à une vitalité sans limites."
@@ -5974,7 +5960,7 @@ const movies = [
     "genre": "Drame",
     "lang": "En",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Peter Kosminsky",
     "people": "Juliette Binoche, Ralph Fiennes, Simon Ward",
     "storyline": "A la fin du XVIIIe siècle, Heathcliff, un jeune garçon sans le sou, est adopté par un gentilhomme du nom de Earnshaw. Le domaine familial, \"Les Hauts de Hurlevent\", accueille ainsi cet enfant adopté qui suscite des sentiments différents : son frère Hindley le déteste et sa soeur Cathy en tombe amoureuse - sentiments réciproques. Malheureusement, à la mort du patriarche, Heathcliff est traité comme un moins que rien par Hindley. Quant à Cathy, elle accepte un mariage de raison avec un homme ennuyeux, Edgar Linton..."
@@ -5988,10 +5974,150 @@ const movies = [
     "genre": "Comédie",
     "lang": "Fr",
 "keyword": "",
-    "stars": "",
+"stars": "star-three",
     "director": "Jan Kounen",
     "people": "Jean Dujardin, Jocelyn Quivrin, Patrick Mille",
     "storyline": "Octave est le maître du monde : il exerce la profession de rédacteur publicitaire. Il décide aujourd'hui ce que vous allez vouloir demain. Pour lui, \"l'homme est un produit comme les autres\". Octave travaille pour la plus grosse agence de pub du monde : Ross & Witchcraft, surnommée \"La Ross\". Il est couvert d'argent, de filles et de cocaïne. Pourtant, il doute. Deux événements vont bouleverser le cours de la vie d'Octave. Son histoire d'amour avec Sophie, la plus belle employée de l'agence, et une réunion chez Madone pour vendre un film de pub à ce géant du produit laitier. Le doué Octave déjante alors et décide de se rebeller contre le système qui l'a créé, en sabotant sa plus grande campagne. De Paris, où négocient les patrons d'agences, à Miami, où l'on tourne un spot sous antidépresseurs, de Saint-Germain-des-Prés à une île perdue d'Amérique Centrale, Octave parviendra-t-il à échapper à sa prison dorée ?"
+  },
+    {
+      "name": "Star Wars : Episode I - La Menace fantôme",
+      "original-name": "Star Wars : Episode I - La Menace fantôme",
+      "available": "available-on",
+      "url": "",
+      "year": 1999,
+      "genre": "Science-Fiction",
+      "lang": "En",
+  "keyword": "",
+  "stars": "star-three",
+      "director": "George Lucas",
+      "people": "Liam Neeson, Ewan McGregor, Natalie Portman",
+      "storyline": "Il y a bien longtemps, dans une galaxie très lointaine... La Fédération du Commerce impose par la force la taxation des routes commerciales à la pacifique planète Naboo. Les chevaliers Jedi Qui-Gon Jinn et Obi-Wan Kenobi sont envoyés sur place..."
+    },
+    {
+      "name": "Star Wars : Episode II - L'Attaque des clones",
+      "original-name": "Star Wars : Episode II - L'Attaque des clones",
+      "available": "available-on",
+      "url": "",
+      "year": 2002,
+      "genre": "Science-Fiction",
+      "lang": "En",
+  "keyword": "",
+  "stars": "star-three",
+      "director": "George Lucas",
+      "people": "Ewan McGregor, Natalie Portman, Hayden Christensen",
+      "storyline": "La sénatrice Padmé Amidala échappe de justesse à un attentat. Le Padawan Anakin Skywalker est chargé de sa protection. Son maître, Obi-Wan Kenobi, enquête sur cette tentative de meurtre et découvre la constitution d'une mystérieuse armée de clones."
+    },
+    {
+      "name": "Star Wars : Episode III - La Revanche des Sith",
+      "original-name": "Star Wars : Episode III - La Revanche des Sith",
+      "available": "available-on",
+      "url": "",
+      "year": 2005,
+      "genre": "Science-Fiction",
+      "lang": "En",
+  "keyword": "",
+  "stars": "star-three",
+      "director": "George Lucas",
+      "people": "Hayden Christensen, Ewan McGregor, Natalie Portman",
+      "storyline": "La Guerre des Clones fait rage. Une franche hostilité oppose désormais le Chancelier Palpatine au Conseil Jedi. Anakin Skywalker, jeune Chevalier Jedi pris entre deux feux, hésite sur la conduite à tenir..."
+    },
+    {
+      "name": "Star Wars : Episode IV - Un nouvel espoir",
+      "original-name": "Star Wars : Episode IV - Un nouvel espoir",
+      "available": "available-on",
+      "url": "",
+      "year": 1977,
+      "genre": "Science-Fiction",
+      "lang": "En",
+  "keyword": "",
+  "stars": "star-three",
+      "director": "George Lucas",
+      "people": "Mark Hamill, Harrison Ford, Carrie Fisher",
+      "storyline": "Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle."
+    },
+    {
+      "name": "Star Wars : Episode V - L'Empire contre-attaque",
+      "original-name": "Star Wars : Episode IV - Un nouvel espoir",
+      "available": "available-on",
+      "url": "",
+      "year": 1980,
+      "genre": "Science-Fiction",
+      "lang": "En",
+  "keyword": "",
+  "stars": "star-three",
+      "director": "George Lucas, Irvin Kershner",
+      "people": "Mark Hamill, Harrison Ford, Carrie Fisher",
+      "storyline": "Malgré la destruction de l'Etoile Noire, l'Empire maintient son emprise sur la galaxie, et poursuit sans relâche sa lutte contre l'Alliance rebelle. Basés sur la planète glacée de Hoth, les rebelles essuient un assaut des troupes impériales..."
+    }, 
+    {
+      "name": "Star Wars : Episode VI - Le Retour du Jedi",
+      "original-name": "Star Wars : Episode VI - Le Retour du Jedi",
+      "available": "available-on",
+      "url": "",
+      "year": 1983,
+      "genre": "Science-Fiction",
+      "lang": "En",
+  "keyword": "",
+  "stars": "star-three",
+      "director": "George Lucas, Richard Marquand",
+      "people": "Mark Hamill, Harrison Ford, Carrie Fisher",
+      "storyline": "L'Empire galactique est plus puissant que jamais : la construction de la nouvelle arme, l'Etoile de la Mort, menace l'univers tout entier... "
+    }, 
+  {
+    "name": "Star Wars - Le Réveil de la Force",
+    "original-name": "Star Wars - Le Réveil de la Force ",
+    "available": "available-on",
+    "url": "",
+    "year": 2015,
+    "genre": "Science-Fiction",
+    "lang": "En",
+"keyword": "",
+"stars": "star-three",
+    "director": "J.J. Abrams",
+    "people": "Daisy Ridley, John Boyega, Adam Driver",
+    "storyline": "Dans une galaxie lointaine, très lointaine, un nouvel épisode de la saga Star Wars, 30 ans après les événements du Retour du Jedi."
+  },
+   {
+    "name": "Star Wars - Les Derniers Jedi",
+    "original-name": "Star Wars - Les Derniers Jedi",
+    "available": "available-on",
+    "url": "",
+    "year": 2017,
+    "genre": "Science-Fiction",
+    "lang": "En",
+"keyword": "",
+"stars": "star-three",
+    "director": "J.J. Abrams",
+    "people": "Daisy Ridley, John Boyega, Oscar Isaac",
+    "storyline": "Les héros du Réveil de la force rejoignent les figures légendaires de la galaxie dans une aventure épique qui révèle des secrets ancestraux sur la Force et entraîne de surprenantes révélations sur le passé…"
+  }, 
+  {
+    "name": "Star Wars: L'Ascension de Skywalker",
+    "original-name": "Star Wars: L'Ascension de Skywalker",
+    "available": "available-on",
+    "url": "",
+    "year": 2019,
+    "genre": "Science-Fiction",
+    "lang": "En",
+"keyword": "",
+"stars": "star-three",
+    "director": "J.J. Abrams",
+    "people": "Daisy Ridley, Adam Driver, Oscar Isaac",
+    "storyline": "La conclusion de la saga Skywalker. De nouvelles légendes vont naître dans cette bataille épique pour la liberté."
+  }, 
+  {
+    "name": "Solo: A Star Wars Story",
+    "original-name": "Solo: A Star Wars Story",
+    "available": "available-off",
+    "url": "",
+    "year": 2018,
+    "genre": "Science-Fiction",
+    "lang": "En",
+"keyword": "",
+"stars": "star-three",
+    "director": "Ron Howard",
+    "people": "Alden Ehrenreich, Woody Harrelson, Emilia Clarke",
+    "storyline": "Embarquez à bord du Faucon Millenium et partez à l’aventure en compagnie du plus célèbre vaurien de la galaxie. Au cours de périlleuses aventures dans les bas-fonds d’un monde criminel, Han Solo va faire la connaissance de son imposant futur copilote Chewbacca et croiser la route du charmant escroc Lando Calrissian…"
   }
  ];
 
