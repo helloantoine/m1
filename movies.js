@@ -325,7 +325,7 @@ const movies = [
   {
     "name": "Ah ! Si j'étais riche",
     "original-name": "Ah ! Si j'étais riche",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/ah-si-j-etais-riche/h/114365_40099",
     "year": 2002,
     "genre": "Comédie",
@@ -367,7 +367,7 @@ const movies = [
   {
     "name": "Quelques messieurs trop tranquilles",
     "original-name": "Quelques messieurs trop tranquilles",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/quelques-messieurs-trop-tranquilles/h/1064200_40099",
     "year": 1973,
     "genre": "Comédie",
