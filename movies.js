@@ -17,7 +17,7 @@ const movies = [
   {
     "name": "Yakari, la grande aventure",
     "original-name": "Yakari, le film",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/yakari-la-grande-aventure/h/14460003_40099",
     "year": 2020,
     "genre": "Animation",
@@ -45,7 +45,7 @@ const movies = [
   {
     "name": "Les acteurs",
     "original-name": "Les acteurs",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-acteurs/h/310360_40099",
     "year": 2000,
     "genre": "Comédie",
@@ -59,7 +59,7 @@ const movies = [
   {
     "name": "Terra Willy, planète inconnue",
     "original-name": "Terra Willy, planète inconnue",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/terra-willy-planete-inconnue/h/11364255_40099",
     "year": 2019,
     "genre": "Animation",
@@ -255,7 +255,7 @@ const movies = [
   {
     "name": "Les Schtroumpfs 2",
     "original-name": "The Smurfs 2",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-schtroumpfs-2/h/4884171_40099",
     "year": 2013,
     "genre": "Animation",
@@ -269,7 +269,7 @@ const movies = [
   {
     "name": "Les rebelles de la forêt",
     "original-name": "Open Season",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-rebelles-de-la-foret/h/442100_40099",
     "year": 2006,
     "genre": "Animation",
@@ -283,7 +283,7 @@ const movies = [
   {
     "name": "Monster House",
     "original-name": "Monster House",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/monster-house/h/766310_40099",
     "year": 2006,
     "genre": "Animation",
@@ -311,7 +311,7 @@ const movies = [
   {
     "name": "Tartarin de Tarascon",
     "original-name": "Tartarin de Tarascon",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/tartarin-de-tarascon/h/6972241_40099",
     "year": 1934,
     "genre": "Comédie",
@@ -423,7 +423,7 @@ const movies = [
   {
     "name": "Hôtel du Nord",
     "original-name": "Hôtel du Nord",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/hotel-du-nord/h/3281152_40099",
     "year": 1938,
     "genre": "Drame",
@@ -493,7 +493,7 @@ const movies = [
   {
     "name": "Le jouet",
     "original-name": "Le jouet",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-jouet/h/647019_40099",
     "year": 1976,
     "genre": "Comédie",
@@ -535,7 +535,7 @@ const movies = [
   {
     "name": "Le plus beau métier du monde",
     "original-name": "Le plus beau métier du monde",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-plus-beau-metier-du-monde/h/387689_40099",
     "year": 1996,
     "genre": "Comédie",
@@ -577,7 +577,7 @@ const movies = [
   {
     "name": "La traversée de Paris",
     "original-name": "La traversée de Paris",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-traversee-de-paris/h/106904_40099",
     "year": 1956,
     "genre": "Drame",
@@ -633,7 +633,7 @@ const movies = [
   {
     "name": "Les Schtroumpfs et le village perdu",
     "original-name": "Smurfs: The Lost Village",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-schtroumpfs-et-le-village-perdu/h/8420498_40099",
     "year": 2017,
     "genre": "Animation",
@@ -815,7 +815,7 @@ const movies = [
   {
     "name": "L'armée des ombres",
     "original-name": "L'armée des ombres",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-armee-des-ombres/h/437688_40099",
     "year": 1969,
     "genre": "Drame",
@@ -997,7 +997,7 @@ const movies = [
   {
     "name": "Les fils de l'homme",
     "original-name": "Children of Men",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-fils-de-l-homme/h/113969_40099",
     "year": 2006,
     "genre": "Science-fiction",
@@ -1025,7 +1025,7 @@ const movies = [
   {
     "name": "Les aventures de Rabbi Jacob",
     "original-name": "Les aventures de Rabbi Jacob",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-aventures-de-rabbi-jacob/h/1060462_40099",
     "year": 1973,
     "genre": "Comédie",
@@ -1081,7 +1081,7 @@ const movies = [
   {
     "name": "Nikita",
     "original-name": "Nikita",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/nikita/h/96172_40099",
     "year": 1990,
     "genre": "Action",
@@ -1193,7 +1193,7 @@ const movies = [
   {
     "name": "Le grand bain",
     "original-name": "Le grand bain",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-grand-bain/h/10445994_40099",
     "year": 2018,
     "genre": "Drame",
@@ -1417,7 +1417,7 @@ const movies = [
   {
     "name": "Moonrise Kingdom",
     "original-name": "Moonrise Kingdom",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/moonrise-kingdom/h/667109_40099",
     "year": 2012,
     "genre": "Comédie",
@@ -1491,7 +1491,7 @@ const movies = [
     "url": "https://vod.canalplus.com/cinema/papy-fait-de-la-resistance/h/3311841_40099",
     "year": 1983,
     "genre": "Comédie",
-    "lang": "En",
+    "lang": "Fr",
 "keyword": "",
     "stars": "star-three",
     "director": "Jean-Marie Poiré",
@@ -1585,7 +1585,7 @@ const movies = [
   {
     "name": "Mickey, la magie de Noël",
     "original-name": "Mickey's Magical Christmas: Snowed in at the House of Mouse",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/mickey-la-magie-de-noel/h/928081_40099",
     "year": 2001,
     "genre": "Animation",
@@ -1613,7 +1613,7 @@ const movies = [
   {
     "name": "Baby Boss",
     "original-name": "Baby Boss",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/baby-boss/h/8390252_40099",
     "year": 2017,
     "genre": "Animation",
@@ -1627,7 +1627,7 @@ const movies = [
   {
     "name": "Bee Movie",
     "original-name": "Bee Movie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/bee-movie-drole-d-abeille/h/115385_40099",
     "year": 2007,
     "genre": "Animation",
@@ -1641,7 +1641,7 @@ const movies = [
   {
     "name": "Madagascar",
     "original-name": "Madagascar",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/madagascar/h/2919648_40099",
     "year": 2005,
     "genre": "Animation",
@@ -1907,7 +1907,7 @@ const movies = [
   {
     "name": "Titeuf, le film",
     "original-name": "Titeuf, le film",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/titeuf-le-film/h/113632_40099",
     "year": 2011,
     "genre": "Animation",
@@ -2089,7 +2089,7 @@ const movies = [
   {
     "name": "Snoopy et les Peanuts",
     "original-name": "Snoopy et les Peanuts",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/snoopy-et-les-peanuts-le-film/h/6067032_40099",
     "year": 2015,
     "genre": "Animation",
@@ -2621,7 +2621,7 @@ const movies = [
   {
     "name": "Pacific Rim",
     "original-name": "Pacific Rim",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/pacific-rim/h/2787913_40099",
     "year": 2013,
     "genre": "Science-fiction",
@@ -4078,7 +4078,7 @@ const movies = [
   {
     "name": "Bruce Almight",
     "original-name": "Bruce tout puissant",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=mbS0OK5Q8r4",
     "year": 2003,
     "genre": "Comédie",
@@ -4876,7 +4876,7 @@ const movies = [
   {
     "name": "Tanguy, le retour",
     "original-name": "Tanguy, le retour",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/tanguy-le-retour/h/11410024_40099",
     "year": 2019,
     "genre": "Comédie",
@@ -4904,7 +4904,7 @@ const movies = [
   {
     "name": "Lost in translation",
     "original-name": "Lost in translation",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/irreversible-inversion-integrale/h/14544567_40099",
     "year": 2003,
     "genre": "Drame",
@@ -5436,7 +5436,7 @@ const movies = [
   {
     "name": "Le Samouraï",
     "original-name": "Le Samouraï",
-    "available": "",
+    "available": "available-on",
     "url": "",
     "year": 1967,
     "genre": "Drame",
@@ -6108,7 +6108,7 @@ const movies = [
   {
     "name": "Solo: A Star Wars Story",
     "original-name": "Solo: A Star Wars Story",
-    "available": "available-off",
+    "available": "available-on",
     "url": "",
     "year": 2018,
     "genre": "Science-Fiction",
@@ -6118,7 +6118,21 @@ const movies = [
     "director": "Ron Howard",
     "people": "Alden Ehrenreich, Woody Harrelson, Emilia Clarke",
     "storyline": "Embarquez à bord du Faucon Millenium et partez à l’aventure en compagnie du plus célèbre vaurien de la galaxie. Au cours de périlleuses aventures dans les bas-fonds d’un monde criminel, Han Solo va faire la connaissance de son imposant futur copilote Chewbacca et croiser la route du charmant escroc Lando Calrissian…"
-  }
+  }, 
+  {
+    "name": "L´inspecteur Harry",
+    "original-name": "Dirty Harry",
+    "available": "available-off",
+    "url": "",
+    "year": 1972,
+    "genre": "Thriller",
+    "lang": "En",
+"keyword": "",
+"stars": "star-three",
+    "director": "Don Siegel",
+    "people": "Clint Eastwood, Andrew Robinson, Harry Guardino",
+    "storyline": "Si la police de San Francisco ne remet pas immédiatement 200 000 dollars à un homme qui vient de commettre un crime, il recommencera au rythme d'un assassinat par jour. L'inspecteur Harry Callahan est sur ses talons."
+  },
  ];
 
 
@@ -6137,7 +6151,6 @@ const showMovies = () => {
           <h3 class="name">${name}</h3></a>
           <div class="star ${stars}"></div>
           <h4 class="genre">${genre}</h4>
-          <h4 class="genre">${index}</h4>
           <h4 class="year">${year}</h4>         
       </li>`
     }

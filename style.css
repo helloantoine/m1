@@ -72,10 +72,9 @@ hr{display:none;margin-top:16px;}
 @media only screen and (min-width: 992px) {
   .navigation {  height:4em !important; overflow: hidden;}
   .actions{  height:2.5em !important;}
-  .movie {margin-right: 1em; margin-bottom: 6em; width: 120px !important; }
+  .movie {margin-right: 1em; margin-bottom: 6em; width: 120px !important;  }
   .movie img{width: 120px !important; }
-} 
-
+  }
 
 .background-color{
 	position: fixed;
