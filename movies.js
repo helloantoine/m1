@@ -3,7 +3,7 @@ const movies = [
   {
     "name": "Felicità",
     "original-name": "Felicità",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/felicita/h/14283213_40099",
     "year": 2020,
     "genre": "Comédie",
@@ -87,7 +87,7 @@ const movies = [
   {
     "name": "I Love You Phillip Morris",
     "original-name": "I Love You Phillip Morris",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/i-love-you-phillip-morris/h/276693_40099",
     "year": 2009,
     "genre": "Comédie",
@@ -395,7 +395,7 @@ const movies = [
   {
     "name": "Tout le monde il est beau, tout le monde il est gentil",
     "original-name": "Tout le monde il est beau, tout le monde il est gentil",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/tout-le-monde-il-est-beau-tout-le-monde-il-est-gentil/h/180163_40099",
     "year": 1972,
     "genre": "Comédie",
@@ -1249,7 +1249,7 @@ const movies = [
   {
     "name": "La ch'tite famille",
     "original-name": "La ch'tite famille",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-ch-tite-famille/h/9620337_40099",
     "year": 2018,
     "genre": "Comédie",
@@ -1487,7 +1487,7 @@ const movies = [
   {
     "name": "Papy fait de la résistance",
     "original-name": "Papy fait de la résistance",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/papy-fait-de-la-resistance/h/3311841_40099",
     "year": 1983,
     "genre": "Comédie",
@@ -3573,7 +3573,7 @@ const movies = [
   {
     "name": "Les ripoux",
     "original-name": "Les ripoux",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-ripoux/h/236010_40099",
     "year": 1984,
     "genre": "Comédie",
