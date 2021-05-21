@@ -31,7 +31,7 @@ const movies = [
   {
     "name": "La vie très privée de monsieur Sim",
     "original-name": "La vie très privée de monsieur Sim",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-vie-tres-privee-de-monsieur-sim/h/6031610_40099",
     "year": 2015,
     "genre": "Drame",
@@ -115,7 +115,7 @@ const movies = [
   {
     "name": "Hellboy",
     "original-name": "Hellboy",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/hellboy/h/460023_40099",
     "year": 2004,
     "genre": "Fantastique",
@@ -157,7 +157,7 @@ const movies = [
   {
     "name": "Kill Bill Volume 1",
     "original-name": "Kill Bill Volume 1",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/kill-bill-volume-1/h/447165_40099",
     "year": 2003,
     "genre": "Action",
@@ -185,7 +185,7 @@ const movies = [
   {
     "name": "Pulp Fiction",
     "original-name": "Pulp Fiction",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/pulp-fiction/h/113934_40099",
     "year": 1994,
     "genre": "Action",
@@ -465,7 +465,7 @@ const movies = [
   {
     "name": "L'impasse",
     "original-name": "Carlito's Way",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-impasse/h/612062_40099",
     "year": 1993,
     "genre": "Action",
@@ -521,7 +521,7 @@ const movies = [
   {
     "name": "Hop",
     "original-name": "Hop",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/hop/h/113811_40099",
     "year": 2011,
     "genre": "Jeunesse",
@@ -647,7 +647,7 @@ const movies = [
   {
     "name": "Paddington 2",
     "original-name": "Paddington 2",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/paddington-2/h/9319792_40099",
     "year": 2017,
     "genre": "Jeunesse",
@@ -661,7 +661,7 @@ const movies = [
   {
     "name": "12 Years a Slave",
     "original-name": "12 Years a Slave",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/12-years-a-slave/h/3615890_40099",
     "year": 2013,
     "genre": "Drame",
@@ -703,7 +703,7 @@ const movies = [
   {
     "name": "Hulk",
     "original-name": "Hulk",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/hulk/h/1101970_40099",
     "year": 2003,
     "genre": "Action",
@@ -745,7 +745,7 @@ const movies = [
   {
     "name": "Jumanji",
     "original-name": "Jumanji",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/jumanji/h/667007_40099",
     "year": 1995,
     "genre": "Fantastique",
@@ -955,7 +955,7 @@ const movies = [
   {
     "name": "Les animaux fantastiques",
     "original-name": "Fantastic Beasts and Where to Find Them",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-animaux-fantastiques/h/7681782_40099",
     "year": 2016,
     "genre": "Fantastique",
@@ -969,7 +969,7 @@ const movies = [
   {
     "name": "Deadpool",
     "original-name": "Deadpool",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/deadpool/h/6303697_40099",
     "year": 2016,
     "genre": "Comédie",
@@ -1011,7 +1011,7 @@ const movies = [
   {
     "name": "Kong: Skull island",
     "original-name": "Kong: Skull island",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/kong-skull-island/h/8297216_40099",
     "year": 2017,
     "genre": "Aventure",
@@ -1053,7 +1053,7 @@ const movies = [
   {
     "name": "Le peuple migrateur",
     "original-name": "Le peuple migrateur",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-peuple-migrateur/h/459649_40099",
     "year": 2001,
     "genre": "Documentaire",
@@ -1123,7 +1123,7 @@ const movies = [
   {
     "name": "Hook ou la revanche du capitaine Crochet",
     "original-name": "Hook",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/hook-ou-la-revanche-du-capitaine-crochet/h/1060663_40099",
     "year": 1991,
     "genre": "Fantastique",
@@ -1165,7 +1165,7 @@ const movies = [
   {
     "name": "Joker",
     "original-name": "Joker",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/joker/h/12513133_40099",
     "year": 2019,
     "genre": "Action",
@@ -1179,7 +1179,7 @@ const movies = [
   {
     "name": "La mule",
     "original-name": "The mule",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/la-mule/h/10939764_40099",
     "year": 2018,
     "genre": "Drame",
@@ -1235,7 +1235,7 @@ const movies = [
   {
     "name": "Pentagon Papers",
     "original-name": "Pentagon Papers",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/pentagon-papers/h/9488776_40099",
     "year": 2017,
     "genre": "Drame",
@@ -1277,7 +1277,7 @@ const movies = [
   {
     "name": "007 Spectre",
     "original-name": "007 Spectre",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/007-spectre/h/5851241_40099",
     "year": 2015,
     "genre": "Action",
@@ -1291,7 +1291,7 @@ const movies = [
   {
     "name": "Dallas Buyers Club",
     "original-name": "Dallas Buyers Club",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/dallas-buyers-club/h/3716357_40099",
     "year": 2013,
     "genre": "Drame",
@@ -1305,7 +1305,7 @@ const movies = [
   {
     "name": "Paddington",
     "original-name": "Paddington",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/paddington/h/4940838_40099",
     "year": 2014,
     "genre": "Jeunesse",
@@ -1375,7 +1375,7 @@ const movies = [
   {
     "name": "Le Hobbit : la désolation de Smaug",
     "original-name": "Le Hobbit : la désolation de Smaug",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-hobbit-la-desolation-de-smaug/h/3464227_40099",
     "year": 2013,
     "genre": "Fantastique",
@@ -1389,7 +1389,7 @@ const movies = [
   {
     "name": "Le Hobbit : un voyage inattendu",
     "original-name": "Le Hobbit : un voyage inattendu",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-hobbit-un-voyage-inattendu/h/1710478_40099",
     "year": 2012,
     "genre": "Fantastique",
@@ -1403,7 +1403,7 @@ const movies = [
   {
     "name": "Skyfall",
     "original-name": "Skyfall",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/skyfall/h/2746717_40099",
     "year": 2012,
     "genre": "Action",
@@ -1459,7 +1459,7 @@ const movies = [
   {
     "name": "Les petits mouchoirs",
     "original-name": "Les petits mouchoirs",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-petits-mouchoirs/h/805882_40099",
     "year": 2010,
     "genre": "Drame",
@@ -1473,7 +1473,7 @@ const movies = [
   {
     "name": "Shutter island",
     "original-name": "Shutter island",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/shutter-island/h/276747_40099",
     "year": 2010,
     "genre": "Action",
@@ -1501,7 +1501,7 @@ const movies = [
   {
     "name": "Les saisons",
     "original-name": "Les saisons",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-saisons/h/6231028_40099",
     "year": 2015,
     "genre": "Documentaire",
@@ -1529,7 +1529,7 @@ const movies = [
   {
     "name": "Microcosmos",
     "original-name": "Microcosmos",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/microcosmos-le-peuple-de-l-herbe/h/433830_40099",
     "year": 1996,
     "genre": "Documentaire",
@@ -1753,7 +1753,7 @@ const movies = [
   {
     "name": "Zulu",
     "original-name": "Zulu",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/zulu/h/3434946_40099",
     "year": 2013,
     "genre": "Action",
@@ -1822,8 +1822,8 @@ const movies = [
   },
   {
     "name": "L'odyssée de Pi",
-    "original-name": "L'odyssée de Pi",
-    "available": "available-off",
+    "original-name": "Life of Pi",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-odyssee-de-pi/h/1635398_40099",
     "year": 2012,
     "genre": "Aventure",
@@ -1837,7 +1837,7 @@ const movies = [
   {
     "name": "Voisins du troisième type",
     "original-name": "Voisins du troisième type",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/voisins-du-troisieme-type/h/1210319_40099",
     "year": 2012,
     "genre": "Comédie",
@@ -1949,7 +1949,7 @@ const movies = [
   {
     "name": "Slumdog Millionaire",
     "original-name": "Slumdog Millionaire",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/slumdog-millionaire/h/911525_40099",
     "year": 2008,
     "genre": "Drame",
@@ -2019,7 +2019,7 @@ const movies = [
   {
     "name": "Phone Game",
     "original-name": "Phone Game",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/phone-game/h/1401982_40099",
     "year": 2002,
     "genre": "Action",
@@ -2439,7 +2439,7 @@ const movies = [
   {
     "name": "Inherent Vice",
     "original-name": "Inherent Vice",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/inherent-vice/h/4815003_40099",
     "year": 2014,
     "genre": "Action",
@@ -2551,7 +2551,7 @@ const movies = [
   {
     "name": "Diversion",
     "original-name": "Diversion",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/diversion/h/4852272_40099",
     "year": 2015,
     "genre": "Action",
@@ -2663,7 +2663,7 @@ const movies = [
   {
     "name": "Le nouveau stagiaire",
     "original-name": "The intern",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-nouveau-stagiaire/h/5674590_40099",
     "year": 2015,
     "genre": "Comédie",
@@ -2677,7 +2677,7 @@ const movies = [
   {
     "name": "Les affranchis",
     "original-name": "Les affranchis",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-affranchis/h/436381_40099",
     "year": 1990,
     "genre": "Action",
@@ -2691,7 +2691,7 @@ const movies = [
   {
     "name": "U.S. Marshals",
     "original-name": "U.S. Marshals",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/u-s-marshals/h/725197_40099",
     "year": 1998,
     "genre": "Action",
@@ -2747,7 +2747,7 @@ const movies = [
   {
     "name": "Blood Diamond",
     "original-name": "Blood Diamond",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/blood-diamond/h/438089_40099",
     "year": 2006,
     "genre": "Aventure",
@@ -2873,7 +2873,7 @@ const movies = [
   {
     "name": "Le Caire confidentiel",
     "original-name": "Le Caire confidentiel",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-caire-confidentiel/h/8768703_40099",
     "year": 2017,
     "genre": "Action",
@@ -2901,7 +2901,7 @@ const movies = [
   {
     "name": "Invictus",
     "original-name": "Invictus",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/invictus/h/871468_40099",
     "year": 2009,
     "genre": "Drame",
@@ -2943,7 +2943,7 @@ const movies = [
   {
     "name": "L'affaire Pélican",
     "original-name": "L'affaire Pélican",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-affaire-pelican/h/812558_40099",
     "year": 1993,
     "genre": "Action",
@@ -3125,7 +3125,7 @@ const movies = [
   {
     "name": "Les pleins pouvoirs",
     "original-name": "Les pleins pouvoirs",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/les-pleins-pouvoirs/h/435548_40099",
     "year": 1997,
     "genre": "Action",
@@ -3489,7 +3489,7 @@ const movies = [
   {
     "name": "Somewhere",
     "original-name": "Somewhere",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/somewhere/h/1144244_40099",
     "year": 2010,
     "genre": "Drame",
@@ -3530,8 +3530,8 @@ const movies = [
   },
   {
     "name": "Le stratège",
-    "original-name": "Le stratège",
-    "available": "available-off",
+    "original-name": "Moneyball",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-stratege/h/776360_40099",
     "year": 2011,
     "genre": "Drame",
@@ -3711,9 +3711,9 @@ const movies = [
     "storyline": "Woody a toujours privilégié la joie et le bien-être de ses jeunes propriétaires – Andy puis Bonnie – et de ses compagnons, n’hésitant pas à prendre tous les risques pour eux, aussi inconsidérés soient-ils. L’arrivée de Fourchette un nouveau jouet qui ne veut pas en être un dans la chambre de Bonnie met toute la petite bande en émoi. C’est le début d’une grande aventure et d’un extraordinaire voyage pour Woody et ses amis. Le cowboy va découvrir à quel point le monde peut être vaste pour un jouet…"
   },
   {
-    "name": "The Green Mile",
+    "name": "La ligne verte",
     "original-name": "The Green Mile",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=xZDY2pZneu0",
     "year": 1999,
     "genre": "Drame",
@@ -3783,8 +3783,8 @@ const movies = [
 
   {
     "name": "Peanut Butter Falcon",
-    "original-name": "Le cri du faucon",
-    "available": "available-off",
+    "original-name": "Peanut Butter Falcon",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=BaWrDr9t65E",
     "year": 2019,
     "genre": "Drame",
@@ -3854,7 +3854,7 @@ const movies = [
   {
     "name": "Le fugitif",
     "original-name": "Le fugitif",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=-OKQyIkUsXs",
     "year": 1993,
     "genre": "Action",
@@ -3910,7 +3910,7 @@ const movies = [
   {
     "name": "We need to talk about Kevin",
     "original-name": "We need to talk about Kevin",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=x1RzSDSpBzo",
     "year": 2011,
     "genre": "Thriller",
@@ -4246,7 +4246,7 @@ const movies = [
   {
     "name": "The Goonies",
     "original-name": "The Goonies",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=WTcsNtu8Nh0",
     "year": 1985,
     "genre": "Jeunesse",
@@ -4288,7 +4288,7 @@ const movies = [
   {
     "name": "Les Stagiaires",
     "original-name": "The Internship",
-    "available": "available-off",
+    "available": "available-on ",
     "url": "https://www.youtube.com/watch?v=_MitCrF6Xsc",
     "year": 2013,
     "genre": "Comédie",
@@ -4316,7 +4316,7 @@ const movies = [
   {
     "name": "La Nuit nous appartient",
     "original-name": "We own the night",
-    "available": "available-off",
+    "available": "available-on",
     "url": "  ",
     "year": 2007,
     "genre": "Thriller",
@@ -4428,7 +4428,7 @@ const movies = [
   {
     "name": "Master And Commander",
     "original-name": "Master And Commander",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=6UCAju6j0Ak",
     "year": 2003,
     "genre": "Drame",
@@ -4498,11 +4498,11 @@ const movies = [
   {
     "name": "La marche de l'émpereur",
     "original-name": "March of the Penguins",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=dnq3NAe7G3o",
     "year": 2005,
     "genre": "Documentaire",
-    "lang": "En",
+    "lang": "Fr",
 "keyword": "",
     "stars": "star-four",
     "director": "Luc Jacquet",
@@ -4582,7 +4582,7 @@ const movies = [
   {
     "name": "The Tango Lession",
     "original-name": "The Tango Lession",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Hdh2aDuq2l4",
     "year": 1997,
     "genre": "Drame",
@@ -4792,7 +4792,7 @@ const movies = [
   {
     "name": "Le Hobbit : la bataille des cinq armées",
     "original-name": "Le Hobbit : la bataille des cinq armées",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-hobbit-la-bataille-des-cinq-armees/h/5003910_40099",
     "year": 2014,
     "genre": "Fantastique",
@@ -4862,7 +4862,7 @@ const movies = [
   {
     "name": "Ce que veulent les femmes",
     "original-name": "Ce que veulent les femmes",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/ce-que-veulent-les-femmes/h/243015_40099",
     "year": 2000,
     "genre": "Comédie Sentimentale",
@@ -4918,11 +4918,11 @@ const movies = [
   {
     "name": "Irréversible",
     "original-name": "Irréversible",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/irreversible-inversion-integrale/h/14544567_40099",
     "year": 2002,
     "genre": "Drame",
-    "lang": "En",
+    "lang": "Fr",
 "keyword": "",
     "stars": "star-four",
     "director": "Gaspar Noé",
@@ -4932,7 +4932,7 @@ const movies = [
   {
     "name": "Menteur menteur",
     "original-name": "Menteur menteur",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/menteur-menteur/h/478135_40099",
     "year": 1997,
     "genre": "Comédie",
@@ -4974,7 +4974,7 @@ const movies = [
   {
     "name": "Gangs of New York",
     "original-name": "Gangs of New York",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/gangs-of-new-york/h/1489346_40099",
     "year": 2002,
     "genre": "Drame",
@@ -5030,7 +5030,7 @@ const movies = [
   {
     "name": "Conversation secrète",
     "original-name": "The Conversation",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/conversation-secrete/h/759823_40099",
     "year": 1974,
     "genre": "Thriller",
@@ -6122,7 +6122,7 @@ const movies = [
   {
     "name": "L´inspecteur Harry",
     "original-name": "Dirty Harry",
-    "available": "available-off",
+    "available": "available-on",
     "url": "",
     "year": 1972,
     "genre": "Thriller",
