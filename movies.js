@@ -563,7 +563,7 @@ const movies = [
   {
     "name": "Pierre Lapin",
     "original-name": "Peter Rabbit",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/pierre-lapin/h/9742193_40099",
     "year": 2018,
     "genre": "Jeunesse",
@@ -1221,7 +1221,7 @@ const movies = [
   {
     "name": "Une affaire de famille",
     "original-name": "Manbiki kazoku",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/une-affaire-de-famille/h/10719337_40099",
     "year": 2018,
     "genre": "Drame",
@@ -1725,7 +1725,7 @@ const movies = [
   {
     "name": "Philomena",
     "original-name": "Philomena",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/philomena/h/3568774_40099",
     "year": 2013,
     "genre": "Drame",
@@ -2120,7 +2120,7 @@ const movies = [
     "available": "available-off",
     "url": "https://vod.canalplus.com/cinema/alexandre/h/437101_40099",
     "year": 2004,
-    "genre": "Histoire",
+    "genre": "Action",
     "lang": "En",
 "keyword": "",
     "stars": "star-three",
@@ -2579,7 +2579,7 @@ const movies = [
   {
     "name": "Le juge",
     "original-name": "Le juge",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-juge/h/4888831_40099",
     "year": 2014,
     "genre": "Drame",
@@ -2593,7 +2593,7 @@ const movies = [
   {
     "name": "Harry Potter à l'école des sorciers",
     "original-name": "Harry Potter and the Philosopher's Stone",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/harry-potter-a-l-ecole-des-sorciers/h/435039_40099",
     "year": 2001,
     "genre": "Fantastique",
@@ -3069,7 +3069,7 @@ const movies = [
   {
     "name": "Citizen Kane",
     "original-name": "Citizen Kane",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/citizen-kane/h/305809_40099",
     "year": 1941,
     "genre": "Drame",
@@ -3251,7 +3251,7 @@ const movies = [
   {
     "name": "Zodiac",
     "original-name": "Zodiac",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/zodiac/h/942876_40099",
     "year": 2007,
     "genre": "Action",
@@ -3503,7 +3503,7 @@ const movies = [
   {
     "name": "Moi, Tonya",
     "original-name": "Moi, Tonya",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/moi-tonya/h/9595706_40099",
     "year": 2017,
     "genre": "Drame",
@@ -3517,7 +3517,7 @@ const movies = [
   {
     "name": "Lawrence d'Arabie",
     "original-name": "Lawrence d'Arabie",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/lawrence-d-arabie/h/850551_40099",
     "year": 1962,
     "genre": "Histoire",
@@ -3798,7 +3798,7 @@ const movies = [
   {
     "name": "Captain Fantastic",
     "original-name": "Captain Fantastic",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://www.youtube.com/watch?v=Bz4T31kc9Sw",
     "year": 2016,
     "genre": "Aventure",
