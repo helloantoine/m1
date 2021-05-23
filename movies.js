@@ -101,7 +101,7 @@ const movies = [
   {
     "name": "Barton Fink",
     "original-name": "Barton Fink",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/barton-fink/h/1727329_40099",
     "year": 1991,
     "genre": "Drame",
@@ -1683,7 +1683,7 @@ const movies = [
   {
     "name": "Hours",
     "original-name": "Hours",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/hours/h/4085430_40099",
     "year": 2013,
     "genre": "Action",
@@ -1935,7 +1935,7 @@ const movies = [
   {
     "name": "Wall Street : l'argent ne dort jamais",
     "original-name": "Wall Street : l'argent ne dort jamais",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/wall-street-l-argent-ne-dort-jamais/h/242194_40099",
     "year": 2010,
     "genre": "Drame",
@@ -1963,7 +1963,7 @@ const movies = [
   {
     "name": "Le jour d'après",
     "original-name": "Le jour d'après",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/le-jour-d-apres/h/1198620_40099",
     "year": 2004,
     "genre": "Action",
@@ -2075,7 +2075,7 @@ const movies = [
   {
     "name": "Brooklyn",
     "original-name": "Brooklyn",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/brooklyn/h/6464158_40099",
     "year": 2015,
     "genre": "Drame",
@@ -2117,7 +2117,7 @@ const movies = [
   {
     "name": "Alexandre",
     "original-name": "Alexander",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/alexandre/h/437101_40099",
     "year": 2004,
     "genre": "Action",
@@ -2537,7 +2537,7 @@ const movies = [
   {
     "name": "Autant en emporte le vent",
     "original-name": "Gone with the Wind",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/autant-en-emporte-le-vent/h/200225_40099",
     "year": 1939,
     "genre": "Drame",
@@ -2607,7 +2607,7 @@ const movies = [
   {
     "name": "Voyage au centre de la terre 2",
     "original-name": "Voyage au centre de la terre 3",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/voyage-au-centre-de-la-terre-2-l-ile-mysterieuse/h/436656_40099",
     "year": 2012,
     "genre": "Aventure",
@@ -2705,7 +2705,7 @@ const movies = [
   {
     "name": "L'associé du Diable",
     "original-name": "L'associé du Diable",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/l-associe-du-diable/h/200216_40099",
     "year": 1997,
     "genre": "Fantastique",
@@ -2956,8 +2956,8 @@ const movies = [
   },
   {
     "name": "Au coeur de l'océan",
-    "original-name": "Au coeur de l'océan",
-    "available": "available-off",
+    "original-name": "In the heart of the Sea",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/au-coeur-de-l-ocean/h/5997955_40099",
     "year": 2015,
     "genre": "Aventure",
@@ -4736,7 +4736,7 @@ const movies = [
   {
     "name": "Madre",
     "original-name": "Madre",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/madre/h/14327491_40099",
     "year": 2019,
     "genre": "Drame",
@@ -4890,7 +4890,7 @@ const movies = [
   {
     "name": "Youth",
     "original-name": "Youth",
-    "available": "available-off",
+    "available": "available-on",
     "url": "https://vod.canalplus.com/cinema/youth/h/5545650_40099",
     "year": 2015,
     "genre": "Drame",
