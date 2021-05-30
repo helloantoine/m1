@@ -5551,21 +5551,6 @@ const movies = [
     "storyline": "Deux patineurs olympiques, adversaires de toujours mais disqualifiés de toute compétition officielle depuis quelques années après s'être battus en public, ont l'occasion unique de participer de nouveau à un tournoi international. Mais pour cela, ces deux rivaux historiques vont devoir patiner... ensemble !"
   },
   {
-    "name": "Blood Diamond",
-    "original-name": "Blood Diamond",
-    "available": "available-on",
-    "url": "",
-    "file": "",
-    "year": 2006,
-    "genre": "Aventure",
-    "lang": "En",
-    "keyword": "",
-    "stars": "star-three",
-    "director": "Edward Zwick",
-    "people": "Leonardo DiCaprio, Djimon Hounsou, Jennifer Connelly",
-    "storyline": "Alors qu'il purge une peine de prison pour ses trafics, Archer rencontre Solomon Vandy, un pêcheur d'origine Mende. Arraché à sa famille et forcé de travailler dans les mines diamantifères, ce dernier a trouvé - et caché - un diamant rose extrêmement rare. Accompagnés de Maddy Bowen, une journaliste idéaliste, les deux hommes s'embarquent pour un dangereux voyage en territoire rebelle pour récupérer le fameux caillou. Un voyage qui pourrait bien sauver la famille de Salomon et donner à Archer la seconde chance qu'il n'espérait plus."
-  },
-  {
     "name": "Bowling for Columbine",
     "original-name": "Bowling for Columbine",
     "available": "available-on",
@@ -5804,21 +5789,6 @@ const movies = [
     "director": "Ridley Scott",
     "people": "Anthony Hopkins, Julianne Moore, Gary Oldman",
     "storyline": "Il y a dix ans, le docteur Hannibal Lecter s'échappait de sa cellule. Clarice Starling, agent du FBI sur la touche, n'a pas oublié sa rencontre avec lui, sa présence troublante et le son grave de sa voix qui hantent toujours ses nuits. Mason Verger, un ancien patient, se souvient également d'Hannibal, puisqu'il a été sa quatrième victime. Malgré le fait qu'il ait été atrocement défiguré et mutilé, il a survécu. Il nourrit sa vengeance depuis dix ans. Devenu extrêmement riche, il promet une récompense de trois millions de dollars pour quiconque le repérera. L'inspecteur Rinaldo Pazzi lui téléphone pour l'informer de sa présence en Italie. En effet, après avoir changé d'identité, Hannibal est devenu le conservateur d'un musée à Florence. Et pour attirer ce dernier dans ses filets, Mason connaît un appât irrésistible : Clarice Starling. L'heure de la vengeance va peut-être sonner."
-  },
-  {
-    "name": "Harry Potter and the Philosopher's Stone",
-    "original-name": "Harry Potter and the Philosopher's Stone",
-    "available": "available-on",
-    "url": "",
-    "file": "",
-    "year": 2001,
-    "genre": "Fantastique",
-    "lang": "En",
-    "keyword": "",
-    "stars": "star-three",
-    "director": "Chris Columbus",
-    "people": "Daniel Radcliffe, Rupert Grint, Emma Watson",
-    "storyline": "Orphelin, Harry Potter a été recueilli à contrecœur par son oncle Vernon et sa tante Pétunia, aussi cruels que mesquins, qui n'hésitent pas à le faire dormir dans le placard sous l'escalier. Constamment maltraité, il doit en outre supporter les jérémiades de son cousin Dudley, garçon cupide et archi-gâté par ses parents. De leur côté, Vernon et Pétunia détestent leur neveu dont la présence leur rappelle sans cesse le tempérament \"imprévisible\" des parents du garçon et leur mort mystérieuse. À l'approche de ses 11 ans, Harry ne s'attend à rien de particulier – ni carte, ni cadeau, ni même un goûter d'anniversaire. Et pourtant, c'est à cette occasion qu'il découvre qu'il est le fils de deux puissants magiciens et qu'il possède lui aussi d'extraordinaires pouvoirs. Quand on lui propose d'intégrer Poudlard, la prestigieuse école de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manqué… et s'engage dans l'aventure de sa vie."
   },
   {
     "name": "Le Samouraï",
@@ -6284,21 +6254,6 @@ const movies = [
     "director": "Frank Darabont",
     "people": "Tim Robbins, Morgan Freeman, Bob Gunton",
     "storyline": "En 1947, Andy Dufresne, un jeune banquier, est condamné à la prison à vie pour le meurtre de sa femme et de son amant. Ayant beau clamer son innocence, il est emprisonné à Shawshank, le pénitencier le plus sévère de l'Etat du Maine. Il y fait la rencontre de Red, un Noir désabusé, détenu depuis vingt ans. Commence alors une grande histoire d'amitié entre les deux hommes..."
-  },
-  {
-    "name": "Voisins du troisième type",
-    "original-name": "The Watch",
-    "available": "available-on",
-    "url": "",
-    "file": "",
-    "year": 2012,
-    "genre": "Comédie",
-    "lang": "En",
-    "keyword": "",
-    "stars": "star-three",
-    "director": "Akiva Schaffer",
-    "people": "Ben Stiller, Vince Vaughn, Jonah Hill",
-    "storyline": "À Glenview, dans l’Ohio, quatre banlieusards ordinaires décident de former un comité de surveillance de quartier. Même s’il s’agit surtout d’un prétexte pour échapper à leurs mornes existences, nos quatre héros vont tout de même faire une découverte incroyable : leur paisible petite ville a été envahie par des extraterrestres qui se font passer pour d’honnêtes citoyens. Face à la menace, le sort de leur quartier – et du monde – est désormais entre leurs mains…"
   },
   {
     "name": "The Wrestler",
