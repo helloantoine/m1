@@ -69,11 +69,19 @@ hr{display:none;margin-top:16px;}
 .available-off{/*border-bottom: 5px solid rgb(55, 55, 55);*/}
 .available-on{display: block;/*border-bottom: 5px solid #00ff88;*/}
 
+.list { visibility: hidden; }
+.list > * { visibility: visible; }
+.list > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+
+
+
 @media only screen and (min-width: 992px) {
   .navigation {  height:4em !important; overflow: hidden;}
   .actions{  height:2.5em !important;}
   .movie {margin-right: 1em; margin-bottom: 6em; width: 260px !important;  }
   .movie img{width: 200px !important; }
+  .list:hover > * { opacity: 0.4; transform: translateY(0px); }
+.list > *:hover { opacity: 1; transform: translateY(-8px); transition-delay: 0ms, 0ms; }
   }
 
 .background-color{
