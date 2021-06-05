@@ -7619,6 +7619,36 @@ const movies = [
     "director": "",
     "people": "",
     "storyline": ""
+  },
+  {
+    "name": "Jean de Florette",
+    "original-name": "Jean de Florette",
+    "available": "",
+    "url": "",
+    "file": "",
+    "year": 1986,
+    "genre": "",
+    "lang": "Fr",
+    "keyword": "Drame",
+    "stars": "star-three",
+    "director": "",
+    "people": "",
+    "storyline": ""
+  },
+  {
+    "name": "Manon des sources",
+    "original-name": "Manon des sources",
+    "available": "",
+    "url": "",
+    "file": "",
+    "year": 1986,
+    "genre": "",
+    "lang": "Fr",
+    "keyword": "Drame",
+    "stars": "star-three",
+    "director": "",
+    "people": "",
+    "storyline": ""
   }
  ];
 
