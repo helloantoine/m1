@@ -7662,7 +7662,7 @@ const showMovies = () => {
       const row = index === 0 ? 0 : Math.floor(index / rowWidth)
       const xPos = -111 * (index - row * rowWidth)
       const yPos = -167 * row
-      return `<li class="fade-in movie ${available}" " style="animation-delay: calc(1s * 0.005 * ${index} ); ">
+      return `<li class="fade-in movie ${available}">
         <a href="${url}"  >
           <img src="assets/120/${index}.jpg" width="120"></img>
           <h3 class="name">${name}</h3></a>
